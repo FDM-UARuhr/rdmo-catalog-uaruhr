@@ -1,0 +1,82 @@
+body {
+  background-color: rgba(0, 0, 100, 0.3);
+  padding-left: 120px;
+  padding-top: 50px;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 10px;
+  padding-top: 10px;
+}
+
+table, tbody{
+  indent: 20px;
+  text-align: justify;
+  margin: 7px;
+  border-collapse: collapse;
+}
+
+tr, th, td{
+  line-height: 1.5;
+  margin: 0px;
+  padding: 2px;
+  font-size: 16px;
+  font-family: sans-serif;
+  text-align: inherit;
+  padding: 7px;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+tr:nth-child(2n+3){
+  background-color: rgb(220, 220, 220);
+}
+
+tr:nth-child(even){
+  background-color: rgb(240, 240, 240);
+}
+
+input[type=checkbox]{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.6); /* IE */
+  -moz-transform: scale(1.6); /* FF */
+  -webkit-transform: scale(1.6); /* Safari and Chrome */
+  -o-transform: scale(1.6); /* Opera */
+  padding: 10px;
+}
+
+.headline {
+  background-color: darkblue;
+  color: white;
+}
+.header {
+  border-left: 2px solid white;
+}
+
+.section {
+  text-align: left;
+}
+
+.questionset {
+  text-align: left;
+}
+
+.uri {
+  text-align: left;
+  width: 150px
+}
+
+.catalogcheck {
+  text-align: center;
+}
+
+mark.added {
+  background-color: lightgreen;
+  color: darkblue;
+}
+
+mark.removed {
+  background-color: yellow;
+  text-decoration: line-through;
+}

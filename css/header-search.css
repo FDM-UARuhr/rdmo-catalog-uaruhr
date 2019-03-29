@@ -1,0 +1,20 @@
+.header-search{
+	background-color:#292c2f;
+	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
+	padding: 10px 40px;
+	height: 110px;
+	color: #ffffff;
+	box-sizing: border-box;
+	margin-left: -128px;
+	margin-top: -58px;
+	margin-right: -15px;
+	margin-bottom: 8px;
+}
+
+.header-search .header-limiter {
+	height: 90px;
+	margin-left: 80px;
+	background-image: url("../images/uaruhr_logo.png");
+	background-repeat:no-repeat;
+  background-size:contain;
+}
