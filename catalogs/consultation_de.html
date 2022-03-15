@@ -23,7 +23,7 @@
     		</nav>
   		</div>
   	</aside>
-    <H1>UA Ruhr-Beratung Katalog v1.0.0</H1>
+    <H1>UA Ruhr-Beratung Katalog v1.x.0</H1>
     view it on  <a href="https://github.com/FDM-UARuhr/rdmo-catalog-uaruhr/blob/v1.0.0/rdmorganiser/questions/consultation.xml" target="_blank">Github</a>
     <table class="wrapped">
       <tbody>
@@ -46,15 +46,10 @@
         <tr>
           <td class="path">consultation/general/topic-research_question/title</td>
           <td class="question">Wie lautet die primäre Forschungsfrage des Projektes?</td>
-          <td class="help"></td>
+          <td class="help">Bitte beschreiben Sie kurz das Projekt und dessen Ziele.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">consultation/general/topic-research_field</th>
-        </tr>
-        <tr>
-          <td class="path">consultation/general/topic-research_field/name</td>
-          <td class="question">Welche Personen oder Institutionen sind verantwortlich für die Projektkoordination?</td>
-          <td class="help"></td>
         </tr>
         <tr>
           <td class="path">consultation/general/topic-research_field/research_field</td>
@@ -67,17 +62,17 @@
         <tr>
           <td class="path">consultation/general/project-partners-partner/contact</td>
           <td class="question">Wer ist bei diesem Partner der/die Ansprechpartner/in für das Datenmanagement?</td>
-          <td class="help">Bitte geben Sie den Namen und eine Email Adresse an.</td>
+          <td class="help">Bitte geben Sie den Namen und eine E-Mail-Adresse an.</td>
         </tr>
         <tr>
           <td class="path">consultation/general/project-partners-partner/rdm_policy</td>
           <td class="question">Gibt es an Ihrer Einrichtung Regeln oder Richtlinien zum Umgang mit den im Projekt erhobenen Forschungsdaten? Wenn ja, skizzieren Sie diese kurz und verweisen Sie ggf. auf weiterführende Informationen. Geben Sie bitte auch an, welchen Grad an Verbindlichkeit sie haben.</td>
-          <td class="help">Immer mehr Hochschulen und wissenschaftliche Einrichtungen verabschieden Leitlinien oder Richtlinien (oft auch als „Policies“ bezeichnet) zum Forschungsdatenmanagement. Diese enthalten unter anderem Empfehlungen und/oder Vorgaben zum Umgang mit Forschungsdaten, die die Wissenschaftlerinnen und Wissenschaftler der Einrichtung beachten sollten oder müssen (je nach Grad der Verbindlichkeit). Beispiele für solche Richtlinien sind die <a href="https://data.uni-bielefeld.de/de/policy" target="_blank">Grundsätze zu Forschungsdaten</a> der Universität Bielefeld oder die <a href="http://www.uni-goettingen.de/de/01-juli-2014-forschungsdaten-leitlinie-der-universitaet-goettingen-einschl-umg/488918.html" target="_blank">Leitlinien zum Umgang mit Forschungsdaten</a> der Georg-August-Universität Göttingen.</td>
+          <td class="help">Immer mehr Hochschulen und wissenschaftliche Einrichtungen verabschieden Leitlinien oder Richtlinien (oft auch als "Policies" bezeichnet) zum Forschungsdatenmanagement. Diese enthalten unter anderem Empfehlungen und/oder Vorgaben zum Umgang mit Forschungsdaten, die die Wissenschaftlerinnen und Wissenschaftler der Einrichtung beachten sollten oder müssen (je nach Grad der Verbindlichkeit), zum Beispiel die <a href="http://www.uni-goettingen.de/de/01-juli-2014-forschungsdaten-leitlinie-der-universitaet-goettingen-einschl-umg/488918.html" target="_blank">Leitlinien zum Umgang mit Forschungsdaten</a> der Georg-August-Universität Göttingen.</td>
         </tr>
         <tr>
           <td class="path">consultation/general/project-partners-partner/name</td>
           <td class="question">Projektpartner</td>
-          <td class="help"></td>
+          <td class="help">Bitte geben Sie hier den ausführlichen Namen des Projektpartners an.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">consultation/general/funding-funder</th>
@@ -96,12 +91,13 @@
         <tr>
           <td class="path">consultation/content-classification/data-dataset/description</td>
           <td class="question">Um was für einen Datensatz handelt es sich?</td>
-          <td class="help">Bitte beschreiben Sie hier kurz, um welchen Datentyp es sich handelt und mit welcher Methode die Daten erhoben oder erstellt wurden, z.B.:
-            <ul>
-              <li>quantitative Online-Befragung</li>
-              <li>3D-Modellierung / digitale Rekonstruktion einer steinzeitlichen Siedlung</li>
-              <li>Software, die im Projekt entwickelt wird</li>
-            <ul></td>
+          <td class="help">Bitte beschreiben Sie hier kurz, um welchen Datentyp es sich handelt und mit welcher Methode die Daten erhoben oder erstellt wurden, z. B.:
+
+* quantitative Online-Befragung
+* 3D-Modellierung / digitale Rekonstruktion einer steinzeitlichen Siedlung
+* Software, die im Projekt entwickelt wird
+
+Bitte erläutern Sie ergänzend, ob es sich um einen festen, zu einem bestimmten Zeitpunkt gespeicherten Datensatz handelt oder ob dieser dynamisch also laufend über einen bestimmten Zeitraum entsteht.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">consultation/content-classification/data-existing_data</th>
@@ -121,10 +117,10 @@
         </tr>
         <tr>
           <td class="path">consultation/content-classification/data-reproducibility/reproducibility</td>
-          <td class="question">Ist der Datensatz reproduzierbar, d. h. ließe sich er sich, wenn er verloren ginge, erneut erstellen oder erheben?</td>
-          <td class="help">Manche Daten können im Prinzip jederzeit neu erstellt werden. Beispiele hierfür sind etwa naturwissenschaftliche Experimentdaten oder auch Digitalisate analoger Objekte (solange die Originale nicht verlorengehen). Der Aufwand und die Kosten hierfür können natürlich durchaus beträchtlich sein. Im Hinblick auf die Frage der Notwendigkeit einer späteren Langzeitarchivierung sollte in diesen Fällen der Aufwand einer erneuten Erstellung gegen den Aufwand der Langzeitarchivierung abgewogen werden.<br />
+          <td class="question">Ist der Datensatz reproduzierbar, d. h. ließe er sich, wenn er verloren ginge, erneut erstellen oder erheben?</td>
+          <td class="help">Manche Daten können im Prinzip jederzeit neu erstellt werden. Beispiele hierfür sind etwa naturwissenschaftliche Experimentdaten oder auch Digitalisate analoger Objekte (solange die Originale nicht verlorengehen). Der Aufwand und die Kosten hierfür können natürlich durchaus beträchtlich sein. Im Hinblick auf die Frage der Notwendigkeit einer späteren Langzeitarchivierung sollte in diesen Fällen der Aufwand einer erneuten Erstellung gegen den Aufwand der Langzeitarchivierung abgewogen werden.
 
-          Andere Daten wiederum lassen sich per se nicht erneut erheben. Dies ist etwa bei jeglicher Art von episodischer Beobachtungen, sei es sozialwissenschaftlicher oder naturwissenschaftlicher Art, der Fall, da diese ein bestimmtes Phänomen an einem bestimmten Zeitpunkt und/oder Ort abbilden und somit i.d.R. nicht wiederholbar sind. Ihr Wert für die Nachnutzung durch andere wie auch der Verlust bei einer nicht erfolgten oder misslungenen Langzeitarchivierung ist ungleich höher als bei reproduzierbaren Daten.</td>
+Andere Daten wiederum lassen sich per se nicht erneut erheben. Dies ist etwa bei jeglicher Art von episodischer Beobachtungen, sei es sozialwissenschaftlicher oder naturwissenschaftlicher Art, der Fall, da diese ein bestimmtes Phänomen an einem bestimmten Zeitpunkt und/oder Ort abbilden und somit i.d.R. nicht wiederholbar sind. Ihr Wert für die Nachnutzung durch andere wie auch der Verlust bei einer nicht erfolgten oder misslungenen Langzeitarchivierung ist ungleich höher als bei reproduzierbaren Daten.</td>
         </tr>
         <tr>
           <th class ="section" colspan="6">consultation/technical-classification</th>
@@ -135,12 +131,12 @@
         <tr>
           <td class="path">consultation/technical-classification/data-volume/rate</td>
           <td class="question">Wie hoch ist die erwartete Erzeugungsrate der Daten pro Jahr?</td>
-          <td class="help">Optional. Dies ist nur relevant, wenn das Wachstum die TB-Größenordnung erreicht.</td>
+          <td class="help"></td>
         </tr>
         <tr>
           <td class="path">consultation/technical-classification/data-volume/volume</td>
           <td class="question">Was ist die tatsächliche oder erwartete Größe des Datensatzes?</td>
-          <td class="help"></td>
+          <td class="help">Wenn große Datenmengen anfallen, sollten finanzielle Mittel zur Bereitstellung der Infrastruktur berücksichtigt werden (siehe auch Abschnitt „Förderung“).</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">consultation/technical-classification/data-formats</th>
@@ -148,7 +144,7 @@
         <tr>
           <td class="path">consultation/technical-classification/data-formats/format</td>
           <td class="question">In welchen Formaten liegen die Daten vor?</td>
-          <td class="help">Bei der Wahl des Dateiformates sollten auch die Konsequenzen für die kollaborative Nutzung, die Langzeitarchivierung sowie die Nachnutzung beachtet werden. Es empfiehlt sich, möglichst standardisierte, nicht-proprietäre und allgemein bzw. in der spezifischen Community verbreitete Formate zu nutzen. Weitere Kriterien sowie detaillierte Erläuterungen sind z.B. im <a href="http://www.wissgrid.de/publikationen/Leitfaden_Data-Management-WissGrid.pdf" target="_blank">WissGrid-Leitfaden, S. 22 f.</a>) zu finden.</td>
+          <td class="help">Bei der Wahl des Dateiformates sollten auch die Konsequenzen für die kollaborative Nutzung, die Langzeitarchivierung sowie die Nachnutzung beachtet werden. Es empfiehlt sich, möglichst standardisierte, nicht-proprietäre und allgemein bzw. in der spezifischen Community verbreitete Formate zu nutzen. Weitere Kriterien sowie detaillierte Erläuterungen sind z. B. im <a href="https://www.forschungsdaten.org/images/b/b0/Leitfaden_Data-Management-WissGrid.pdf" target="_blank">WissGrid-Leitfaden, S. 22 f.</a> zu finden.</td>
         </tr>
         <tr>
           <th class ="section" colspan="6">consultation/data-usage</th>
@@ -193,7 +189,11 @@
         </tr>
         <tr>
           <td class="path">consultation/metadata-and-referencing/structure-granularity-and-referencing-structure/structure</td>
-          <td class="question">Wie sind die Daten strukturiert? In welchem Verhältnis stehen die einzelnen Komponenten zueinander? In welchem Verhältnis steht der Datensatz zu anderen im Projekt erhobenen oder genutzten Datensätzen?</td>
+          <td class="question">Bitte erläutern Sie kurz die Struktur und den Zusammenhang ihrer Daten untereinander:
+
+* Wie sind die Daten strukturiert?
+* In welchem Verhältnis stehen die einzelnen Komponenten zueinander?
+* In welchem Verhältnis steht der Datensatz zu anderen im Projekt erhobenen oder genutzten Datensätzen?</td>
           <td class="help"></td>
         </tr>
         <tr>
@@ -205,20 +205,13 @@
         <tr>
           <td class="path">consultation/legal-and-ethics/sensitive-data-personal_data_yesno/yesno</td>
           <td class="question">Enthält dieser Datensatz personenbezogene Daten?</td>
-          <td class="help">Der Umgang und die Verarbeitung **personenbezogener** Daten ist gesetzlich geregelt. Die EU-weit einheitliche Anwendung erfolgt nach der <a href="http://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679">EU-Datenschutz-Grundverordnung (DSGVO)</a>. Sie gestattet Regelungsspielräume auf nationaler Ebene. In Deutschland regelt dies das <a href="http://www.gesetze-im-internet.de/bdsg_2018/">Bundesdatenschutzgesetz (BDSG)</a>. Für Hochschulen gelten zum großen Teil die individuellen Datenschutzgesetze der Länder, z.B. das <a href="https://recht.nrw.de/lmi/owa/br_text_anzeigen?v_id=3520071121100436275">Datenschutzgesetz Nordrhein-Westfalen (DSG NRW)</a>.
-            <br />
-          Die europäische DSGVO definiert personenbezogene Daten als alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen (Art. 4 DSGVO, Abs. 1).
-            <br />
-          <b>Identifiziert</b> ist eine Person, wenn eindeutig erkennbar ist, zu welcher Person die Daten gehören.
-            <br />
-          <b>Identifizierbar</b> wird eine Person, wenn sie mittels Zusatzinformationen identifiziert werden kann.
-            <br />
-          Mehr Informationen zum Thema finden Sie auf den Webseiten der Datenschutzbeauftragten der UA Ruhr.
-            <ul>
-              <li><a href="https://dsb.ruhr-uni-bochum.de/">Ruhr-Universität Bochum</a></li>
-              <li><a href="https://www.uni-due.de/verwaltung/organisation/just_datenschutz.php">Universität of Duisburg-Essen</a></li>
-              <li><a href="https://www.tu-dortmund.de/universitaet/organisation/beauftragte-vertrauenspersonen/#accordion-2213-764">Technische Universität Dortmund</a></li>
-            </ul></td>
+          <td class="help">Wenn ja: Bitte prüfen Sie auch, ob Sie die Abschnitte "Datennutzung" und "Datenspeicherung und -sicherheit" mit den entsprechenden Maßnahmen zum Schutz der Daten gemäß den geltenden Datenschutzgesetzen ausgefüllt haben. Der Umgang und die Verarbeitung personenbezogener Daten ist gesetzlich geregelt. Die EU-weit einheitliche Anwendung erfolgt nach der <a href="https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679" target="_blank">EU-Datenschutz-Grundverordnung (DSGVO)</a>. Sie gestattet Regelungsspielräume auf nationaler Ebene. In Deutschland regelt dies das <a href="http://www.gesetze-im-internet.de/bdsg_2018/" target="_blank">Bundesdatenschutzgesetz (BDSG)</a>. Für Hochschulen gelten zum großen Teil die individuellen Datenschutzgesetze der Länder, z. B. das <a href="https://recht.nrw.de/lmi/owa/br_text_anzeigen?v_id=3520071121100436275" target="_blank">Datenschutzgesetz Nordrhein-Westfalen (DSG NRW)</a>. Die europäische DSGVO definiert personenbezogene Daten als alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen (Art. 4 DSGVO, Abs. 1). <b>Identifiziert </b>ist eine Person, wenn eindeutig erkennbar ist, zu welcher Person die Daten gehören. <b>Identifizierbar</b> wird eine Person, wenn sie mittels Zusatzinformationen identifiziert werden kann. Mehr Informationen zum Thema finden Sie auf den Webseiten der Datenschutzbeauftragten der UA Ruhr.
+
+* <a href="https://dsb.ruhr-uni-bochum.de/" target="_blank">Ruhr-Universität Bochum</a>
+
+* <a href="https://www.uni-due.de/verwaltung/organisation/just_datenschutz.php" target="_blank">Universität von Duisburg-Essen</a>
+
+* <a href="https://www.tu-dortmund.de/universitaet/organisation/beauftragte-vertrauenspersonen/#accordion-2213-764" target="_blank">Technische Universität Dortmund</a></td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">consultation/legal-and-ethics/sensitive-data-personal_data</th>
@@ -242,28 +235,26 @@
         <tr>
           <td class="path">consultation/legal-and-ethics/intellectual-property-rights-yesno/yesno</td>
           <td class="question">Werden Daten genutzt und/oder erstellt, die durch Urheber- oder verwandte Schutzrechte geschützt sind?</td>
-          <td class="help">Daten oder Software können Urheber- oder anderen Schutzrechten unterliegen. Die Rechtslage kann selbst in der EU von Land zu Land erheblich abweichen.
-            <br />
-          In Deutschland sind nach dem Urheberrechtsgesetz (UrhG) Werke der Literatur, Wissenschaft und Kunst, die eine „persönliche geistige Schöpfung“ darstellen, urheberrechtlich geschützt. Der urheberrechtliche Schutz erlischt 70 Jahre nach dem Tod der bzw. des Urheberin/s.
-            <br />
-          Reine Daten, z.B. Messdaten oder Surveydaten, aber auch Metadaten (bis auf ggf. „beschreibende“ Metadaten) sind hingegen nicht schutzfähig.
-            <br />
-          In § 2 nennt das UrhG folgende geschützte Werkarten, wobei die Aufzählung nicht abschließend ist:
-            <ul>
-              <li>Sprachwerke, wie Schriftwerke, Reden und Computerprogramme</li>
-              <li>Werke der Musik</li>
-              <li>pantomimische Werke einschließlich Werke der Tanzkunst</li>
-              <li>Werke der bildenden Künste einschließlich der Werke der Baukunst und der angewandten Kunst und</li> Entwürfe solcher Werke</li>
-              <li>Lichtbildwerke einschließlich der Werke, die ähnlich wie Lichtbildwerke geschaffen werden</li>
-              <li>Darstellungen wissenschaftlicher oder technischer Art wie Zeichnungen, Pläne, Karten, Skizzen, Tabellen und plastische Darstellungen.</li>
-            </ul>
-          Nach § 3 sind auch „Übersetzungen und andere Bearbeitungen“ von Werken geschützt, die persönliche geistige Schöpfungen des Bearbeiters sind“.
-            <br />
-          Schließlich sind nach § 4 auch Sammelwerke und Datenbankwerke geschützt, was im Bereich Forschungsdaten durchaus relevant sein kann. Sammelbankwerke werden dabei definiert als „Sammlungen von Werken, Daten oder anderen unabhängigen Elementen, die aufgrund der Auswahl oder Anordnung der Elemente eine persönliche geistige Schöpfung sind“.
-            <br />
-          Bei einem „Datenbankwerk im Sinne des Gesetzes“ handelt es sich um ein „Sammelwerk, dessen Elemente systematisch oder methodisch angeordnet und einzeln mit Hilfe elektronischer Mittel oder auf andere Weise zugänglich sind“.
-            <br />
-          Weitere relevante Schutzrechte können gewerbliche Schutzrechte wie Patente, Gebrauchsmuster, Sortenschutz [bei Pflanzenzüchtungen], Halbleiterschutz, Marken, geographische Herkunftsangaben, eingetragene Designs oder geschäftliche Bezeichnungen sein.</td>
+          <td class="help">Daten oder Software können Urheber- oder anderen Schutzrechten unterliegen. Die Rechtslage kann selbst in der EU von Land zu Land erheblich abweichen. In Deutschland sind nach dem Urheberrechtsgesetz (UrhG) Werke der Literatur, Wissenschaft und Kunst, die eine „persönliche geistige Schöpfung“ darstellen, urheberrechtlich geschützt. Der urheberrechtliche Schutz erlischt 70 Jahre nach dem Tod der bzw. des Urheberin/s.
+
+Reine Daten, z. B. Messdaten oder Surveydaten, aber auch Metadaten (bis auf ggf. „beschreibende“ Metadaten) sind hingegen nicht schutzfähig.
+
+In § 2 nennt das UrhG folgende geschützte Werkarten, wobei die Aufzählung nicht abschließend ist:
+
+* Sprachwerke, wie Schriftwerke, Reden und Computerprogramme
+* Werke der Musik
+* pantomimische Werke einschließlich Werke der Tanzkunst
+* Werke der bildenden Künste einschließlich der Werke der Baukunst und der angewandten Kunst und Entwürfe solcher Werke
+* Lichtbildwerke einschließlich der Werke, die ähnlich wie Lichtbildwerke geschaffen werden
+* Darstellungen wissenschaftlicher oder technischer Art wie Zeichnungen, Pläne, Karten, Skizzen, Tabellen und plastische Darstellungen.
+
+Nach § 3 sind auch „Übersetzungen und andere Bearbeitungen von Werken geschützt, die persönliche geistige Schöpfungen des Bearbeiters sind“.
+
+Schließlich sind nach § 4 auch Sammelwerke und Datenbankwerke geschützt, was im Bereich Forschungsdaten durchaus relevant sein kann. Sammelwerke werden dabei definiert als „Sammlungen von Werken, Daten oder anderen unabhängigen Elementen, die aufgrund der Auswahl oder Anordnung der Elemente eine persönliche geistige Schöpfung sind“.
+
+Bei einem „Datenbankwerk im Sinne des Gesetzes“ handelt es sich um ein „Sammelwerk, dessen Elemente systematisch oder methodisch angeordnet und einzeln mit Hilfe elektronischer Mittel oder auf andere Weise zugänglich sind“.
+
+Weitere relevante Schutzrechte können gewerbliche Schutzrechte wie Patente, Gebrauchsmuster, Sortenschutz [bei Pflanzenzüchtungen], Halbleiterschutz, Marken, geographische Herkunftsangaben, eingetragene Designs oder geschäftliche Bezeichnungen sein.</td>
         </tr>
         <tr>
           <th class ="section" colspan="6">consultation/storage-and-long-term-preservation</th>
@@ -296,7 +287,7 @@
           <th class ="questionset" colspan="6">consultation/data-usage/data-sharing-and-re-use-interoperability</th>
         </tr>
         <tr>
-          <td class="path">consultation/data-usage/data-sharing-and-re-use/abstract</td>
+          <td class="path">consultation/data-usage/data-sharing-and-re-use-interoperability/abstract</td>
           <td class="question">Bestehen generell Einschränkungen bei dem Zugriff und der Nachnutzung der Daten (rechtliche Gründe, Schutzrechte, Betriebsgeheimnisse etc)?</td>
           <td class="help"></td>
         </tr>
@@ -309,6 +300,6 @@
           <td class="help"></td>
         </tr>
       </tbody>
-    </table>
-  </body>
+  </table>
+</body>
 </html>

@@ -23,7 +23,7 @@
     		</nav>
   		</div>
   	</aside>
-    <H1>UA Ruhr Catalog v1.0.0</H1>
+    <H1>UA Ruhr Catalog v1.x.0</H1>
     view it on  <a href="https://github.com/FDM-UARuhr/rdmo-catalog-uaruhr/blob/v1.0.0/rdmorganiser/questions/ua_ruhr.xml" target="_blank">Github</a>
     <table class="wrapped">
       <tbody>
@@ -46,15 +46,10 @@
         <tr>
           <td class="path">ua_ruhr/general/topic-research_question/title</td>
           <td class="question">What is the main research question of the project?</td>
-          <td class="help"></td>
+          <td class="help">Describe briefly the project and its aims.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">ua_ruhr/general/topic-research_field</th>
-        </tr>
-        <tr>
-          <td class="path">ua_ruhr/general/topic-research_field/name</td>
-          <td class="question">Which persons or institutions are responsible for the project coordination?</td>
-          <td class="help"></td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/general/topic-research_field/research_field</td>
@@ -66,7 +61,7 @@
         </tr>
         <tr>
           <td class="path">ua_ruhr/general/project-schedule-schedule/project_duration</td>
-          <td class="question"></td>
+          <td class="question">Projektlaufzeit (Monate)</td>
           <td class="help"></td>
         </tr>
         <tr>
@@ -77,7 +72,7 @@
         <tr>
           <td class="path">ua_ruhr/general/project-schedule-schedule/project_start</td>
           <td class="question">When does the project start?</td>
-          <td class="help"></td>
+          <td class="help">Provide the anticipated starting date, if the project has not started yet.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">ua_ruhr/general/project-partners-name</th>
@@ -93,26 +88,29 @@
         <tr>
           <td class="path">ua_ruhr/general/project-partners-partner/contact</td>
           <td class="question">Who is/are the contact person(s) for data management questions?</td>
-          <td class="help">Please give the name and an email address.</td>
+          <td class="help">Please give the name and an e-mail address.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/general/project-partners-partner/rdm_policy</td>
           <td class="question">Does your institution have rules or guidelines for the handling of research data? If yes, please briefly outline them and refer to more detailed sources of information if necessary. Please also indicate, if the rules / guidelines are mandatory or optional.</td>
-          <td class="help">More and more universities and scientific institutions adopt research data management policies. These contain, among other things, recommendations and / or demands concerning the handling of research data by researchers of the institution.
-
-    <a href="https://data.uni-bielefeld.de/en/policy" target="_blank">Principles and guidelines on handling research data at Bielefeld University</a> or the <a href="http://www.uni-goettingen.de/en/488918.html" target="_blank">Research data policy of the Georg-August University Goettingen</a>.</td>
+          <td class="help">More and more universities and scientific institutions adopt research data management policies. These contain, among other things, recommendations and / or demands concerning the handling of research data by researchers of the institution.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/general/project-partners-partner/name</td>
           <td class="question">Project partner</td>
-          <td class="help"></td>
+          <td class="help">Please insert the name of project partner in detail.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">ua_ruhr/general/funding-funder</th>
         </tr>
         <tr>
+          <td class="path">ua_ruhr/general/funding-funder/funder_policy</td>
+          <td class="question">Does the funder have rules or recommendations for data management? If yes, please briefly outline them and refer to more detailed sources of information if necessary. Please also indicate, if the rules / guidelines are mandatory or optional.</td>
+          <td class="help">Funders of research also increasingly specify requirements regarding the management of research data in funded projects.</td>
+        </tr>
+        <tr>
           <td class="path">ua_ruhr/general/funding-funder/title</td>
-          <td class="question">Is the project within a special funding programme?</td>
+          <td class="question">In which funding program is the project funded?</td>
           <td class="help"></td>
         </tr>
         <tr>
@@ -125,19 +123,18 @@
         </tr>
         <tr>
           <td class="path">ua_ruhr/general/other-requirements-yesno/abstract</td>
-          <td class="question"></td>
+          <td class="question">Are there requirements to the data management in the form of policies from ANY site?</td>
           <td class="help"></td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/general/other-requirements-yesno/yesno</td>
           <td class="question">Are there requirements regarding the data management from other parties (e.g. the scholarly/scientific community)?</td>
-          <td class="help">Examples of discipline-specific requirements are:
-            <ul>
-              <li><a href="http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_biodiversity_research.pdf" target="_blank">Guidelines on the Handling of Research Data in Biodiversity Research</a></li>
-              <li><a href="http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_bildungsforschung.pdf" target="_blank">Guidelines for the provision and use of quantitative data in education research (German)</a></li>
-              <li><a href="http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf" target="_blank">Elegibility criteria for funding for scholarly editions in the literary studies (German)</a></li>
-              <li>Recommendations on <a href="http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_sprachkorpora.pdf" target="_blank">data standards and tools</a> as well as <a href="http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_recht.pdf" target="_blank">legal aspects</a> associated with language corpora (German)</li>
-            </ul></td>
+          <td class="help">Examples of discipline-specific requirements:
+
+- <a href="https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/guidelines_biodiversity_research.pdf" target="_blank">Guidelines on the Handling of Research Data in Biodiversity Research</a>
+- <a href="https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/guidelines_review_board_linguistics_corpora.pdf" target="_blank">Guidelines by the DFG Review Board on Linguistics Language Corpora</a>.
+
+Further discipline-specific guidelines on the handling of Research Data are provided by the <a href="https://www.dfg.de/en/research_funding/principles_dfg_funding/research_data/recommendations/index.html" target="_blank">DFG (German Research Foundation)</a>.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">ua_ruhr/general/other-requirements-requirements</th>
@@ -157,11 +154,12 @@
           <td class="path">ua_ruhr/content-classification/data-dataset/description</td>
           <td class="question">What kind of dataset is it?</td>
           <td class="help">Please briefly describe the data type and / or the method used to create or collect the data, for example:
-            <ul>
-              <li>quantitative online survey</li>
-              <li>3D model / digital reconstruction of a stone age settlement</li>
-              <li>software developed within the project</li>
-            </ul></td>
+
+* quantitative online survey
+* 3D model / digital reconstruction of a stone age settlement
+* software developed within the project
+
+Please also explain whether this is a fixed data set stored at a certain point in time or whether it is created dynamically over a certain period of time.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">ua_ruhr/content-classification/data-existing_data</th>
@@ -187,7 +185,11 @@
         <tr>
           <td class="path">ua_ruhr/content-classification/data-reuse/scenario</td>
           <td class="question">Which individuals, groups or institutions could be interested in re-using this dataset? What are possible scenarios?</td>
-          <td class="help"></td>
+          <td class="help">It is important to set the fundamental course as to whether or not the data will be permitted for reuse.
+
+Of course, the potential for subsequent use can not be the sole decision criterion, but legal impediments, such as Privacy, copyright and business secrets must be taken into account.
+
+Otherwise, consider the re-use potential against the disadvantages, e.g. a decrease in the readiness to participate and the expected extra effort of a data publication.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">ua_ruhr/content-classification/data-reproducibility</th>
@@ -195,9 +197,9 @@
         <tr>
           <td class="path">ua_ruhr/content-classification/data-reproducibility/reproducibility</td>
           <td class="question">Is the dataset reproducible in the sense that it could be created / collected anew in case it got lost?</td>
-          <td class="help">Some data can, technically, be created anew at any time, as is the case with scientific experiments or digitised versions of analog objects (as long as the originals are still there and in good shape). However, this can consume a considerable amount of time and cost. With respect to  long-term preservation, the effort of re-creation has to be weighed up against the effort of long-term preservation.
-            <br />
-          Other data cannot be collected or created anew. Examples are all kinds of "time stamped" observations, be they from social science,  astrophysics or any other discipline. Observations represent a certain phenomenon at a certain time and / or place and are therefore not repeatable. Their value for re-use as well as the loss in case of failed preservation is much higher than that of reproducible data.</td>
+          <td class="help">Some data can, technically, be created anew at any time, as is the case with scientific experiments or digitised versions of analog objects (as long as the originals are still there and in good shape). However, this can consume a considerable amount of time and cost. With respect to long-term preservation, the effort of re-creation has to be weighed up against the effort of long-term preservation.
+
+Other data cannot be collected or created anew.</td>
         </tr>
         <tr>
           <th class ="section" colspan="6">ua_ruhr/technical-classification</th>
@@ -227,12 +229,12 @@
         </tr>
         <tr>
           <td class="path">ua_ruhr/technical-classification/data-dates/data_collection_end</td>
-          <td class="question">When does data collection or creation end?</td>
+          <td class="question">When does/did data collection or creation end?</td>
           <td class="help"></td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/technical-classification/data-dates/data_collection_start</td>
-          <td class="question">When does data collection or creation start?</td>
+          <td class="question">When does/did data collection or creation start?</td>
           <td class="help"></td>
         </tr>
         <tr>
@@ -240,13 +242,13 @@
         </tr>
         <tr>
           <td class="path">ua_ruhr/technical-classification/data-volume/rate</td>
-          <td class="question">How much data is produced per year?</td>
-          <td class="help">Optional. This is only of concern if the data production rate reaches TB scale.</td>
+          <td class="question">How much data are produced per year?</td>
+          <td class="help"></td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/technical-classification/data-volume/volume</td>
           <td class="question">What is the actual or expected size of the dataset?</td>
-          <td class="help"></td>
+          <td class="help">If large amounts of data are involved, financial resources for the provision of the infrastructure should be considered (see also section "Funding").</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">ua_ruhr/technical-classification/data-formats</th>
@@ -254,7 +256,7 @@
         <tr>
           <td class="path">ua_ruhr/technical-classification/data-formats/format</td>
           <td class="question">Which file formats are used?</td>
-          <td class="help">When choosing a data format, one should consider the consequences for collaborative use, long-term preservation as well as re-use. It is advisable to prefer formats that are standardised, open, non-proprietary and well-established in the respective scholarly community. More criteria and detailed explanations can be found e.g. in the <a href="http://www.wissgrid.de/publikationen/Leitfaden_Data-Management-WissGrid.pdf" target="_blank">WissGrid-Leitfaden, pp. 22 f.</a>).</td>
+          <td class="help">When choosing a data format, one should consider the consequences for collaborative use, long-term preservation as well as re-use. It is advisable to prefer formats that are standardised, open, non-proprietary and well-established in the respective scholarly community.		</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">ua_ruhr/technical-classification/data-tools</th>
@@ -267,16 +269,16 @@
         <tr>
           <td class="path">ua_ruhr/technical-classification/data-tools/usage_technology</td>
           <td class="question">Which software, processes or technologies are necessary to use the data?</td>
-          <td class="help">To be able to re-use data (e.g. to replicate studies, for meta analysis or to solve new research questions), along with the data the software, equipment and knowledge about special methods to use the data are required.
-            <br />
-          Just as with the formats, the recommendation is: the more standardised, open and established, the better for re-use.</td>
+          <td class="help">To be able to re-use data (e.g. to replicate studies, for meta analysis or to solve new research questions), along with the data the software, equipment and knowledge about special methods to use the data are required .
+
+Just as with the formats, the recommendation is: the more standardised, open and established, the better for re-use.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/technical-classification/data-tools/creation_methods</td>
           <td class="question">Which tools, software, technologies or processes are used to generate or collect the data?</td>
           <td class="help">This information is necessary to be able to reconstruct the process by which the data was generated. It is also a prerequisite to judge the objectivity, reliability and validity of the dataset.
-            <br />
-          For reproducible data, it is also required to re-generate the data if need be.</td>
+
+For reproducible data, it is also required to re-generate the data if necessary. Therefore all devices, software, software version and also information about the procedure necessary to be able to recreate the data must be preserved.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">ua_ruhr/technical-classification/data-versioning</th>
@@ -289,7 +291,7 @@
         <tr>
           <td class="path">ua_ruhr/technical-classification/data-versioning/strategy</td>
           <td class="question">Which versioning strategy is applied for this dataset?</td>
-          <td class="help">Please briefly describe the project-internal regulations for the versioning of data sets (e.g.: What kind of changes require a new version? How are changes documented? What are the naming rules for different versions?)</td>
+          <td class="help">Please briefly describe the project-internal regulations for the versioning of data sets. (e.g.: What kind of changes require a new version? How are changes documented? What are the naming rules for different versions?)</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/technical-classification/data-versioning/yesno</td>
@@ -332,7 +334,7 @@
         </tr>
         <tr>
           <td class="path">ua_ruhr/data-usage/data-storage-and-security-storage/organisation_policy</td>
-          <td class="question">Are there internal project guidelines for a consistent organisation of the data? If so, where they are documented?</td>
+          <td class="question">Are there internal project guidelines for a consistent organisation of the data? If so, where are they documented?</td>
           <td class="help"></td>
         </tr>
         <tr>
@@ -356,24 +358,24 @@
         <tr>
           <td class="path">ua_ruhr/data-usage/data-storage-and-security-data_security/name</td>
           <td class="question">Who is responsible for the backups?</td>
-          <td class="help">This question refers to backups while the data is being worked with. Questions of long-term preservation will be adressed in the respective section.</td>
+          <td class="help">This question refers to backups while the data are being worked with. Questions of long-term preservation will be adressed in the respective section.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/data-usage/data-storage-and-security-data_security/backups</td>
           <td class="question">How and how often will backups of the data be created?</td>
-          <td class="help">This question refers to backups while the data is being worked with. Questions of long-term preservation will be adressed in the respective section.</td>
+          <td class="help">This question refers to backups while the data are being worked with. Questions of long-term preservation will be adressed in the respective section.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/data-usage/data-storage-and-security-data_security/access_permissions</td>
           <td class="question">Who is allowed to access the dataset?</td>
-          <td class="help"></td>
+          <td class="help">e.g. project members, partners of the project, only in-house, external partners</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">ua_ruhr/data-usage/data-sharing-and-re-use-interoperability</th>
         </tr>
         <tr>
-          <td class="path">ua_ruhr/data-usage/data-sharing-and-re-use/abstract</td>
-          <td class="question"></td>
+          <td class="path">ua_ruhr/data-usage/data-sharing-and-re-use-interoperability/abstract</td>
+          <td class="question">Are there restrictions accessing and re-using the data in general?</td>
           <td class="help"></td>
         </tr>
         <tr>
@@ -397,12 +399,17 @@
         <tr>
           <td class="path">ua_ruhr/data-usage/data-sharing-and-re-use-publication/conditions</td>
           <td class="question">If yes, under which terms of use or license will the dataset be published or shared?</td>
-          <td class="help">The options refer to the licenses of the <a href="https://creativecommons.org/share-your-work/licensing-types-examples/" target="_blank">Creative Commons family</a>.</td>
+          <td class="help">The options refer to the licenses of the <a href="https://creativecommons.org/licenses/?lang=en" target="_blank">Creative Commons family</a>.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/data-usage/data-sharing-and-re-use-publication/explanation</td>
           <td class="question">If no, please explain why not. Please differentiate between legal and contractual reasons and voluntary restrictions.</td>
           <td class="help"></td>
+        </tr>
+        <tr>
+          <td class="path">ua_ruhr/data-usage/data-sharing-and-re-use-publication/repository</td>
+          <td class="question">If yes, where should the data be published?</td>
+          <td class="help">Please provide information about the database/repository.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/data-usage/data-sharing-and-re-use-publication/yesno</td>
@@ -433,7 +440,7 @@
         <tr>
           <td class="path">ua_ruhr/data-usage/quality-assurance-dataset/measures</td>
           <td class="question">Which measures of quality assurance are taken for this dataset?</td>
-          <td class="help"></td>
+          <td class="help">Examples are checks for completeness, data reconciliation, sampling procedures. These measures serve to identify documentation errors and arithmetical anomalies.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">ua_ruhr/data-usage/quality-assurance-integration</th>
@@ -441,7 +448,7 @@
         <tr>
           <td class="path">ua_ruhr/data-usage/quality-assurance-integration/integration</td>
           <td class="question">Is the integration between the re-used and newly created data ensured? If yes, by which means?</td>
-          <td class="help"></td>
+          <td class="help">How are the origin and the quality of the data documented?</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">ua_ruhr/data-usage/costs-dataset</th>
@@ -449,7 +456,7 @@
         <tr>
           <td class="path">ua_ruhr/data-usage/costs-dataset/storage_non_personnel</td>
           <td class="question">What is the amount of non-personnel costs associated with the storage of the data sets during the project?</td>
-          <td class="help">Please estimate the costs in <b>Euro</b>.</td>
+          <td class="help">Please estimate the costs in **Euro**.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/data-usage/costs-dataset/storage_personnel</td>
@@ -459,17 +466,17 @@
         <tr>
           <td class="path">ua_ruhr/data-usage/costs-dataset/usage_non_personnel</td>
           <td class="question">What is the amount of non-personnel-costs for data management associated with the usage of data in the project?</td>
-          <td class="help">Please estimate the costs in <b>Euro</b>.</td>
+          <td class="help">Please estimate the costs in **Euro**.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/data-usage/costs-dataset/usage_personnel</td>
-          <td class="question">What are the personnel costs for data management associated with the the usage of data in the project?</td>
+          <td class="question">What are the personnel costs for data management associated with the usage of data in the project?</td>
           <td class="help">Please estimate the effort in person months.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/data-usage/costs-dataset/creation_non_personnel</td>
           <td class="question">What is the amount of non-personnel-costs for data management associated with the creation or acquisiton of data in the project?</td>
-          <td class="help">Please estimate the effort in <b>Euro</b>.</td>
+          <td class="help">Please estimate the effort in **Euro**.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/data-usage/costs-dataset/creation_personnel</td>
@@ -484,7 +491,7 @@
         </tr>
         <tr>
           <td class="path">ua_ruhr/metadata-and-referencing/metadata-dataset/abstract</td>
-          <td class="question"></td>
+          <td class="question">Which types of metadata are collected? Do you use any kind of standard, ontology or classification?</td>
           <td class="help"></td>
         </tr>
         <tr>
@@ -500,22 +507,22 @@
         <tr>
           <td class="path">ua_ruhr/metadata-and-referencing/metadata-dataset/creation_manual</td>
           <td class="question">Which metadata are collected manually?</td>
-          <td class="help"></td>
+          <td class="help">A metadata editor is suitable for this.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/metadata-and-referencing/metadata-dataset/creation_semi_automatic</td>
           <td class="question">Which metadata are collected semi-automatically?</td>
+          <td class="help">So what metadata are automatically collected by the computer/software, but must be checked?</td>
+        </tr>
+        <tr>
+          <td class="path">ua_ruhr/metadata-and-referencing/metadata-dataset/creation_automatic</td>
+          <td class="question">Which metadata are collected automatically?</td>
           <td class="help"></td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/metadata-and-referencing/metadata-dataset/mappings</td>
           <td class="question">In case it is unavoidable that you use uncommon or generate project-specific ontologies or vocabularies, will you provide mappings to more commonly used ontologies?</td>
           <td class="help">This information is needed for a Horizon 2020 data management plan.</td>
-        </tr>
-        <tr>
-          <td class="path">ua_ruhr/metadata-and-referencing/metadata-dataset/creation_automatic</td>
-          <td class="question">Which metadata are collected automatically?</td>
-          <td class="help"></td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/metadata-and-referencing/metadata-dataset/standards</td>
@@ -533,11 +540,11 @@
         <tr>
           <td class="path">ua_ruhr/metadata-and-referencing/metadata-costs/non_personnel</td>
           <td class="question">What is the amount of non-personnel-costs associated with the creation of metadata and context information in the project?</td>
-          <td class="help">Please estimate the costs in <b>Euro</b>.</td>
+          <td class="help">Please estimate the costs in **Euro**.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/metadata-and-referencing/metadata-costs/personnel</td>
-          <td class="question">What are the personnel costs associated with the the creation of metadata and context information in the project?</td>
+          <td class="question">What are the personnel costs associated with the creation of metadata and context information in the project?</td>
           <td class="help">Please estimate the effort in person months.</td>
         </tr>
         <tr>
@@ -545,7 +552,10 @@
         </tr>
         <tr>
           <td class="path">ua_ruhr/metadata-and-referencing/structure-granularity-and-referencing-structure/structure</td>
-          <td class="question">What is the structure of the data? How are the individual components of the dataset related to each other? How is the dataset related to other datasets used in the project?</td>
+          <td class="question">Please briefly explain the structure and relationship of their data to each other.
+* What is the structure of the data?
+* How are the individual components of the dataset related to each other?
+* How is the dataset related to other datasets used in the project?</td>
           <td class="help"></td>
         </tr>
         <tr>
@@ -554,9 +564,9 @@
         <tr>
           <td class="path">ua_ruhr/metadata-and-referencing/structure-granularity-and-referencing-pids/name</td>
           <td class="question">Who is responsible for the maintenance of the PIDs and the object maintenance (i.e. who is responsible notifying the PID-Service about object relocation and the new address)?</td>
-          <td class="help">A prerequisite for PIDs to work as promised is that they - as well as the objects they refer to - are maintained in a continuous and reliable way.. This means, for example, that if the object location changes, this information is updated.
-            <br />
-          When the data are stored in a data centre or repository, these tasks are usually taken care of by the data centre / repository. However, to be sure, the responsibilities should be checked beforehand.</td>
+          <td class="help">A prerequisite for PIDs to work as promised is that they - as well as the objects they refer to - are maintained in a continuous and reliable way. This means, for example, that if the object location changes, this information is updated.
+
+When the data are stored in a data centre or repository, these tasks are usually taken care of by the data centre / repository. However, to be sure, the responsibilities should be checked beforehand.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/metadata-and-referencing/structure-granularity-and-referencing-pids/subentities</td>
@@ -579,11 +589,11 @@
         <tr>
           <td class="path">ua_ruhr/metadata-and-referencing/structure-granularity-and-referencing-costs/non_personnel</td>
           <td class="question">What is the amount of non-personnel-costs associated with persistent identifiers in the project?</td>
-          <td class="help">Please estimate the costs in Euro.</td>
+          <td class="help">Please estimate the costs in **Euro**.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/metadata-and-referencing/structure-granularity-and-referencing-costs/personnel</td>
-          <td class="question">What are the personnel costs associated with of persistent identifiers in the project?</td>
+          <td class="question">What are the personnel costs associated with the use of persistent identifiers in the project?</td>
           <td class="help">Please estimate the effort in person months.</td>
         </tr>
         <tr>
@@ -603,40 +613,15 @@
         <tr>
           <td class="path">ua_ruhr/legal-and-ethics/sensitive-data-personal_data_yesno/yesno</td>
           <td class="question">Does this dataset contain personal data?</td>
-          <td class="help">The handling and processing of <b>personal data</b> is regulated by law. The uniform application throughout the EU is based on the <a href="http://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679">EU General Data Protection Regulation (GDPR)</a>. It allows for regulatory leeway at national level.
-            <br />
-          In Germany, this is regulated by the <a href="http://www.gesetze-im-internet.de/bdsg_2018/">Federal Data Protection Act (BDSG)</a>, and for universities, the individual data protection laws of the individual federal states apply, e.g. the <a href="https://recht.nrw.de/lmi/owa/br_text_anzeigen?v_id=3520071121100436275">data protection law of North Rhine-Westphalia (DSG NRW)</a>.
-            <br />
-          The european GDPR defines personal data as all information relating to an identified or identifiable natural person (Art. 4(1) GPDR).
-            <br />
-          A person is <b>identified</b> if it is clearly identifiable to whom the data belongs.
-            <br />
-          A person becomes <b>identifiable</b> if it can be identified by means of additional information.
-            <br />
-          More information (in German only) can be found on the websites of the data protection officers of the UA Ruhr.
-            <ul>
-              <li><a href="https://dsb.ruhr-uni-bochum.de/">Ruhr-University Bochum</a></li>
-              <li><a href="https://www.uni-due.de/verwaltung/organisation/just_datenschutz.php">University Duisburg-Essen</a></li>
-              <li><a href="https://www.tu-dortmund.de/universitaet/organisation/beauftragte-vertrauenspersonen/#accordion-2213-764">TU Dortmund University</a></li>
-            </ul></td>
+          <td class="help">If yes: Please also check whether you have completed the sections "Data usage" and "Data storage and security" with the appropriate measures to protect the data in accordance with the applicable data protection laws. European Data Protection Law may apply.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">ua_ruhr/legal-and-ethics/sensitive-data-privacy_law</th>
         </tr>
         <tr>
           <td class="path">ua_ruhr/legal-and-ethics/sensitive-data-privacy_law/privacy_law</td>
-          <td class="question">Which laws are to be considered beside the European GDPR regarding data protection issues for the research project?</td>
-          <td class="help">The <a href="http://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679">EU General Data Protection Regulation</a> takes precedence over national law. It applies since 25.05.2018.
-            <br />
-          For universities, state data protection laws continue to apply, which may be designed to comply with certain provisions of the GDPR, e. g. the <a href="https://recht.nrw.de/lmi/owa/br_text_anzeigen?v_id=3520071121100436275">data protection law of North Rhine-Westphalia</a>.
-            <br />
-          In certain fields, specific laws apply. These override the State Federal and <a href="http://www.gesetze-im-internet.de/bdsg_2018/">Federal Data Protection Acts</a>.
-            <ul>
-            <li>The Social Security Act X for medical data</li>
-            <li>The Federal Statistics Act for census data</li>
-            <li>For educational research in NRW the education act NRW</li>
-            <li>A research project might be affected by multiple laws.</li>
-          </ul></td>
+          <td class="question">Which law applies with respect to the aspects of data protection in the project?</td>
+          <td class="help">It depends on the kind of institution which law applies.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">ua_ruhr/legal-and-ethics/sensitive-data-personal_data</th>
@@ -658,15 +643,8 @@
         </tr>
         <tr>
           <td class="path">ua_ruhr/legal-and-ethics/sensitive-data-personal_data/extent</td>
-          <td class="question">To what extent is the "informed consent" of the perspms concerned obtained?</td>
-          <td class="help">The collection, processing, archiving and publication of personal data is only admissible, if there is a corresponding 'informed consent' of the person concerned. Only in very few exceptional cases, this is not needed.
-            <br />
-          Where required please get in touch with the data protection officer of your institution for further information on the necessary conditions for consent.
-            <ul>
-              <li><a href="https://dsb.ruhr-uni-bochum.de/">Ruhr-University Bochum</a></li>
-              <li><a href="https://www.uni-due.de/verwaltung/organisation/just_datenschutz.php">University Duisburg-Essen</a></li>
-              <li><a href="https://www.tu-dortmund.de/universitaet/organisation/beauftragte-vertrauenspersonen/#accordion-2213-764">TU Dortmund University</a></li>
-            </ul></td>
+          <td class="question">To what extent is the "informed consent" obtained from the persons concerned?</td>
+          <td class="help">Basically, the collection, processing, archiving and publication of personal data is only admissible, when the "informed consent" of the person in question has been obtained.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/legal-and-ethics/sensitive-data-personal_data/anonymization</td>
@@ -675,17 +653,10 @@
         </tr>
         <tr>
           <td class="path">ua_ruhr/legal-and-ethics/sensitive-data-personal_data/bdsg_3_9</td>
-          <td class="question">Does the dataset contain personal data of special categories?</td>
-          <td class="help">According to the GDPR, this includes “personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person’s sex life or sexual orientation“ (<a href="http://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679">Art. 9(1) GPDR</a>).
-            <br />
-          Such data is considered to be particularly sensitive and requires even more stringent protective measures than those required for personal data in general.
-            <br />
-          If you answer "Yes" to this question, please contact the data protection officer of your institution to find out what additional protection measures are necessary.
-            <ul>
-              <li><a href="https://dsb.ruhr-uni-bochum.de/">Ruhr-University Bochum</a></li>
-              <li><a href="https://www.uni-due.de/verwaltung/organisation/just_datenschutz.php">University Duisburg-Essen</a></li>
-              <li><a href="https://www.tu-dortmund.de/universitaet/organisation/beauftragte-vertrauenspersonen/#accordion-2213-764">TU Dortmund University</a></li>
-            </ul></td>
+          <td class="question">Does the dataset contain information on racial and ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, health or sex life?</td>
+          <td class="help">These kinds of data are considered particularly sensitive and require even more extensive safeguards.
+
+If you answer this question with "Yes", please get in touch with the data protection officer of your institution to check which additional protection measures are necessary.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">ua_ruhr/legal-and-ethics/sensitive-data-other</th>
@@ -694,13 +665,6 @@
           <td class="path">ua_ruhr/legal-and-ethics/sensitive-data-other/description</td>
           <td class="question">If yes, please describe the non-personal sensitive data used in the project.</td>
           <td class="help"></td>
-        </tr>
-        <tr>
-          <td class="path">ua_ruhr/legal-and-ethics/sensitive-data-other/funder_policy</td>
-          <td class="question">Does the funder have rules or recommendations for data management? If yes, please briefly outline them and refer to more detailed sources of information if necessary. Please also indicate, if the rules / guidelines are mandatory or optional.</td>
-          <td class="help">Funders of research also increasingly specify requirements regarding the management of research data in funded projects.
-            <br />
-          Examples are the <a href="http://www.dfg.de/en/research_funding/proposal_review_decision/applicants/submitting_proposal/research_data/index.html" target="_blank">DFG Guidelines on the Handling of Reserach Data</a> or the <a href="http://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf" target="_blank">Guidelines on Data Management in Horizon 2020</a> of the European Commission.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/legal-and-ethics/sensitive-data-other/yesno</td>
@@ -712,8 +676,8 @@
         </tr>
         <tr>
           <td class="path">ua_ruhr/legal-and-ethics/sensitive-data-costs/security_non_personnel</td>
-          <td class="question">What is the amount of non-personnel-costs for other (non-technical) security measures for sensitive data for the project?</td>
-          <td class="help">Please estimate the costs in <b>Euro</b>.</td>
+          <td class="question">What is the amount of non-personnel-costs for other (non-technical) security measures for sensitive data in the project?</td>
+          <td class="help">Please estimate the costs in **Euro**.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/legal-and-ethics/sensitive-data-costs/security_personnel</td>
@@ -723,7 +687,7 @@
         <tr>
           <td class="path">ua_ruhr/legal-and-ethics/sensitive-data-costs/anonymization_non_personnel</td>
           <td class="question">What is the amount of non-personnel-costs associated with the anonymization of sensitive data in the project?</td>
-          <td class="help">Please estimate the costs in <b>Euro</b>.</td>
+          <td class="help">Please estimate the costs in **Euro**.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/legal-and-ethics/sensitive-data-costs/anonymization_personnel</td>
@@ -750,7 +714,7 @@
         </tr>
         <tr>
           <td class="path">ua_ruhr/legal-and-ethics/sensitive-data-official_approval/yesno</td>
-          <td class="question">Is a statutatory approval / permit needed for the research?</td>
+          <td class="question">Is a legal approval / permit needed for the research?</td>
           <td class="help"></td>
         </tr>
         <tr>
@@ -764,28 +728,7 @@
         <tr>
           <td class="path">ua_ruhr/legal-and-ethics/intellectual-property-rights-yesno/yesno</td>
           <td class="question">Does the project use and/or produce data that is protected by intellectual or industrial property rights?</td>
-          <td class="help">Data or software can be subject to intellectual or industrial property rights. Applicable laws differ broadly even within EU.
-            <br />
-          According to the German copyright law (UrhG) works of literature, scholarship and the arts that can be regarded as a “personal intellectual creation” are protected by copyright. Copyright protection expires 70 years after the death of the copyright holder.
-            <br />
-          Mere data, e.g. measured data or survey data, and metadata (except in some cases descriptive metadata) are not protected by copyright.
-            <br />
-          § 2 of the UrhG lists the following kinds of protected works (list is not concluded):
-            <br />
-            <ul>
-              <li>linguistic works such as written works, speeches and computer programs</li>
-              <li>works of music</li>
-              <li>pantomimic works including works of the art of dance</li>
-              <li>works or the fine arts including works of architecture and the applied arts as well as sketches of such works</li>
-              <li>works of photography and cinematography</li>
-              <li>descriptions and illustrations of scholarly or technical nature such as drawings, plans, maps, sketches, tables and three-dimensional represenations</li>
-            </ul>
-            <br />
-          According to § 3, copyright is also applicable to translations and other modifications or adaptions of a work if they are individual intellectual creations of the editor.
-            <br />
-          Finally, according to § 4 copyright also extents to collected editions and database works. Collected editions are “collections of work, data or other independent elements that are individual intellectual creations based on the selection and arrangement of the elements”. Database works are defined as “collected editions, the elements of which are arranged in a systematic or methodical way and can be accessed individually by electronic means or in other ways”.
-            <br />
-          Other relevant property rights can be trademarks, patents, utility models, plant variety rights protection, integrated circuit layout design protection, geographical indications or registered designs.</td>
+          <td class="help">Data or software can be subject to intellectual or industrial property rights. Applicable laws differ broadly even within EU.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">ua_ruhr/legal-and-ethics/intellectual-property-rights-dataset</th>
@@ -811,7 +754,7 @@
         <tr>
           <td class="path">ua_ruhr/legal-and-ethics/intellectual-property-rights-costs/non_personnel</td>
           <td class="question">What is the amount of non-personnel-costs regarding intellectual property rights in the project?</td>
-          <td class="help">Please estimate the costs in <b>Euro</b>.</td>
+          <td class="help">Please estimate the costs in **Euro**.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/legal-and-ethics/intellectual-property-rights-costs/personnel</td>
@@ -832,10 +775,22 @@
         <tr>
           <td class="path">ua_ruhr/storage-and-long-term-preservation/selection-criteria/selection_criteria</td>
           <td class="question">What are the criteria / rules for the selection of the data to be archived (after the end of the project)?</td>
-          <td class="help"></td>
+          <td class="help">Examples: data are a basis for a publication, for re-use, legal or contractual conditions, documentation (socially or politically relevant)</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">ua_ruhr/storage-and-long-term-preservation/long-term-preservation-datasets</th>
+        </tr>
+        <tr>
+          <td class="path">ua_ruhr/storage-and-long-term-preservation/long-term-preservation-datasets/responsible_person_email</td>
+          <td class="question">Please provide the email address of the permanent contact person named above.</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <td class="path">ua_ruhr/storage-and-long-term-preservation/long-term-preservation-datasets/responsible_person_name</td>
+          <td class="question">Who is the long-term contact person who can make decisions about the data? Please specify the name.</td>
+          <td class="help">Examples of these decisions include data access and authorization, the optimization of storage space after a certain retention period, or the transfer of authority to a new contact person.
+
+Such decisions are necessary, for example, in the event of a loss of access data, a new access request or the departure of the previous contact person.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/storage-and-long-term-preservation/long-term-preservation-datasets/data_archiving_date</td>
@@ -859,10 +814,8 @@
         </tr>
         <tr>
           <td class="path">ua_ruhr/storage-and-long-term-preservation/long-term-preservation-datasets/certification</td>
-          <td class="question">Is the repository or data centre chosen certified (e.g. Data Seal of Approval, nestor Seal or ISO 16363)?
-            <br />
-          (If the dataset is archived at several places, you may answer this question with yes, if this applies to at least one of these.)</td>
-          <td class="help"></td>
+          <td class="question">Is the repository or data centre chosen certified (e.g. Data Seal of Approval, nestor Seal or ISO 16363)?</td>
+          <td class="help">If the dataset is archived at several places, you may answer this question with yes, if this applies to at least one of these.</td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/storage-and-long-term-preservation/long-term-preservation-datasets/repository</td>
@@ -871,7 +824,7 @@
         </tr>
         <tr>
           <td class="path">ua_ruhr/storage-and-long-term-preservation/long-term-preservation-datasets/reuse_duration</td>
-          <td class="question">How long is it intended that the data remains re-usable.</td>
+          <td class="question">How long is it intended that the data remains re-usable?</td>
           <td class="help"></td>
         </tr>
         <tr>
@@ -886,29 +839,28 @@
         </tr>
         <tr>
           <td class="path">ua_ruhr/storage-and-long-term-preservation/long-term-preservation-datasets/yesno</td>
-          <td class="question">Does this dataset have to preserved for the long-term?</td>
+          <td class="question">Does this dataset have to be preserved for the long-term?</td>
           <td class="help"></td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">ua_ruhr/storage-and-long-term-preservation/long-term-preservation-costs</th>
         </tr>
         <tr>
-          <td class="path">ua_ruhr/storage-and-long-term-preservation/long-term-preservation-costs/cover_how</td>
-          <td class="question">How will the datamanagement costs of the project be covered?</td>
-          <td class="help"></td>
-        </tr>
-        <tr>
           <td class="path">ua_ruhr/storage-and-long-term-preservation/long-term-preservation-costs/non_personnel</td>
           <td class="question">What is the amount of non-personnel-costs regarding long-term preservation for the project?</td>
-          <td class="help">Please estimate the costs in <b>Euro</b>.</td>
+          <td class="help">Please estimate the costs in **Euro**.</td>
+        </tr>
+        <tr>
+          <td class="path">ua_ruhr/storage-and-long-term-preservation/long-term-preservation-costs/cover_how</td>
+          <td class="question">How will the data management costs of the project be covered?</td>
+          <td class="help"></td>
         </tr>
         <tr>
           <td class="path">ua_ruhr/storage-and-long-term-preservation/long-term-preservation-costs/personnel</td>
           <td class="question">What are the personnel costs associated with long-term preservation for the project?</td>
           <td class="help">Please estimate the effort in person months.</td>
         </tr>
-
       </tbody>
-    </table>
-  </body>
+  </table>
+</body>
 </html>
