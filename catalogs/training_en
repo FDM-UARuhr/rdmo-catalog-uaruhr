@@ -1,0 +1,175 @@
+        <tr>
+        </tr>
+        <tr>
+          <th class ="section" colspan="6">training/general</th>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/general/topic-research_question</th>
+        </tr>
+        <tr>
+          <td class="path">training/general/topic-research_question/title</td>
+          <td class="question">What is the main research question of the project?</td>
+          <td class="help">Describe briefly the project and its aims.</td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/general/funding-funder</th>
+        </tr>
+        <tr>
+          <td class="path">training/general/funding-funder/title</td>
+          <td class="question">In which funding program is the project funded?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <td class="path">training/general/funding-funder/name</td>
+          <td class="question">Who is funding the project?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/general/other-requirements-yesno</th>
+        </tr>
+        <tr>
+          <td class="path">training/general/other-requirements-yesno/abstract</td>
+          <td class="question">Are there requirements to the data management in the form of policies from ANY site?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <td class="path">training/general/other-requirements-yesno/yesno</td>
+          <td class="question">Are there requirements regarding the data management from other parties (e.g. the scholarly/scientific community)?</td>
+          <td class="help">Examples of discipline-specific requirements:
+
+- <a href="https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/guidelines_biodiversity_research.pdf" target="_blank">Guidelines on the Handling of Research Data in Biodiversity Research</a>
+- <a href="https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/guidelines_review_board_linguistics_corpora.pdf" target="_blank">Guidelines by the DFG Review Board on Linguistics Language Corpora</a>.
+
+Further discipline-specific guidelines on the handling of Research Data are provided by the <a href="https://www.dfg.de/en/research_funding/principles_dfg_funding/research_data/recommendations/index.html" target="_blank">DFG (German Research Foundation)</a>.</td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/general/other-requirements-requirements</th>
+        </tr>
+        <tr>
+          <td class="path">training/general/other-requirements-requirements/requirements</td>
+          <td class="question">Which are these additional requirements regarding data management?</td>
+          <td class="help">Please briefly outline them and refer to more detailed sources of information if necessary. Please also indicate, if the rules / guidelines are mandatory or optional.</td>
+        </tr>
+        <tr>
+          <th class ="section" colspan="6">training/content-classification</th>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/content-classification/data-dataset</th>
+        </tr>
+        <tr>
+          <td class="path">training/content-classification/data-dataset/description</td>
+          <td class="question">What kind of dataset is it?</td>
+          <td class="help">Please briefly describe the data type and / or the method used to create or collect the data, for example:
+
+* quantitative online survey
+* 3D model / digital reconstruction of a stone age settlement
+* software developed within the project
+
+Please also explain whether this is a fixed data set stored at a certain point in time or whether it is created dynamically over a certain period of time.</td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/content-classification/data-reuse</th>
+        </tr>
+        <tr>
+          <td class="path">training/content-classification/data-reuse/scenario</td>
+          <td class="question">Which individuals, groups or institutions could be interested in re-using this dataset? What are possible scenarios?</td>
+          <td class="help">It is important to set the fundamental course as to whether or not the data will be permitted for reuse.
+
+Of course, the potential for subsequent use can not be the sole decision criterion, but legal impediments, such as Privacy, copyright and business secrets must be taken into account.
+
+Otherwise, consider the re-use potential against the disadvantages, e.g. a decrease in the readiness to participate and the expected extra effort of a data publication.</td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/content-classification/data-reproducibility</th>
+        </tr>
+        <tr>
+          <td class="path">training/content-classification/data-reproducibility/reproducibility</td>
+          <td class="question">Is the dataset reproducible in the sense that it could be created / collected anew in case it got lost?</td>
+          <td class="help">Some data can, technically, be created anew at any time, as is the case with scientific experiments or digitised versions of analog objects (as long as the originals are still there and in good shape). However, this can consume a considerable amount of time and cost. With respect to long-term preservation, the effort of re-creation has to be weighed up against the effort of long-term preservation.
+
+Other data cannot be collected or created anew.</td>
+        </tr>
+        <tr>
+          <th class ="section" colspan="6">training/technical-classification</th>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/technical-classification/data-formats</th>
+        </tr>
+        <tr>
+          <td class="path">training/technical-classification/data-formats/format</td>
+          <td class="question">Which file formats are used?</td>
+          <td class="help">When choosing a data format, one should consider the consequences for collaborative use, long-term preservation as well as re-use. It is advisable to prefer formats that are standardised, open, non-proprietary and well-established in the respective scholarly community.		</td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/technical-classification/data-versioning</th>
+        </tr>
+        <tr>
+          <td class="path">training/technical-classification/data-versioning/strategy</td>
+          <td class="question">Which versioning strategy is applied for this dataset?</td>
+          <td class="help">Please briefly describe the project-internal regulations for the versioning of data sets. (e.g.: What kind of changes require a new version? How are changes documented? What are the naming rules for different versions?)</td>
+        </tr>
+        <tr>
+          <th class ="section" colspan="6">training/data-usage</th>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/data-usage/data-storage-and-security-data_security</th>
+        </tr>
+        <tr>
+          <td class="path">training/data-usage/data-storage-and-security-data_security/backups</td>
+          <td class="question">How and how often will backups of the data be created?</td>
+          <td class="help">This question refers to backups while the data are being worked with. Questions of long-term preservation will be adressed in the respective section.</td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/data-usage/data-sharing-and-re-use-publication</th>
+        </tr>
+        <tr>
+          <td class="path">training/data-usage/data-sharing-and-re-use-publication/yesno</td>
+          <td class="question">Will this dataset be published or shared?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <th class ="section" colspan="6">training/metadata-and-referencing</th>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/metadata-and-referencing/metadata-dataset</th>
+        </tr>
+        <tr>
+          <td class="path">training/metadata-and-referencing/metadata-dataset/abstract</td>
+          <td class="question">Which types of metadata are collected? Do you use any kind of standard, ontology or classification?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <td class="path">training/metadata-and-referencing/metadata-dataset/scope</td>
+          <td class="question">Which information is necessary for other parties to understand the data (that is, to understand their collection or creation, analysis, and research results obtained on its basis) and to re-use it?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/metadata-and-referencing/structure-granularity-and-referencing-structure</th>
+        </tr>
+        <tr>
+          <td class="path">training/metadata-and-referencing/structure-granularity-and-referencing-structure/structure</td>
+          <td class="question">Please briefly explain the structure and relationship of their data to each other.
+* What is the structure of the data?
+* How are the individual components of the dataset related to each other?
+* How is the dataset related to other datasets used in the project?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <th class ="section" colspan="6">training/storage-and-long-term-preservation</th>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/storage-and-long-term-preservation/long-term-preservation-datasets</th>
+        </tr>
+        <tr>
+          <td class="path">training/storage-and-long-term-preservation/long-term-preservation-datasets/repository</td>
+          <td class="question">Where will the data (including metadata, documentation and, if applicable, relevant code) be stored or archived after the end of the project?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/data-usage/data-sharing-and-re-use-interoperability</th>
+        </tr>
+        <tr>
+          <td class="path">training/data-usage/data-sharing-and-re-use-interoperability/abstract</td>
+          <td class="question">Are there restrictions accessing and re-using the data in general?</td>
+          <td class="help"></td>
+        </tr>

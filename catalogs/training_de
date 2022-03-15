@@ -1,0 +1,179 @@
+        <tr>
+        </tr>
+        <tr>
+          <th class ="section" colspan="6">training/general</th>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/general/topic-research_question</th>
+        </tr>
+        <tr>
+          <td class="path">training/general/topic-research_question/title</td>
+          <td class="question">Wie lautet die primäre Forschungsfrage des Projektes?</td>
+          <td class="help">Bitte beschreiben Sie kurz das Projekt und dessen Ziele.</td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/general/funding-funder</th>
+        </tr>
+        <tr>
+          <td class="path">training/general/funding-funder/title</td>
+          <td class="question">In welcher Förderlinie und/oder welchem Förderprogramm wird das Projekt gefördert?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <td class="path">training/general/funding-funder/name</td>
+          <td class="question">Wer fördert das Projekt?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/general/other-requirements-yesno</th>
+        </tr>
+        <tr>
+          <td class="path">training/general/other-requirements-yesno/abstract</td>
+          <td class="question">Bestehen von **irgendeiner** Seite Anforderungen an das Datenmanagement in Form von Policies, Vorgaben etc?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <td class="path">training/general/other-requirements-yesno/yesno</td>
+          <td class="question">Gibt es von weiteren Seiten (z. B. von der Fachcommunity) Anforderungen an das Datenmanagement, die beachtet werden müssen?</td>
+          <td class="help">Beispiele für fachspezifische Empfehlungen und Richtlinien sind:
+
+- <a href="https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf" target="_blank">Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung</a>
+- Empfehlungen zur <a href="https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/forschungsdaten_memorandum_fk_109.pdf" target="_blank">Bereitstellung und Nutzung quantitativer Daten in der Bildungsforschung</a>
+- <a href="https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf" target="_blank">Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft</a>
+- Empfehlungen zu <a href="http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_sprachkorpora.pdf" target="_blank">datentechnischen Standards und Tools</a> sowie zu
+- <a href="http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_recht.pdf" target="_blank">rechtlichen Fragen</a> bei der Erhebung von Sprachkorpora.
+
+Weitere fachspezifische Empfehlungen und Richtlinien zum Umgang mit Forschungsdaten werden beispielsweise von der <a href="https://www.dfg.de/foerderung/grundlagen_rahmenbedingungen/forschungsdaten/empfehlungen/index.html" target="_blank">Deutschen Forschungsgemeinschaft (DFG)</a> bereitgestellt.</td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/general/other-requirements-requirements</th>
+        </tr>
+        <tr>
+          <td class="path">training/general/other-requirements-requirements/requirements</td>
+          <td class="question">Welche Anforderungen an das Datenmanagement sind dies?</td>
+          <td class="help">Bitte skizzieren Sie sie kurz und verweisen Sie ggf. auf weiterführende Informationen. Geben Sie bitte auch an, welchen Grad an Verbindlichkeit sie haben.</td>
+        </tr>
+        <tr>
+          <th class ="section" colspan="6">training/content-classification</th>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/content-classification/data-dataset</th>
+        </tr>
+        <tr>
+          <td class="path">training/content-classification/data-dataset/description</td>
+          <td class="question">Um was für einen Datensatz handelt es sich?</td>
+          <td class="help">Bitte beschreiben Sie hier kurz, um welchen Datentyp es sich handelt und mit welcher Methode die Daten erhoben oder erstellt wurden, z. B.:
+
+* quantitative Online-Befragung
+* 3D-Modellierung / digitale Rekonstruktion einer steinzeitlichen Siedlung
+* Software, die im Projekt entwickelt wird
+
+Bitte erläutern Sie ergänzend, ob es sich um einen festen, zu einem bestimmten Zeitpunkt gespeicherten Datensatz handelt oder ob dieser dynamisch also laufend über einen bestimmten Zeitraum entsteht.</td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/content-classification/data-reuse</th>
+        </tr>
+        <tr>
+          <td class="path">training/content-classification/data-reuse/scenario</td>
+          <td class="question">Für welche Personen, Gruppen oder Institutionen könnte dieser Datensatz (für die Nachnutzung) von Interesse sein? Welche Konsequenzen hat das Nachnutzungspotential später für die Bereitstellung der Daten?</td>
+          <td class="help">Wichtig ist die grundsätzliche Weichenstellung, ob die Daten zur Nachnutzung zugelassen werden oder nicht.
+
+Selbstverständlich kann das Nachnutzungspotential dabei nicht alleiniges Entscheidungskriterium sein, sondern rechtliche Hinderungsgründe, wie z.B. Datenschutz, Urheberrecht und die Wahrung von Geschäftsgeheimnissen, müssen berücksichtigt werden.
+
+Wägen Sie ansonsten das Nachnutzungspotential gegen die Nachteile ab, beispielsweise gegen ein Absinken der Teilnahmebereitschaft und den zu erwartenden Mehraufwand einer Datenveröffentlichung.</td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/content-classification/data-reproducibility</th>
+        </tr>
+        <tr>
+          <td class="path">training/content-classification/data-reproducibility/reproducibility</td>
+          <td class="question">Ist der Datensatz reproduzierbar, d. h. ließe er sich, wenn er verloren ginge, erneut erstellen oder erheben?</td>
+          <td class="help">Manche Daten können im Prinzip jederzeit neu erstellt werden. Beispiele hierfür sind etwa naturwissenschaftliche Experimentdaten oder auch Digitalisate analoger Objekte (solange die Originale nicht verlorengehen). Der Aufwand und die Kosten hierfür können natürlich durchaus beträchtlich sein. Im Hinblick auf die Frage der Notwendigkeit einer späteren Langzeitarchivierung sollte in diesen Fällen der Aufwand einer erneuten Erstellung gegen den Aufwand der Langzeitarchivierung abgewogen werden.
+
+Andere Daten wiederum lassen sich per se nicht erneut erheben. Dies ist etwa bei jeglicher Art von episodischer Beobachtungen, sei es sozialwissenschaftlicher oder naturwissenschaftlicher Art, der Fall, da diese ein bestimmtes Phänomen an einem bestimmten Zeitpunkt und/oder Ort abbilden und somit i.d.R. nicht wiederholbar sind. Ihr Wert für die Nachnutzung durch andere wie auch der Verlust bei einer nicht erfolgten oder misslungenen Langzeitarchivierung ist ungleich höher als bei reproduzierbaren Daten.</td>
+        </tr>
+        <tr>
+          <th class ="section" colspan="6">training/technical-classification</th>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/technical-classification/data-formats</th>
+        </tr>
+        <tr>
+          <td class="path">training/technical-classification/data-formats/format</td>
+          <td class="question">In welchen Formaten liegen die Daten vor?</td>
+          <td class="help">Bei der Wahl des Dateiformates sollten auch die Konsequenzen für die kollaborative Nutzung, die Langzeitarchivierung sowie die Nachnutzung beachtet werden. Es empfiehlt sich, möglichst standardisierte, nicht-proprietäre und allgemein bzw. in der spezifischen Community verbreitete Formate zu nutzen. Weitere Kriterien sowie detaillierte Erläuterungen sind z. B. im <a href="https://www.forschungsdaten.org/images/b/b0/Leitfaden_Data-Management-WissGrid.pdf" target="_blank">WissGrid-Leitfaden, S. 22 f.</a> zu finden.</td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/technical-classification/data-versioning</th>
+        </tr>
+        <tr>
+          <td class="path">training/technical-classification/data-versioning/strategy</td>
+          <td class="question">Welche Versionierungsstrategie wird für diesen Datensatz angewandt?</td>
+          <td class="help">Bitte beschreiben Sie hier kurz projektinterne Regelungen zur Versionierung von Datensätzen. (z. B.: Welche Änderungen machen eine neue Version erforderlich? Wie werden die Änderungen dokumentiert? Wie werden die verschiedenen Versionen benannt?)</td>
+        </tr>
+        <tr>
+          <th class ="section" colspan="6">training/data-usage</th>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/data-usage/data-storage-and-security-data_security</th>
+        </tr>
+        <tr>
+          <td class="path">training/data-usage/data-storage-and-security-data_security/backups</td>
+          <td class="question">Wie und wie oft werden Backups der Daten erstellt?</td>
+          <td class="help">Die Frage bezieht sich auf Backups während der Zeit, in denen mit den Daten gearbeitet wird. Fragen der Langzeitarchivierung werden gesondert im entsprechenden Abschnitt behandelt.</td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/data-usage/data-sharing-and-re-use-publication</th>
+        </tr>
+        <tr>
+          <td class="path">training/data-usage/data-sharing-and-re-use-publication/yesno</td>
+          <td class="question">Soll dieser Datensatz veröffentlicht oder geteilt werden?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <th class ="section" colspan="6">training/metadata-and-referencing</th>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/metadata-and-referencing/metadata-dataset</th>
+        </tr>
+        <tr>
+          <td class="path">training/metadata-and-referencing/metadata-dataset/abstract</td>
+          <td class="question">Welche Metadaten werden erhoben? Werden Standards, Ontologien oder Klassifikationen verwendet?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <td class="path">training/metadata-and-referencing/metadata-dataset/scope</td>
+          <td class="question">Welche Informationen sind für Außenstehende notwendig, um die Daten zu verstehen (d. h. ihre Erhebung bzw. Entstehung, Analyse sowie die auf ihrer Basis gewonnenen Forschungsergebnisse nachvollziehen) und nachnutzen zu können?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/metadata-and-referencing/structure-granularity-and-referencing-structure</th>
+        </tr>
+        <tr>
+          <td class="path">training/metadata-and-referencing/structure-granularity-and-referencing-structure/structure</td>
+          <td class="question">Bitte erläutern Sie kurz die Struktur und den Zusammenhang ihrer Daten untereinander:
+
+* Wie sind die Daten strukturiert?
+* In welchem Verhältnis stehen die einzelnen Komponenten zueinander?
+* In welchem Verhältnis steht der Datensatz zu anderen im Projekt erhobenen oder genutzten Datensätzen?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <th class ="section" colspan="6">training/storage-and-long-term-preservation</th>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/storage-and-long-term-preservation/long-term-preservation-datasets</th>
+        </tr>
+        <tr>
+          <td class="path">training/storage-and-long-term-preservation/long-term-preservation-datasets/repository</td>
+          <td class="question">Wo werden die Daten (einschließlich Metadaten, Dokumentation und ggf. relevantem Code bzw. relevanter Software) nach Projektende gespeichert bzw. archiviert?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">training/data-usage/data-sharing-and-re-use-interoperability</th>
+        </tr>
+        <tr>
+          <td class="path">training/data-usage/data-sharing-and-re-use-interoperability/abstract</td>
+          <td class="question">Bestehen generell Einschränkungen bei dem Zugriff und der Nachnutzung der Daten (rechtliche Gründe, Schutzrechte, Betriebsgeheimnisse etc)?</td>
+          <td class="help"></td>
+        </tr>

@@ -1,36 +1,4 @@
-<!DOCTYPE html>
-<html lang="de">
-  <head>
-    <meta charset="utf-8">
-    <title>UA Ruhr-Archive Catalog</title>
-    <link rel="stylesheet" href="../css/catalog_style.css" />
-    <link rel="stylesheet" href="../css/header-search.css" />
-    <link rel="stylesheet" href="../css/sidebar-left.css" />
-  </head>
-  <body>
-    <header class="header-search">
-    	<div class="header-limiter">
-    	</div>
-    </header>
-
-    <aside class="sidebar-left">
-  		<div class="sidebar-links">
-        <nav>
-          <a href="../index.html">Home</a>
-          <a href="index.html">Catalogs</a>
-          <a href="../questions/ua_changes.html">Differences</a>
-          <a href="#">Contact</a>
-    		</nav>
-  		</div>
-  	</aside>
-    <H1>UA Ruhr-Archive Catalog v1.0.0</H1>
-    view it on  <a href="https://github.com/FDM-UARuhr/rdmo-catalog-uaruhr/blob/v1.0.0/rdmorganiser/questions/archive.xml" target="_blank">Github</a>
-    <table class="wrapped">
-      <tbody>
         <tr>
-          <th class="headline">Path</th>
-          <th class="header headline">Frage</th>
-          <th class="header headline">Hilfstext</th>
         </tr>
         <tr>
           <th class ="section" colspan="6">archive/general</th>
@@ -44,17 +12,7 @@
           <td class="help"></td>
         </tr>
         <tr>
-          <td class="path">archive/general/topic-research_question/title</td>
-          <td class="question">What is the main research question of the project?</td>
-          <td class="help"></td>
-        </tr>
-        <tr>
           <th class ="questionset" colspan="6">archive/general/topic-research_field</th>
-        </tr>
-        <tr>
-          <td class="path">archive/general/topic-research_field/name</td>
-          <td class="question">Which persons or institutions are responsible for the project coordination?</td>
-          <td class="help"></td>
         </tr>
         <tr>
           <td class="path">archive/general/topic-research_field/research_field</td>
@@ -67,12 +25,12 @@
         <tr>
           <td class="path">archive/general/project-partners-partner/contact</td>
           <td class="question">Who is/are the contact person(s) for data management questions?</td>
-          <td class="help">Please give the name and an email address.</td>
+          <td class="help">Please give the name and an e-mail address.</td>
         </tr>
         <tr>
           <td class="path">archive/general/project-partners-partner/name</td>
           <td class="question">Project partner</td>
-          <td class="help"></td>
+          <td class="help">Please insert the name of project partner in detail.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">archive/general/funding-funder</th>
@@ -92,11 +50,12 @@
           <td class="path">archive/content-classification/data-dataset/description</td>
           <td class="question">What kind of dataset is it?</td>
           <td class="help">Please briefly describe the data type and / or the method used to create or collect the data, for example:
-            <ul>
-              <li>quantitative online survey</li>
-              <li>3D model / digital reconstruction of a stone age settlement</li>
-              <li>software developed within the project</li>
-            </ul></td>
+
+* quantitative online survey
+* 3D model / digital reconstruction of a stone age settlement
+* software developed within the project
+
+Please also explain whether this is a fixed data set stored at a certain point in time or whether it is created dynamically over a certain period of time.</td>
         </tr>
         <tr>
           <th class ="section" colspan="6">archive/technical-classification</th>
@@ -106,12 +65,12 @@
         </tr>
         <tr>
           <td class="path">archive/technical-classification/data-dates/data_collection_end</td>
-          <td class="question">When does data collection or creation end?</td>
+          <td class="question">When does/did data collection or creation end?</td>
           <td class="help"></td>
         </tr>
         <tr>
           <td class="path">archive/technical-classification/data-dates/data_collection_start</td>
-          <td class="question">When does data collection or creation start?</td>
+          <td class="question">When does/did data collection or creation start?</td>
           <td class="help"></td>
         </tr>
         <tr>
@@ -119,13 +78,13 @@
         </tr>
         <tr>
           <td class="path">archive/technical-classification/data-volume/rate</td>
-          <td class="question">How much data is produced per year?</td>
-          <td class="help">Optional. This is only of concern if the data production rate reaches TB scale.</td>
+          <td class="question">How much data are produced per year?</td>
+          <td class="help"></td>
         </tr>
         <tr>
           <td class="path">archive/technical-classification/data-volume/volume</td>
           <td class="question">What is the actual or expected size of the dataset?</td>
-          <td class="help"></td>
+          <td class="help">If large amounts of data are involved, financial resources for the provision of the infrastructure should be considered (see also section "Funding").</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">archive/technical-classification/data-formats</th>
@@ -133,7 +92,7 @@
         <tr>
           <td class="path">archive/technical-classification/data-formats/format</td>
           <td class="question">Which file formats are used?</td>
-          <td class="help">When choosing a data format, one should consider the consequences for collaborative use, long-term preservation as well as re-use. It is advisable to prefer formats that are standardised, open, non-proprietary and well-established in the respective scholarly community. More criteria and detailed explanations can be found e.g. in the <a href="http://www.wissgrid.de/publikationen/Leitfaden_Data-Management-WissGrid.pdf" target="_blank">WissGrid-Leitfaden, pp. 22 f.</a>).</td>
+          <td class="help">When choosing a data format, one should consider the consequences for collaborative use, long-term preservation as well as re-use. It is advisable to prefer formats that are standardised, open, non-proprietary and well-established in the respective scholarly community.		</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">archive/technical-classification/data-tools</th>
@@ -141,19 +100,27 @@
         <tr>
           <td class="path">archive/technical-classification/data-tools/usage_technology</td>
           <td class="question">Which software, processes or technologies are necessary to use the data?</td>
-          <td class="help">To be able to re-use data (e.g. to replicate studies, for meta analysis or to solve new research questions), along with the data the software, equipment and knowledge about special methods to use the data are required .<br />
+          <td class="help">To be able to re-use data (e.g. to replicate studies, for meta analysis or to solve new research questions), along with the data the software, equipment and knowledge about special methods to use the data are required .
 
-          Just as with the formats, the recommendation is: the more standardised, open and established, the better for re-use.</td>
+Just as with the formats, the recommendation is: the more standardised, open and established, the better for re-use.</td>
         </tr>
         <tr>
           <td class="path">archive/technical-classification/data-tools/creation_methods</td>
           <td class="question">Which tools, software, technologies or processes are used to generate or collect the data?</td>
-          <td class="help">This information is necessary to be able to reconstruct the process by which the data was generated. It is also a prerequisite to judge the objectivity, reliability and validity of the dataset.<br />
+          <td class="help">This information is necessary to be able to reconstruct the process by which the data was generated. It is also a prerequisite to judge the objectivity, reliability and validity of the dataset.
 
-          For reproducible data, it is also required to re-generate the data if need be.</td>
+For reproducible data, it is also required to re-generate the data if necessary. Therefore all devices, software, software version and also information about the procedure necessary to be able to recreate the data must be preserved.</td>
         </tr>
         <tr>
           <th class ="section" colspan="6">archive/data-usage</th>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">archive/data-usage/scenarios-usage</th>
+        </tr>
+        <tr>
+          <td class="path">archive/data-usage/scenarios-usage/frequency</td>
+          <td class="question">How often will this dataset be used?</td>
+          <td class="help"></td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">archive/data-usage/data-sharing-and-re-use-publication</th>
@@ -161,12 +128,25 @@
         <tr>
           <td class="path">archive/data-usage/data-sharing-and-re-use-publication/conditions</td>
           <td class="question">If yes, under which terms of use or license will the dataset be published or shared?</td>
-          <td class="help">The options refer to the licenses of the <a href="https://creativecommons.org/share-your-work/licensing-types-examples/" target="_blank">Creative Commons family</a>.</td>
+          <td class="help">The options refer to the licenses of the <a href="https://creativecommons.org/licenses/?lang=en" target="_blank">Creative Commons family</a>.</td>
+        </tr>
+        <tr>
+          <td class="path">archive/data-usage/data-sharing-and-re-use-publication/repository</td>
+          <td class="question">If yes, where should the data be published?</td>
+          <td class="help">Please provide information about the database/repository.</td>
         </tr>
         <tr>
           <td class="path">archive/data-usage/data-sharing-and-re-use-publication/yesno</td>
           <td class="question">Will this dataset be published or shared?</td>
           <td class="help"></td>
+        </tr>
+        <tr>
+          <th class ="questionset" colspan="6">archive/data-usage/costs-dataset</th>
+        </tr>
+        <tr>
+          <td class="path">archive/data-usage/costs-dataset/storage_non_personnel</td>
+          <td class="question">What is the amount of non-personnel costs associated with the storage of the data sets during the project?</td>
+          <td class="help">Please estimate the costs in **Euro**.</td>
         </tr>
         <tr>
           <th class ="section" colspan="6">archive/metadata-and-referencing</th>
@@ -199,7 +179,10 @@
         </tr>
         <tr>
           <td class="path">archive/metadata-and-referencing/structure-granularity-and-referencing-structure/structure</td>
-          <td class="question">What is the structure of the data? How are the individual components of the dataset related to each other? How is the dataset related to other datasets used in the project?</td>
+          <td class="question">Please briefly explain the structure and relationship of their data to each other.
+* What is the structure of the data?
+* How are the individual components of the dataset related to each other?
+* How is the dataset related to other datasets used in the project?</td>
           <td class="help"></td>
         </tr>
         <tr>
@@ -224,28 +207,25 @@
         <tr>
           <td class="path">archive/legal-and-ethics/sensitive-data-personal_data_yesno/yesno</td>
           <td class="question">Does this dataset contain personal data?</td>
-          <td class="help">The handling and processing of <b>personal data</b> is regulated by law. The uniform application throughout the EU is based on the <a href="http://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679">EU General Data Protection Regulation (GDPR)</a>. It allows for regulatory leeway at national level.
-            <br />
-          In Germany, this is regulated by the <a href="http://www.gesetze-im-internet.de/bdsg_2018/">Federal Data Protection Act (BDSG)</a>, and for universities, the individual data protection laws of the individual federal states apply, e.g. the <a href="https://recht.nrw.de/lmi/owa/br_text_anzeigen?v_id=3520071121100436275">data protection law of North Rhine-Westphalia (DSG NRW)</a>.
-            <br />
-          The european GDPR defines personal data as all information relating to an identified or identifiable natural person (Art. 4(1) GPDR).
-            <br />
-          A person is <b>identified</b> if it is clearly identifiable to whom the data belongs.
-            <br />
-          A person becomes <b>identifiable</b> if it can be identified by means of additional information.
-            <br />
-          More information (in German only) can be found on the websites of the data protection officers of the UA Ruhr.
-            <ul>
-              <li><a href="https://dsb.ruhr-uni-bochum.de/">Ruhr-University Bochum</a></li>
-              <li><a href="https://www.uni-due.de/verwaltung/organisation/just_datenschutz.php">University Duisburg-Essen</a></li>
-              <li><a href="https://www.tu-dortmund.de/universitaet/organisation/beauftragte-vertrauenspersonen/#accordion-2213-764">TU Dortmund University</a></li>
-            </ul></td>
+          <td class="help">If yes: Please also check whether you have completed the sections "Data usage" and "Data storage and security" with the appropriate measures to protect the data in accordance with the applicable data protection laws. European Data Protection Law may apply.</td>
         </tr>
         <tr>
           <th class ="section" colspan="6">archive/storage-and-long-term-preservation</th>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">archive/storage-and-long-term-preservation/long-term-preservation-datasets</th>
+        </tr>
+        <tr>
+          <td class="path">archive/storage-and-long-term-preservation/long-term-preservation-datasets/responsible_person_email</td>
+          <td class="question">Please provide the email address of the permanent contact person named above.</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <td class="path">archive/storage-and-long-term-preservation/long-term-preservation-datasets/responsible_person_name</td>
+          <td class="question">Who is the long-term contact person who can make decisions about the data? Please specify the name.</td>
+          <td class="help">Examples of these decisions include data access and authorization, the optimization of storage space after a certain retention period, or the transfer of authority to a new contact person.
+
+Such decisions are necessary, for example, in the event of a loss of access data, a new access request or the departure of the previous contact person.</td>
         </tr>
         <tr>
           <td class="path">archive/storage-and-long-term-preservation/long-term-preservation-datasets/access_authentication</td>
@@ -257,7 +237,3 @@
           <td class="question">How long will the data be stored?</td>
           <td class="help"></td>
         </tr>
-      </tbody>
-    </table>
-  </body>
-</html>

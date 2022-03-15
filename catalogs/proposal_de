@@ -1,36 +1,4 @@
-<!DOCTYPE html>
-<html lang="de">
-  <head>
-    <meta charset="utf-8">
-    <title>UA Ruhr-Antragsstellung Katalog</title>
-    <link rel="stylesheet" href="../css/catalog_style.css" />
-    <link rel="stylesheet" href="../css/header-search.css" />
-    <link rel="stylesheet" href="../css/sidebar-left.css" />
-  </head>
-  <body>
-    <header class="header-search">
-    	<div class="header-limiter">
-    	</div>
-    </header>
-
-    <aside class="sidebar-left">
-  		<div class="sidebar-links">
-        <nav>
-          <a href="../index.html">Home</a>
-          <a href="index.html">Catalogs</a>
-          <a href="../questions/ua_changes.html">Differences</a>
-          <a href="#">Contact</a>
-    		</nav>
-  		</div>
-  	</aside>
-    <H1>UA Ruhr-Antragsstellung Katalog v1.0.0</H1>
-    view it on  <a href="https://github.com/FDM-UARuhr/rdmo-catalog-uaruhr/blob/v1.0.0/rdmorganiser/questions/proposal.xml" target="_blank">Github</a>
-    <table class="wrapped">
-      <tbody>
         <tr>
-          <th class="headline">Path</th>
-          <th class="header headline">Frage</th>
-          <th class="header headline">Hilfstext</th>
         </tr>
         <tr>
           <th class ="section" colspan="6">proposal/general</th>
@@ -46,15 +14,10 @@
         <tr>
           <td class="path">proposal/general/topic-research_question/title</td>
           <td class="question">Wie lautet die primäre Forschungsfrage des Projektes?</td>
-          <td class="help"></td>
+          <td class="help">Bitte beschreiben Sie kurz das Projekt und dessen Ziele.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">proposal/general/topic-research_field</th>
-        </tr>
-        <tr>
-          <td class="path">proposal/general/topic-research_field/name</td>
-          <td class="question">Welche Personen oder Institutionen sind verantwortlich für die Projektkoordination?</td>
-          <td class="help"></td>
         </tr>
         <tr>
           <td class="path">proposal/general/topic-research_field/research_field</td>
@@ -67,20 +30,25 @@
         <tr>
           <td class="path">proposal/general/project-partners-partner/contact</td>
           <td class="question">Wer ist bei diesem Partner der/die Ansprechpartner/in für das Datenmanagement?</td>
-          <td class="help">Bitte geben Sie den Namen und eine Email Adresse an.</td>
+          <td class="help">Bitte geben Sie den Namen und eine E-Mail-Adresse an.</td>
         </tr>
         <tr>
           <td class="path">proposal/general/project-partners-partner/rdm_policy</td>
           <td class="question">Gibt es an Ihrer Einrichtung Regeln oder Richtlinien zum Umgang mit den im Projekt erhobenen Forschungsdaten? Wenn ja, skizzieren Sie diese kurz und verweisen Sie ggf. auf weiterführende Informationen. Geben Sie bitte auch an, welchen Grad an Verbindlichkeit sie haben.</td>
-          <td class="help">Immer mehr Hochschulen und wissenschaftliche Einrichtungen verabschieden Leitlinien oder Richtlinien (oft auch als „Policies“ bezeichnet) zum Forschungsdatenmanagement. Diese enthalten unter anderem Empfehlungen und/oder Vorgaben zum Umgang mit Forschungsdaten, die die Wissenschaftlerinnen und Wissenschaftler der Einrichtung beachten sollten oder müssen (je nach Grad der Verbindlichkeit). Beispiele für solche Richtlinien sind die <a href="https://data.uni-bielefeld.de/de/policy" target="_blank">Grundsätze zu Forschungsdaten</a> der Universität Bielefeld oder die <a href="http://www.uni-goettingen.de/de/01-juli-2014-forschungsdaten-leitlinie-der-universitaet-goettingen-einschl-umg/488918.html" target="_blank">Leitlinien zum Umgang mit Forschungsdaten</a> der Georg-August-Universität Göttingen.</td>
+          <td class="help">Immer mehr Hochschulen und wissenschaftliche Einrichtungen verabschieden Leitlinien oder Richtlinien (oft auch als "Policies" bezeichnet) zum Forschungsdatenmanagement. Diese enthalten unter anderem Empfehlungen und/oder Vorgaben zum Umgang mit Forschungsdaten, die die Wissenschaftlerinnen und Wissenschaftler der Einrichtung beachten sollten oder müssen (je nach Grad der Verbindlichkeit), zum Beispiel die <a href="http://www.uni-goettingen.de/de/01-juli-2014-forschungsdaten-leitlinie-der-universitaet-goettingen-einschl-umg/488918.html" target="_blank">Leitlinien zum Umgang mit Forschungsdaten</a> der Georg-August-Universität Göttingen.</td>
         </tr>
         <tr>
           <td class="path">proposal/general/project-partners-partner/name</td>
           <td class="question">Projektpartner</td>
-          <td class="help"></td>
+          <td class="help">Bitte geben Sie hier den ausführlichen Namen des Projektpartners an.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">proposal/general/funding-funder</th>
+        </tr>
+        <tr>
+          <td class="path">proposal/general/funding-funder/funder_policy</td>
+          <td class="question">Gibt es von Seiten des Forschungsförderers Vorgaben oder Richtlinien bezüglich des Umgangs mit den im Projekt erhobenen Forschungsdaten? Wenn ja, skizzieren Sie diese kurz und verweisen Sie ggf. auf weiterführende Informationen. Geben Sie bitte auch an, welchen Grad an Verbindlichkeit sie haben.</td>
+          <td class="help">Auch Forschungsförderer stellen zunehmend Anforderungen an das Datenmanagement in von ihnen geförderten Projekten. Beispiele sind die <a href="https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/leitlinien_forschungsdaten.pdf" target="_blank">DFG-Leitlinien zum Umgang mit Forschungsdaten</a> oder die <a href="http://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf" target="_blank">Guidelines on Data Management in Horizon 2020</a> der Europäischen Komission. Weitere fachspezifische Empfehlungen und Richtlinien zum Umgang mit Forschungsdaten werden beispielsweise von der <a href="https://www.dfg.de/foerderung/antrag_gutachter_gremien/antragstellende/nachnutzung_forschungsdaten/" target="_blank">Deutschen Forschungsgemeinschaft (DFG)</a> bereitgestellt.</td>
         </tr>
         <tr>
           <td class="path">proposal/general/funding-funder/title</td>
@@ -99,15 +67,14 @@
           <td class="path">proposal/general/other-requirements-yesno/yesno</td>
           <td class="question">Gibt es von weiteren Seiten (z. B. von der Fachcommunity) Anforderungen an das Datenmanagement, die beachtet werden müssen?</td>
           <td class="help">Beispiele für fachspezifische Empfehlungen und Richtlinien sind:
-            <ul>
-              <li><a href="http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf" target="_blank">Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung</a></li>
-              <li>Empfehlungen zur <a href="http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_bildungsforschung.pdf" target="_blank">Bereitstellung und Nutzung quantitativer Daten in der Bildungsforschung</a></li>
-              <li><a href="http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf" target="_blank">Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft</a></li>
-              <li> Empfehlungen zu: <ul>
-                <li><a href="http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_sprachkorpora.pdf" target="_blank">datentechnischen Standards und Tools</a> sowie zu</li>
-                <li><a href="http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_recht.pdf" target="_blank">rechtlichen Fragen</a> bei der Erhebung von Sprachkorpora</li>
-              </ul> </li>
-            </ul></td>
+
+- <a href="https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf" target="_blank">Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung</a>
+- Empfehlungen zur <a href="https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/forschungsdaten_memorandum_fk_109.pdf" target="_blank">Bereitstellung und Nutzung quantitativer Daten in der Bildungsforschung</a>
+- <a href="https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf" target="_blank">Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft</a>
+- Empfehlungen zu <a href="http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_sprachkorpora.pdf" target="_blank">datentechnischen Standards und Tools</a> sowie zu
+- <a href="http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_recht.pdf" target="_blank">rechtlichen Fragen</a> bei der Erhebung von Sprachkorpora.
+
+Weitere fachspezifische Empfehlungen und Richtlinien zum Umgang mit Forschungsdaten werden beispielsweise von der <a href="https://www.dfg.de/foerderung/grundlagen_rahmenbedingungen/forschungsdaten/empfehlungen/index.html" target="_blank">Deutschen Forschungsgemeinschaft (DFG)</a> bereitgestellt.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">proposal/general/other-requirements-requirements</th>
@@ -126,12 +93,13 @@
         <tr>
           <td class="path">proposal/content-classification/data-dataset/description</td>
           <td class="question">Um was für einen Datensatz handelt es sich?</td>
-          <td class="help">Bitte beschreiben Sie hier kurz, um welchen Datentyp es sich handelt und mit welcher Methode die Daten erhoben oder erstellt wurden, z.B.:
-            <ul>
-              <li>quantitative Online-Befragung</li>
-              <li>3D-Modellierung / digitale Rekonstruktion einer steinzeitlichen Siedlung</li>
-              <li>Software, die im Projekt entwickelt wird</li>
-            <ul></td>
+          <td class="help">Bitte beschreiben Sie hier kurz, um welchen Datentyp es sich handelt und mit welcher Methode die Daten erhoben oder erstellt wurden, z. B.:
+
+* quantitative Online-Befragung
+* 3D-Modellierung / digitale Rekonstruktion einer steinzeitlichen Siedlung
+* Software, die im Projekt entwickelt wird
+
+Bitte erläutern Sie ergänzend, ob es sich um einen festen, zu einem bestimmten Zeitpunkt gespeicherten Datensatz handelt oder ob dieser dynamisch also laufend über einen bestimmten Zeitraum entsteht.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">proposal/content-classification/data-existing_data</th>
@@ -152,14 +120,26 @@
           <td class="help"></td>
         </tr>
         <tr>
+          <th class ="questionset" colspan="6">proposal/content-classification/data-reuse</th>
+        </tr>
+        <tr>
+          <td class="path">proposal/content-classification/data-reuse/scenario</td>
+          <td class="question">Für welche Personen, Gruppen oder Institutionen könnte dieser Datensatz (für die Nachnutzung) von Interesse sein? Welche Konsequenzen hat das Nachnutzungspotential später für die Bereitstellung der Daten?</td>
+          <td class="help">Wichtig ist die grundsätzliche Weichenstellung, ob die Daten zur Nachnutzung zugelassen werden oder nicht.
+
+Selbstverständlich kann das Nachnutzungspotential dabei nicht alleiniges Entscheidungskriterium sein, sondern rechtliche Hinderungsgründe, wie z.B. Datenschutz, Urheberrecht und die Wahrung von Geschäftsgeheimnissen, müssen berücksichtigt werden.
+
+Wägen Sie ansonsten das Nachnutzungspotential gegen die Nachteile ab, beispielsweise gegen ein Absinken der Teilnahmebereitschaft und den zu erwartenden Mehraufwand einer Datenveröffentlichung.</td>
+        </tr>
+        <tr>
           <th class ="questionset" colspan="6">proposal/content-classification/data-reproducibility</th>
         </tr>
         <tr>
           <td class="path">proposal/content-classification/data-reproducibility/reproducibility</td>
-          <td class="question">Ist der Datensatz reproduzierbar, d. h. ließe sich er sich, wenn er verloren ginge, erneut erstellen oder erheben?</td>
-          <td class="help">Manche Daten können im Prinzip jederzeit neu erstellt werden. Beispiele hierfür sind etwa naturwissenschaftliche Experimentdaten oder auch Digitalisate analoger Objekte (solange die Originale nicht verlorengehen). Der Aufwand und die Kosten hierfür können natürlich durchaus beträchtlich sein. Im Hinblick auf die Frage der Notwendigkeit einer späteren Langzeitarchivierung sollte in diesen Fällen der Aufwand einer erneuten Erstellung gegen den Aufwand der Langzeitarchivierung abgewogen werden.<br />
+          <td class="question">Ist der Datensatz reproduzierbar, d. h. ließe er sich, wenn er verloren ginge, erneut erstellen oder erheben?</td>
+          <td class="help">Manche Daten können im Prinzip jederzeit neu erstellt werden. Beispiele hierfür sind etwa naturwissenschaftliche Experimentdaten oder auch Digitalisate analoger Objekte (solange die Originale nicht verlorengehen). Der Aufwand und die Kosten hierfür können natürlich durchaus beträchtlich sein. Im Hinblick auf die Frage der Notwendigkeit einer späteren Langzeitarchivierung sollte in diesen Fällen der Aufwand einer erneuten Erstellung gegen den Aufwand der Langzeitarchivierung abgewogen werden.
 
-          Andere Daten wiederum lassen sich per se nicht erneut erheben. Dies ist etwa bei jeglicher Art von episodischer Beobachtungen, sei es sozialwissenschaftlicher oder naturwissenschaftlicher Art, der Fall, da diese ein bestimmtes Phänomen an einem bestimmten Zeitpunkt und/oder Ort abbilden und somit i.d.R. nicht wiederholbar sind. Ihr Wert für die Nachnutzung durch andere wie auch der Verlust bei einer nicht erfolgten oder misslungenen Langzeitarchivierung ist ungleich höher als bei reproduzierbaren Daten.</td>
+Andere Daten wiederum lassen sich per se nicht erneut erheben. Dies ist etwa bei jeglicher Art von episodischer Beobachtungen, sei es sozialwissenschaftlicher oder naturwissenschaftlicher Art, der Fall, da diese ein bestimmtes Phänomen an einem bestimmten Zeitpunkt und/oder Ort abbilden und somit i.d.R. nicht wiederholbar sind. Ihr Wert für die Nachnutzung durch andere wie auch der Verlust bei einer nicht erfolgten oder misslungenen Langzeitarchivierung ist ungleich höher als bei reproduzierbaren Daten.</td>
         </tr>
         <tr>
           <th class ="section" colspan="6">proposal/technical-classification</th>
@@ -169,12 +149,12 @@
         </tr>
         <tr>
           <td class="path">proposal/technical-classification/data-dates/data_collection_end</td>
-          <td class="question">Wann endet die Erhebung bzw. Erstellung der Daten?</td>
+          <td class="question">Wann endet/endete die Erhebung bzw. Erstellung der Daten?</td>
           <td class="help"></td>
         </tr>
         <tr>
           <td class="path">proposal/technical-classification/data-dates/data_collection_start</td>
-          <td class="question">Wann beginnt die Erhebung bzw. Erstellung der Daten?</td>
+          <td class="question">Wann beginnt/begann die Erhebung bzw. Erstellung der Daten?</td>
           <td class="help"></td>
         </tr>
         <tr>
@@ -183,12 +163,12 @@
         <tr>
           <td class="path">proposal/technical-classification/data-volume/rate</td>
           <td class="question">Wie hoch ist die erwartete Erzeugungsrate der Daten pro Jahr?</td>
-          <td class="help">Optional. Dies ist nur relevant, wenn das Wachstum die TB-Größenordnung erreicht.</td>
+          <td class="help"></td>
         </tr>
         <tr>
           <td class="path">proposal/technical-classification/data-volume/volume</td>
           <td class="question">Was ist die tatsächliche oder erwartete Größe des Datensatzes?</td>
-          <td class="help"></td>
+          <td class="help">Wenn große Datenmengen anfallen, sollten finanzielle Mittel zur Bereitstellung der Infrastruktur berücksichtigt werden (siehe auch Abschnitt „Förderung“).</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">proposal/technical-classification/data-formats</th>
@@ -196,7 +176,7 @@
         <tr>
           <td class="path">proposal/technical-classification/data-formats/format</td>
           <td class="question">In welchen Formaten liegen die Daten vor?</td>
-          <td class="help">Bei der Wahl des Dateiformates sollten auch die Konsequenzen für die kollaborative Nutzung, die Langzeitarchivierung sowie die Nachnutzung beachtet werden. Es empfiehlt sich, möglichst standardisierte, nicht-proprietäre und allgemein bzw. in der spezifischen Community verbreitete Formate zu nutzen. Weitere Kriterien sowie detaillierte Erläuterungen sind z.B. im <a href="http://www.wissgrid.de/publikationen/Leitfaden_Data-Management-WissGrid.pdf" target="_blank">WissGrid-Leitfaden, S. 22 f.</a>) zu finden.</td>
+          <td class="help">Bei der Wahl des Dateiformates sollten auch die Konsequenzen für die kollaborative Nutzung, die Langzeitarchivierung sowie die Nachnutzung beachtet werden. Es empfiehlt sich, möglichst standardisierte, nicht-proprietäre und allgemein bzw. in der spezifischen Community verbreitete Formate zu nutzen. Weitere Kriterien sowie detaillierte Erläuterungen sind z. B. im <a href="https://www.forschungsdaten.org/images/b/b0/Leitfaden_Data-Management-WissGrid.pdf" target="_blank">WissGrid-Leitfaden, S. 22 f.</a> zu finden.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">proposal/technical-classification/data-tools</th>
@@ -209,14 +189,16 @@
         <tr>
           <td class="path">proposal/technical-classification/data-tools/usage_technology</td>
           <td class="question">Welche Software, Verfahren oder Technologien sind notwendig, um die Daten zu nutzen?</td>
-          <td class="help">Um Daten nachnutzen zu können, bspw. für die Replikation von Studien, Metaanalysen oder die Beantwortung neuer Forschungsfragen, werden neben den Daten selbst auch die Software, Geräte etc. und das Wissen über spezielle Verfahren zur Nutzung benötigt.<br />
+          <td class="help">Um Daten nachnutzen zu können, bspw. für die Replikation von Studien, Metaanalysen oder die Beantwortung neuer Forschungsfragen, werden neben den Daten selbst auch die Software, Geräte etc. und das Wissen über spezielle Verfahren zur Nutzung benötigt.
 
-          Ebenso wie bei den Formaten gilt hier: je standardisierter, offener und etablierter diese sind, desto einfacher ist i.d.R. eine Nachnutzung möglich.</td>
+Ebenso wie bei den Formaten gilt hier: je standardisierter, offener und etablierter diese sind, desto einfacher ist i.d.R. eine Nachnutzung möglich.</td>
         </tr>
         <tr>
           <td class="path">proposal/technical-classification/data-tools/creation_methods</td>
           <td class="question">Welche Instrumente, Software, Technologien oder Verfahren werden zur Erzeugung oder Erfassung der Daten genutzt?</td>
-          <td class="help">Diese Informationen sind für alle Arten von Daten relevant, um ihre Genese nachvollziehen zu können. Bei reproduzierbaren Daten kommt ein weiterer Aspekt hinzu. Diese müssen nicht notwendigerweise aufbewahrt werden - allerdings müssen alle Geräte, Software und auch Informationen über die Vorgehensweise erhalten bleiben, die notwendig sind, um die Daten erneut erstellen zu können.</td>
+          <td class="help">Diese Informationen sind für alle Arten von Daten relevant, um ihre Genese nachvollziehen zu können.
+
+Bei reproduzierbaren Daten kommt ein weiterer Aspekt hinzu. Diese müssen nicht notwendigerweise aufbewahrt werden - allerdings müssen alle Geräte, Software, Softwareversion und auch Informationen über die Vorgehensweise erhalten bleiben, die notwendig sind, um die Daten erneut erstellen zu können.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">proposal/technical-classification/data-versioning</th>
@@ -229,7 +211,7 @@
         <tr>
           <td class="path">proposal/technical-classification/data-versioning/strategy</td>
           <td class="question">Welche Versionierungsstrategie wird für diesen Datensatz angewandt?</td>
-          <td class="help">Bitte beschreiben Sie hier kurz projektinterne Regelungen zur Versionierung von Datensätzen (z.B.: Welche Änderungen machen eine neue Version erforderlich? Wie werden die Änderungen dokumentiert? Wie werden die verschiedenen Versionen benannt?)</td>
+          <td class="help">Bitte beschreiben Sie hier kurz projektinterne Regelungen zur Versionierung von Datensätzen. (z. B.: Welche Änderungen machen eine neue Version erforderlich? Wie werden die Änderungen dokumentiert? Wie werden die verschiedenen Versionen benannt?)</td>
         </tr>
         <tr>
           <td class="path">proposal/technical-classification/data-versioning/yesno</td>
@@ -245,6 +227,11 @@
         <tr>
           <td class="path">proposal/data-usage/scenarios-usage/infrastructure</td>
           <td class="question">In welchem Umfang werden Infrastrukturressourcen benötigt (CPU-Stunden, Bandbreite, Speicherplatz etc.)?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <td class="path">proposal/data-usage/scenarios-usage/description</td>
+          <td class="question">Wozu / wie wird dieser Datensatz während des Projektes genutzt?</td>
           <td class="help"></td>
         </tr>
         <tr>
@@ -286,14 +273,14 @@
         <tr>
           <td class="path">proposal/data-usage/data-storage-and-security-data_security/access_permissions</td>
           <td class="question">Wer darf auf den Datensatz zugreifen?</td>
-          <td class="help"></td>
+          <td class="help">z. B. Projektmitglieder, Projektpartner, nur Interne, externe Partner</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">proposal/data-usage/data-sharing-and-re-use-interoperability</th>
         </tr>
         <tr>
           <td class="path">proposal/data-usage/data-sharing-and-re-use-interoperability/interoperability</td>
-          <td class="question">Ist der Datensatz interoperabel, d.h. geeignet für den Datenaustausch und die Nachnutzung zwischen bzw. von unterschiedlichen Forschenden, Institutionen, Organisationen und Ländern?</td>
+          <td class="question">Ist der Datensatz interoperabel, d. h. geeignet für den Datenaustausch und die Nachnutzung zwischen bzw. von unterschiedlichen Forschenden, Institutionen, Organisationen und Ländern?</td>
           <td class="help"></td>
         </tr>
         <tr>
@@ -305,6 +292,11 @@
           <td class="help"></td>
         </tr>
         <tr>
+          <td class="path">proposal/data-usage/data-sharing-and-re-use-publication/conditions</td>
+          <td class="question">Wenn ja, unter welchen Nutzungsbedingungen oder welcher Lizenz sollen die Daten veröffentlicht bzw. geteilt werden?</td>
+          <td class="help">Die Auswahlmöglichkeiten orientieren sich an Lizenzen der <a href="https://creativecommons.org/licenses/?lang=de" target="_blank">Creative-Commons-Familie</a>.</td>
+        </tr>
+        <tr>
           <td class="path">proposal/data-usage/data-sharing-and-re-use-publication/yesno</td>
           <td class="question">Soll dieser Datensatz veröffentlicht oder geteilt werden?</td>
           <td class="help"></td>
@@ -314,7 +306,7 @@
         </tr>
         <tr>
           <td class="path">proposal/data-usage/collaborative-work-collaboration/organisation</td>
-          <td class="question">Wie ist das kollaborative Arbeiten an den selben Dateien geregelt?</td>
+          <td class="question">Wie ist das kollaborative Arbeiten an denselben Dateien geregelt?</td>
           <td class="help"></td>
         </tr>
         <tr>
@@ -333,7 +325,7 @@
         <tr>
           <td class="path">proposal/data-usage/quality-assurance-dataset/measures</td>
           <td class="question">Welche Maßnahmen zur Qualitätssicherung werden für diesen Datensatz ergriffen?</td>
-          <td class="help"></td>
+          <td class="help">Beispiele sind Überprüfung auf Vollständigkeit, Datenabgleich, Stichprobenverfahren. Diese Maßnahmen dienen dazu Dokumentationsfehler und rechnerische Auffälligkeiten zu ermitteln.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">proposal/data-usage/quality-assurance-integration</th>
@@ -341,7 +333,7 @@
         <tr>
           <td class="path">proposal/data-usage/quality-assurance-integration/integration</td>
           <td class="question">Wird die Integration zwischen nachgenutzten und erzeugten Daten gewährleistet? Wenn ja, wie?</td>
-          <td class="help"></td>
+          <td class="help">Wie wird z. B. Herkunft und Qualität der Daten dokumentiert?</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">proposal/data-usage/costs-dataset</th>
@@ -349,32 +341,32 @@
         <tr>
           <td class="path">proposal/data-usage/costs-dataset/storage_non_personnel</td>
           <td class="question">Welche Sachkosten entstehen im Zusammenhang mit der Speicherung der Datensätze während des Projektes?</td>
-          <td class="help">Bitte schätzen sie die Kosten in <b>Euro</b>.</td>
+          <td class="help">Bitte schätzen Sie die Kosten in **Euro**.</td>
         </tr>
         <tr>
           <td class="path">proposal/data-usage/costs-dataset/storage_personnel</td>
           <td class="question">Welcher Personalaufwand entsteht im Zusammenhang mit der Speicherung der Daten und Maßnahmen zur Datensicherheit während des Projektes?</td>
-          <td class="help">Bitte schätzen sie den Aufwand in Personenmonaten.</td>
+          <td class="help">Bitte schätzen Sie den Aufwand in Personenmonaten. (1 PM = Monatsarbeitszeit eines Vollzeitbeschäftigten).</td>
         </tr>
         <tr>
           <td class="path">proposal/data-usage/costs-dataset/usage_non_personnel</td>
           <td class="question">Welche Sachkosten für das Datenmanagement entstehen im Zusammenhang mit der Nutzung der Daten im Projekt?</td>
-          <td class="help">Bitte schätzen sie die Kosten in <b>Euro</b>.</td>
+          <td class="help">Bitte schätzen Sie die Kosten in **Euro**.</td>
         </tr>
         <tr>
           <td class="path">proposal/data-usage/costs-dataset/usage_personnel</td>
           <td class="question">Welcher Personalaufwand für das Datenmanagement entsteht im Zusammenhang mit der Nutzung der Daten im Projekt?</td>
-          <td class="help">Bitte schätzen sie den Aufwand in Personenmonaten.</td>
+          <td class="help">Bitte schätzen Sie den Aufwand in Personenmonaten. (1 PM = Monatsarbeitszeit eines Vollzeitbeschäftigten).</td>
         </tr>
         <tr>
           <td class="path">proposal/data-usage/costs-dataset/creation_non_personnel</td>
           <td class="question">Welche Sachkosten für das Datenmanagement entstehen im Rahmen der Erhebung, Erstellung oder Akquise der Daten im Projekt?</td>
-          <td class="help">Bitte schätzen sie die Kosten in <b>Euro</b>.</td>
+          <td class="help">Bitte schätzen Sie die Kosten in **Euro**.</td>
         </tr>
         <tr>
           <td class="path">proposal/data-usage/costs-dataset/creation_personnel</td>
           <td class="question">Welcher Personalaufwand für das Datenmanagement entsteht im Rahmen der Erhebung, Erstellung oder Akquise der Daten im Projekt?</td>
-          <td class="help">Bitte schätzen sie den Aufwand in Personenmonaten.</td>
+          <td class="help">Bitte schätzen Sie den Aufwand in Personenmonaten (1 PM = Monatsarbeitszeit eines Vollzeitbeschäftigten).</td>
         </tr>
         <tr>
           <th class ="section" colspan="6">proposal/metadata-and-referencing</th>
@@ -386,6 +378,26 @@
           <td class="path">proposal/metadata-and-referencing/metadata-dataset/responsible_person</td>
           <td class="question">Wer ist verantwortlich für die Dokumentation und Prüfung der Metadaten und Kontextinformationen auf Richtigkeit und Vollständigkeit?</td>
           <td class="help"></td>
+        </tr>
+        <tr>
+          <td class="path">proposal/metadata-and-referencing/metadata-dataset/creation_manual</td>
+          <td class="question">Welche Metadaten werden manuell erhoben?</td>
+          <td class="help">Dafür bietet sich ein Metadateneditor an.</td>
+        </tr>
+        <tr>
+          <td class="path">proposal/metadata-and-referencing/metadata-dataset/creation_semi_automatic</td>
+          <td class="question">Welche Metadaten werden semi-automatisch erhoben?</td>
+          <td class="help">Welche Metadaten werden also durch den Computer / die Software automatisch erhoben, müssen aber überprüft werden?</td>
+        </tr>
+        <tr>
+          <td class="path">proposal/metadata-and-referencing/metadata-dataset/creation_automatic</td>
+          <td class="question">Welche Metadaten werden automatisch erhoben?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <td class="path">proposal/metadata-and-referencing/metadata-dataset/mappings</td>
+          <td class="question">Sollte es unvermeidbar sein, projektspezifische oder seltene Ontologien, Metadatenschemata oder Vokabulare zu nutzen, werden Mappings zu gängigen Ontologien etc. erstellt?</td>
+          <td class="help">Diese Information wird für einen Horizon 2020 Datenmanagementplan benötigt.</td>
         </tr>
         <tr>
           <td class="path">proposal/metadata-and-referencing/metadata-dataset/standards</td>
@@ -403,19 +415,23 @@
         <tr>
           <td class="path">proposal/metadata-and-referencing/metadata-costs/non_personnel</td>
           <td class="question">Welche Sachkosten entstehen im Zusammenhang mit der Erstellung von Metadaten und Kontextinformation im Projekt?</td>
-          <td class="help">Bitte schätzen sie die Kosten in <b>Euro</b>.</td>
+          <td class="help">Bitte schätzen Sie die Kosten in **Euro**.</td>
         </tr>
         <tr>
           <td class="path">proposal/metadata-and-referencing/metadata-costs/personnel</td>
           <td class="question">Welcher Personalaufwand entsteht im Zusammenhang mit der Erstellung von Metadaten und Kontextinformation im Projekt?</td>
-          <td class="help">Bitte schätzen sie den Aufwand in Personenmonaten.</td>
+          <td class="help">Bitte schätzen Sie den Aufwand in Personenmonaten (1 PM = Monatsarbeitszeit eines Vollzeitbeschäftigten).</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">proposal/metadata-and-referencing/structure-granularity-and-referencing-structure</th>
         </tr>
         <tr>
           <td class="path">proposal/metadata-and-referencing/structure-granularity-and-referencing-structure/structure</td>
-          <td class="question">Wie sind die Daten strukturiert? In welchem Verhältnis stehen die einzelnen Komponenten zueinander? In welchem Verhältnis steht der Datensatz zu anderen im Projekt erhobenen oder genutzten Datensätzen?</td>
+          <td class="question">Bitte erläutern Sie kurz die Struktur und den Zusammenhang ihrer Daten untereinander:
+
+* Wie sind die Daten strukturiert?
+* In welchem Verhältnis stehen die einzelnen Komponenten zueinander?
+* In welchem Verhältnis steht der Datensatz zu anderen im Projekt erhobenen oder genutzten Datensätzen?</td>
           <td class="help"></td>
         </tr>
         <tr>
@@ -424,13 +440,13 @@
         <tr>
           <td class="path">proposal/metadata-and-referencing/structure-granularity-and-referencing-pids/name</td>
           <td class="question">Wer ist verantwortlich für die Pflege der PIDs und die Objektpflege (d. h. die Langzeitarchivierung des Objekts und somit dafür, dem PID-Service einen Objektumzug und die neue Adresse mitzuteilen)?</td>
-          <td class="help">Die Voraussetzung dafür, dass persistente Identifikatoren auch wirklich halten, was sie versprechen, ist, dass sie - wie auch die Objekte, auf die referenziert wird - dauerhaft und verlässlich gepflegt werden. D.h. beispielsweise, dass bei einer Änderung des Speicherortes des Objekts die Information über den neuen Speicherort entsprechend aktualisiert werden muss.<br />
+          <td class="help">Die Voraussetzung dafür, dass persistente Identifikatoren auch wirklich halten, was sie versprechen, ist, dass sie - wie auch die Objekte, auf die referenziert wird - dauerhaft und verlässlich gepflegt werden. D. h. beispielsweise, dass bei einer Änderung des Speicherortes des Objekts die Information über den neuen Speicherort entsprechend aktualisiert werden muss.
 
-          Werden die Daten in einem Datenzentrum oder -repositorium gespeichert, wird diese Verantwortung i.d.R. von diesem übernommen. Um sicher zu sein, sollten die Verantwortlichkeiten jedoch in jedem Fall geprüft bzw. geklärt werden.</td>
+Werden die Daten in einem Datenzentrum oder -repositorium gespeichert, wird diese Verantwortung i.d.R. von diesem übernommen. Um sicher zu sein, sollten die Verantwortlichkeiten jedoch in jedem Fall geprüft bzw. geklärt werden.</td>
         </tr>
         <tr>
           <td class="path">proposal/metadata-and-referencing/structure-granularity-and-referencing-pids/subentities</td>
-          <td class="question">Welche Untereinheiten/Teildatensätze sollten sinnvollerweise eigene Identifikatoren erhalten? Welche dieser Identifikatoren sollten dauerhaft und zitierfähig sein?</td>
+          <td class="question">Welche Untereinheiten / Teildatensätze sollten sinnvollerweise eigene Identifikatoren erhalten? Welche dieser Identifikatoren sollten dauerhaft und zitierfähig sein?</td>
           <td class="help"></td>
         </tr>
         <tr>
@@ -449,12 +465,12 @@
         <tr>
           <td class="path">proposal/metadata-and-referencing/structure-granularity-and-referencing-costs/non_personnel</td>
           <td class="question">Welche Sachkosten entstehen im Zusammenhang mit persistenten Identifikatoren im Projekt?</td>
-          <td class="help">Bitte schätzen sie die Kosten in Euro.</td>
+          <td class="help">Bitte schätzen Sie die Kosten in **Euro**.</td>
         </tr>
         <tr>
           <td class="path">proposal/metadata-and-referencing/structure-granularity-and-referencing-costs/personnel</td>
           <td class="question">Welcher Personalaufwand entsteht im Zusammenhang mit der Vergabe von persistenten Identifikatoren im Projekt?</td>
-          <td class="help">Bitte schätzen sie den Aufwand in Personenmonaten.</td>
+          <td class="help">Bitte schätzen Sie den Aufwand in Personenmonaten (1 PM = Monatsarbeitszeit eines Vollzeitbeschäftigten).</td>
         </tr>
         <tr>
           <th class ="section" colspan="6">proposal/legal-and-ethics</th>
@@ -473,20 +489,13 @@
         <tr>
           <td class="path">proposal/legal-and-ethics/sensitive-data-personal_data_yesno/yesno</td>
           <td class="question">Enthält dieser Datensatz personenbezogene Daten?</td>
-          <td class="help">Der Umgang und die Verarbeitung <b>personenbezogener</b> Daten ist gesetzlich geregelt. Die EU-weit einheitliche Anwendung erfolgt nach der <a href="http://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679">EU-Datenschutz-Grundverordnung (DSGVO)</a>. Sie gestattet Regelungsspielräume auf nationaler Ebene. In Deutschland regelt dies das <a href="http://www.gesetze-im-internet.de/bdsg_2018/">Bundesdatenschutzgesetz (BDSG)</a>. Für Hochschulen gelten zum großen Teil die individuellen Datenschutzgesetze der Länder, z.B. das <a href="https://recht.nrw.de/lmi/owa/br_text_anzeigen?v_id=3520071121100436275">Datenschutzgesetz Nordrhein-Westfalen (DSG NRW)</a>.
-            <br />
-          Die europäische DSGVO definiert personenbezogene Daten als alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen (Art. 4 DSGVO, Abs. 1).
-            <br />
-          <b>Identifiziert</b> ist eine Person, wenn eindeutig erkennbar ist, zu welcher Person die Daten gehören.
-            <br />
-          <b>Identifizierbar</b> wird eine Person, wenn sie mittels Zusatzinformationen identifiziert werden kann.
-            <br />
-          Mehr Informationen zum Thema finden Sie auf den Webseiten der Datenschutzbeauftragten der UA Ruhr.
-            <ul>
-              <li><a href="https://dsb.ruhr-uni-bochum.de/">Ruhr-Universität Bochum</a></li>
-              <li><a href="https://www.uni-due.de/verwaltung/organisation/just_datenschutz.php">Universität of Duisburg-Essen</a></li>
-              <li><a href="https://www.tu-dortmund.de/universitaet/organisation/beauftragte-vertrauenspersonen/#accordion-2213-764">Technische Universität Dortmund</a></li>
-            </ul></td>
+          <td class="help">Wenn ja: Bitte prüfen Sie auch, ob Sie die Abschnitte "Datennutzung" und "Datenspeicherung und -sicherheit" mit den entsprechenden Maßnahmen zum Schutz der Daten gemäß den geltenden Datenschutzgesetzen ausgefüllt haben. Der Umgang und die Verarbeitung personenbezogener Daten ist gesetzlich geregelt. Die EU-weit einheitliche Anwendung erfolgt nach der <a href="https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679" target="_blank">EU-Datenschutz-Grundverordnung (DSGVO)</a>. Sie gestattet Regelungsspielräume auf nationaler Ebene. In Deutschland regelt dies das <a href="http://www.gesetze-im-internet.de/bdsg_2018/" target="_blank">Bundesdatenschutzgesetz (BDSG)</a>. Für Hochschulen gelten zum großen Teil die individuellen Datenschutzgesetze der Länder, z. B. das <a href="https://recht.nrw.de/lmi/owa/br_text_anzeigen?v_id=3520071121100436275" target="_blank">Datenschutzgesetz Nordrhein-Westfalen (DSG NRW)</a>. Die europäische DSGVO definiert personenbezogene Daten als alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen (Art. 4 DSGVO, Abs. 1). <b>Identifiziert </b>ist eine Person, wenn eindeutig erkennbar ist, zu welcher Person die Daten gehören. <b>Identifizierbar</b> wird eine Person, wenn sie mittels Zusatzinformationen identifiziert werden kann. Mehr Informationen zum Thema finden Sie auf den Webseiten der Datenschutzbeauftragten der UA Ruhr.
+
+* <a href="https://dsb.ruhr-uni-bochum.de/" target="_blank">Ruhr-Universität Bochum</a>
+
+* <a href="https://www.uni-due.de/verwaltung/organisation/just_datenschutz.php" target="_blank">Universität von Duisburg-Essen</a>
+
+* <a href="https://www.tu-dortmund.de/universitaet/organisation/beauftragte-vertrauenspersonen/#accordion-2213-764" target="_blank">Technische Universität Dortmund</a></td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">proposal/legal-and-ethics/sensitive-data-personal_data</th>
@@ -509,14 +518,10 @@
         <tr>
           <td class="path">proposal/legal-and-ethics/sensitive-data-personal_data/extent</td>
           <td class="question">In welchem Umfang wird die "informierte Einwilligung" der Betroffenen eingeholt?</td>
-          <td class="help">Grundsätzlich gilt, die Erhebung, Verarbeitung, Archivierung und Veröffentlichung personenbezogener Daten ist nur zulässig, wenn eine entsprechende "informierte Einwilligung" der Betroffenen vorliegt. Nur in ganz wenigen Ausnahmefällen wird diese nicht benötigt.
-            <br />
-          Bitte informieren Sie sich ggf. bei der/dem Datenschutzbeauftragten Ihrer Institution über die notwendigen Bedingungen für die Einwilligung.
-          <ul>
-            <li><a href="https://dsb.ruhr-uni-bochum.de/">Ruhr-Universität Bochum</a></li>
-            <li><a href="https://www.uni-due.de/verwaltung/organisation/just_datenschutz.php">Universität of Duisburg-Essen</a></li>
-            <li><a href="https://www.tu-dortmund.de/universitaet/organisation/beauftragte-vertrauenspersonen/#accordion-2213-764">Technische Universität Dortmund</a></li>
-          </ul></td>
+          <td class="help">Grundsätzlich gilt, dass eine Erhebung, Verarbeitung, Archivierung und Veröffentlichung personenbezogener Daten nur zulässig ist, wenn eine entsprechende "informierte Einwilligung" der Betroffenen vorliegt. Nur in ganz wenigen Ausnahmefällen wird diese nicht benötigt. Bitte informieren Sie sich ggf. bei der/dem Datenschutzbeauftragten Ihrer Institution über die notwendigen Bedingungen für die Einwilligung.
+* <a href="https://dsb.ruhr-uni-bochum.de/" target="_blank">Ruhr-Universität Bochum</a>
+* <a href="https://www.uni-due.de/verwaltung/organisation/just_datenschutz.php" target="_blank">Universität von Duisburg-Essen</a>
+* <a href="https://www.tu-dortmund.de/universitaet/organisation/beauftragte-vertrauenspersonen/#accordion-2213-764" target="_blank">Technische Unversität Dortmund</a></td>
         </tr>
         <tr>
           <td class="path">proposal/legal-and-ethics/sensitive-data-personal_data/anonymization</td>
@@ -532,11 +537,6 @@
           <td class="help"></td>
         </tr>
         <tr>
-          <td class="path">proposal/legal-and-ethics/sensitive-data-other/funder_policy</td>
-          <td class="question">Gibt es von Seiten des Forschungsförderers Vorgaben oder Richtlinien bezüglich des Umgangs mit den im Projekt erhobenen Forschungsdaten? Wenn ja, skizzieren Sie diese kurz und verweisen Sie ggf. auf weiterführende Informationen. Geben Sie bitte auch an, welchen Grad an Verbindlichkeit sie haben.</td>
-          <td class="help">Auch Forschungsförderer stellen zunehmend Anforderungen an das Datenmanagement in von ihnen geförderten Projekten. Beispiele sind die <a href="http://www.dfg.de/foerderung/antragstellung_begutachtung_entscheidung/antragstellende/antragstellung/nachnutzung_forschungsdaten/" target="_blank">DFG-Leitlinien zum Umgang mit Forschungsdaten</a> oder die <a href="http://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf" target="_blank">Guidelines on Data Management in Horizon 2020</a> der Europäischen Komission.</td>
-        </tr>
-        <tr>
           <td class="path">proposal/legal-and-ethics/sensitive-data-other/yesno</td>
           <td class="question">Enthält dieser Datensatz nicht-personenbezogene sensible Daten?</td>
           <td class="help">Beispiele hierfür sind etwa Daten, die Betriebs- oder Geschäftsgeheimnisse oder Ortsangaben zu bedrohten Tier- oder Pflanzenarten enthalten.</td>
@@ -546,23 +546,23 @@
         </tr>
         <tr>
           <td class="path">proposal/legal-and-ethics/sensitive-data-costs/security_non_personnel</td>
-          <td class="question">Wie hoch sind die weiteren Sachkosten für weiter (nicht-technische) Sicherheitsmaßnahmen für sensible Daten im Projekt?</td>
-          <td class="help">Bitte schätzen sie die Kosten in <b>Euro</b>.</td>
+          <td class="question">Wie hoch sind die weiteren Sachkosten für weitere (nicht-technische) Sicherheitsmaßnahmen für sensible Daten im Projekt?</td>
+          <td class="help">Bitte schätzen Sie die Kosten in **Euro**.</td>
         </tr>
         <tr>
           <td class="path">proposal/legal-and-ethics/sensitive-data-costs/security_personnel</td>
           <td class="question">Welcher Personalaufwand entsteht im Zusammenhang mit weiteren (nicht-technischen) Sicherheitsmaßnahmen für sensible Daten im Projekt?</td>
-          <td class="help">Bitte schätzen Sie den Aufwand in Personenmonaten.</td>
+          <td class="help">Bitte schätzen Sie den Aufwand in Personenmonaten (1 PM = Monatsarbeitszeit eines Vollzeitbeschäftigten).</td>
         </tr>
         <tr>
           <td class="path">proposal/legal-and-ethics/sensitive-data-costs/anonymization_non_personnel</td>
           <td class="question">Welche Sachkosten entstehen im Zusammenhang mit der Anonymisierung von sensiblen Daten im Projekt?</td>
-          <td class="help">Bitte schätzen sie die Kosten in <b>Euro</b>.</td>
+          <td class="help">Bitte schätzen Sie die Kosten in **Euro**.</td>
         </tr>
         <tr>
           <td class="path">proposal/legal-and-ethics/sensitive-data-costs/anonymization_personnel</td>
           <td class="question">Welcher Personalaufwand entsteht für die Anonymisierung von sensiblen Daten im Projekt?</td>
-          <td class="help">Bitte schätzen sie den Aufwand in Personenmonaten.</td>
+          <td class="help">Bitte schätzen Sie den Aufwand in Personenmonaten (1 PM = Monatsarbeitszeit eines Vollzeitbeschäftigten).</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">proposal/legal-and-ethics/sensitive-data-official_approval</th>
@@ -583,28 +583,26 @@
         <tr>
           <td class="path">proposal/legal-and-ethics/intellectual-property-rights-yesno/yesno</td>
           <td class="question">Werden Daten genutzt und/oder erstellt, die durch Urheber- oder verwandte Schutzrechte geschützt sind?</td>
-          <td class="help">Daten oder Software können Urheber- oder anderen Schutzrechten unterliegen. Die Rechtslage kann selbst in der EU von Land zu Land erheblich abweichen.
-            <br />
-          In Deutschland sind nach dem Urheberrechtsgesetz (UrhG) Werke der Literatur, Wissenschaft und Kunst, die eine „persönliche geistige Schöpfung“ darstellen, urheberrechtlich geschützt. Der urheberrechtliche Schutz erlischt 70 Jahre nach dem Tod der bzw. des Urheberin/s.
-            <br />
-          Reine Daten, z.B. Messdaten oder Surveydaten, aber auch Metadaten (bis auf ggf. „beschreibende“ Metadaten) sind hingegen nicht schutzfähig.
-            <br />
-          In § 2 nennt das UrhG folgende geschützte Werkarten, wobei die Aufzählung nicht abschließend ist:
-            <ul>
-              <li>Sprachwerke, wie Schriftwerke, Reden und Computerprogramme</li>
-              <li>Werke der Musik</li>
-              <li>pantomimische Werke einschließlich Werke der Tanzkunst</li>
-              <li>Werke der bildenden Künste einschließlich der Werke der Baukunst und der angewandten Kunst und</li> Entwürfe solcher Werke</li>
-              <li>Lichtbildwerke einschließlich der Werke, die ähnlich wie Lichtbildwerke geschaffen werden</li>
-              <li>Darstellungen wissenschaftlicher oder technischer Art wie Zeichnungen, Pläne, Karten, Skizzen, Tabellen und plastische Darstellungen.</li>
-            </ul>
-          Nach § 3 sind auch „Übersetzungen und andere Bearbeitungen“ von Werken geschützt, die persönliche geistige Schöpfungen des Bearbeiters sind“.
-            <br />
-          Schließlich sind nach § 4 auch Sammelwerke und Datenbankwerke geschützt, was im Bereich Forschungsdaten durchaus relevant sein kann. Sammelbankwerke werden dabei definiert als „Sammlungen von Werken, Daten oder anderen unabhängigen Elementen, die aufgrund der Auswahl oder Anordnung der Elemente eine persönliche geistige Schöpfung sind“.
-            <br />
-          Bei einem „Datenbankwerk im Sinne des Gesetzes“ handelt es sich um ein „Sammelwerk, dessen Elemente systematisch oder methodisch angeordnet und einzeln mit Hilfe elektronischer Mittel oder auf andere Weise zugänglich sind“.
-            <br />
-          Weitere relevante Schutzrechte können gewerbliche Schutzrechte wie Patente, Gebrauchsmuster, Sortenschutz [bei Pflanzenzüchtungen], Halbleiterschutz, Marken, geographische Herkunftsangaben, eingetragene Designs oder geschäftliche Bezeichnungen sein.</td>
+          <td class="help">Daten oder Software können Urheber- oder anderen Schutzrechten unterliegen. Die Rechtslage kann selbst in der EU von Land zu Land erheblich abweichen. In Deutschland sind nach dem Urheberrechtsgesetz (UrhG) Werke der Literatur, Wissenschaft und Kunst, die eine „persönliche geistige Schöpfung“ darstellen, urheberrechtlich geschützt. Der urheberrechtliche Schutz erlischt 70 Jahre nach dem Tod der bzw. des Urheberin/s.
+
+Reine Daten, z. B. Messdaten oder Surveydaten, aber auch Metadaten (bis auf ggf. „beschreibende“ Metadaten) sind hingegen nicht schutzfähig.
+
+In § 2 nennt das UrhG folgende geschützte Werkarten, wobei die Aufzählung nicht abschließend ist:
+
+* Sprachwerke, wie Schriftwerke, Reden und Computerprogramme
+* Werke der Musik
+* pantomimische Werke einschließlich Werke der Tanzkunst
+* Werke der bildenden Künste einschließlich der Werke der Baukunst und der angewandten Kunst und Entwürfe solcher Werke
+* Lichtbildwerke einschließlich der Werke, die ähnlich wie Lichtbildwerke geschaffen werden
+* Darstellungen wissenschaftlicher oder technischer Art wie Zeichnungen, Pläne, Karten, Skizzen, Tabellen und plastische Darstellungen.
+
+Nach § 3 sind auch „Übersetzungen und andere Bearbeitungen von Werken geschützt, die persönliche geistige Schöpfungen des Bearbeiters sind“.
+
+Schließlich sind nach § 4 auch Sammelwerke und Datenbankwerke geschützt, was im Bereich Forschungsdaten durchaus relevant sein kann. Sammelwerke werden dabei definiert als „Sammlungen von Werken, Daten oder anderen unabhängigen Elementen, die aufgrund der Auswahl oder Anordnung der Elemente eine persönliche geistige Schöpfung sind“.
+
+Bei einem „Datenbankwerk im Sinne des Gesetzes“ handelt es sich um ein „Sammelwerk, dessen Elemente systematisch oder methodisch angeordnet und einzeln mit Hilfe elektronischer Mittel oder auf andere Weise zugänglich sind“.
+
+Weitere relevante Schutzrechte können gewerbliche Schutzrechte wie Patente, Gebrauchsmuster, Sortenschutz [bei Pflanzenzüchtungen], Halbleiterschutz, Marken, geographische Herkunftsangaben, eingetragene Designs oder geschäftliche Bezeichnungen sein.</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">proposal/legal-and-ethics/intellectual-property-rights-dataset</th>
@@ -630,12 +628,12 @@
         <tr>
           <td class="path">proposal/legal-and-ethics/intellectual-property-rights-costs/non_personnel</td>
           <td class="question">Welche Sachkosten entstehen im Zusammenhang mit Urheber- und verwandten Schutzrechten im Projekt?</td>
-          <td class="help">Bitte schätzen sie die Kosten in <b>Euro</b>.</td>
+          <td class="help">Bitte schätzen Sie die Kosten in **Euro**.</td>
         </tr>
         <tr>
           <td class="path">proposal/legal-and-ethics/intellectual-property-rights-costs/personnel</td>
           <td class="question">Welcher Personalaufwand entsteht im Zusammenhang mit Urheber- oder verwandten Schutzrechten im Projekt?</td>
-          <td class="help">Bitte schätzen sie den Aufwand in Personenmonaten.</td>
+          <td class="help">Bitte schätzen Sie den Aufwand in Personenmonaten (1 PM = Monatsarbeitszeit eines Vollzeitbeschäftigten).</td>
         </tr>
         <tr>
           <th class ="section" colspan="6">proposal/storage-and-long-term-preservation</th>
@@ -651,7 +649,7 @@
         <tr>
           <td class="path">proposal/storage-and-long-term-preservation/selection-criteria/selection_criteria</td>
           <td class="question">Auf Basis welcher Kriterien / Regeln werden die Daten zur Archivierung (nach Projektende) ausgesucht?</td>
-          <td class="help"></td>
+          <td class="help">Beispiele: die Daten sind Grundlage einer Publikation, für Nachnutzung, rechtliche oder vertragliche Auflagen, Dokumentation (gesellschaftlich oder politisch relevant)</td>
         </tr>
         <tr>
           <th class ="questionset" colspan="6">proposal/storage-and-long-term-preservation/long-term-preservation-datasets</th>
@@ -665,6 +663,16 @@
           <td class="path">proposal/storage-and-long-term-preservation/long-term-preservation-datasets/embargo_period</td>
           <td class="question">Sollen die Daten erst nach Ablauf einer Sperrfrist zugänglich gemacht werden?</td>
           <td class="help"></td>
+        </tr>
+        <tr>
+          <td class="path">proposal/storage-and-long-term-preservation/long-term-preservation-datasets/repository_arrangements</td>
+          <td class="question">Wurde mit dem Repositorium oder Datenzentrum bereits angemessene Archivierungslösungen besprochen?</td>
+          <td class="help">(Diese Frage stammt ursprünglich aus dem Horizon 2020 FAIR Datenmanagementplan.)</td>
+        </tr>
+        <tr>
+          <td class="path">proposal/storage-and-long-term-preservation/long-term-preservation-datasets/certification</td>
+          <td class="question">Handelt es sich dabei um ein zertifiziertes Repositorium oder Datenzentrum (z. B. durch das Data Seal of Approval, nestor-Siegel oder ISO 16363)?</td>
+          <td class="help">Wurde der Datensatz an mehreren Orten archiviert, kann die Frage bejaht werden, wenn dies auf mindestens eine der Optionen zutrifft.</td>
         </tr>
         <tr>
           <td class="path">proposal/storage-and-long-term-preservation/long-term-preservation-datasets/repository</td>
@@ -692,6 +700,24 @@
           <td class="help"></td>
         </tr>
         <tr>
+          <th class ="questionset" colspan="6">proposal/storage-and-long-term-preservation/long-term-preservation-costs</th>
+        </tr>
+        <tr>
+          <td class="path">proposal/storage-and-long-term-preservation/long-term-preservation-costs/non_personnel</td>
+          <td class="question">Welche Sachkosten entstehen im Zusammenhang mit Langzeitarchivierung für dieses Projekt?</td>
+          <td class="help">Bitte schätzen Sie die Kosten in **Euro**.</td>
+        </tr>
+        <tr>
+          <td class="path">proposal/storage-and-long-term-preservation/long-term-preservation-costs/cover_how</td>
+          <td class="question">Wie werden die Kosten für das Datenmanagement im Projekt aufgebracht?</td>
+          <td class="help"></td>
+        </tr>
+        <tr>
+          <td class="path">proposal/storage-and-long-term-preservation/long-term-preservation-costs/personnel</td>
+          <td class="question">Welcher Personalaufwand entsteht im Zusammenhang mit Langzeitarchivierung für dieses Projekt?</td>
+          <td class="help">Bitte schätzen Sie den Aufwand in Personenmonaten (1 PM = Monatsarbeitszeit eines Vollzeitbeschäftigten).</td>
+        </tr>
+        <tr>
           <th class ="questionset" colspan="6">proposal/general/project-schedule-schedule</th>
         </tr>
         <tr>
@@ -699,7 +725,3 @@
           <td class="question">Projektlaufzeit (Monate)</td>
           <td class="help"></td>
         </tr>
-      </tbody>
-    </table>
-  </body>
-</html>
