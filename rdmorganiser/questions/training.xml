@@ -21,10 +21,10 @@
 		<title lang="fr">Général</title>
 		<title lang="it">Generale</title>
 	</section>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/topic-research_question">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/topic-research_question">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>topic-research_question</key>
-		<path>training/general/topic-research_question</path>
+		<path>training/rdm/topic-research_question</path>
 		<dc:comment/>
 		<attribute/>
 		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/general"/>
@@ -52,13 +52,13 @@
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/topic-research_question/title">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/topic-research_question/title">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>title</key>
-		<path>training/general/topic-research_question/title</path>
+		<path>training/rdm/topic-research_question/title</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/title"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/topic-research_question"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/topic-research_question"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<help lang="en">Please describe briefly the project and its aims.</help>
@@ -90,10 +90,10 @@
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/funding-funder">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/funding-funder">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>funding-funder</key>
-		<path>training/general/funding-funder</path>
+		<path>training/rdm/funding-funder</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/id"/>
 		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/general"/>
@@ -121,13 +121,13 @@
 		<verbose_name_plural lang="it">Enti finanziatori</verbose_name_plural>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/funding-funder/title">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/funding-funder/title">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>title</key>
-		<path>training/general/funding-funder/title</path>
+		<path>training/rdm/funding-funder/title</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/programme/title"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/funding-funder"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/funding-funder"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<help lang="en"/>
@@ -159,13 +159,13 @@
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/funding-funder/name">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/funding-funder/name">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>name</key>
-		<path>training/general/funding-funder/name</path>
+		<path>training/rdm/funding-funder/name</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/name"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/funding-funder"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/funding-funder"/>
 		<is_collection>False</is_collection>
 		<order>0</order>
 		<help lang="en"/>
@@ -197,10 +197,10 @@
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>other-requirements</key>
-		<path>training/general/other-requirements</path>
+		<path>training/rdm/other-requirements</path>
 		<dc:comment/>
 		<attribute/>
 		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/general"/>
@@ -228,13 +228,13 @@
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements/abstract">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements/abstract">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>abstract</key>
-		<path>training/general/other-requirements/abstract</path>
+		<path>training/rdm/other-requirements/abstract</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy/conditions"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
@@ -260,13 +260,13 @@
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements/requirements">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements/requirements">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>requirements</key>
-		<path>training/general/other-requirements/requirements</path>
+		<path>training/rdm/other-requirements/requirements</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy/requirements"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<help lang="en">Please briefly outline them and refer to more detailed sources of information if necessary. Please indicate also if the rules / guidelines are mandatory or optional.</help>
@@ -300,13 +300,13 @@
 			<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/additional_rdm_policy"/>
 		</conditions>
 	</question>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements/yesno">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements/yesno">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>yesno</key>
-		<path>training/general/other-requirements/yesno</path>
+		<path>training/rdm/other-requirements/yesno</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy/yesno"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements"/>
 		<is_collection>False</is_collection>
 		<order>0</order>
 		<help lang="en">Examples of discipline-specific requirements:
