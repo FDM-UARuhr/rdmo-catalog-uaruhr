@@ -197,10 +197,10 @@
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements-yesno">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>other-requirements</key>
-		<path>training/rdm/other-requirements</path>
+		<path>training/rdm/other-requirements-yesno</path>
 		<dc:comment/>
 		<attribute/>
 		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/general"/>
@@ -228,13 +228,13 @@
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements/abstract">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements-yesno/abstract">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>abstract</key>
-		<path>training/rdm/other-requirements/abstract</path>
+		<path>training/rdm/other-requirements-yesno/abstract</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy/conditions"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements-yesno"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
@@ -260,13 +260,13 @@
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements/requirements">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements-yesno/requirements">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>requirements</key>
-		<path>training/rdm/other-requirements/requirements</path>
+		<path>training/rdm/other-requirements-yesno/requirements</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy/requirements"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements-yesno"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<help lang="en">Please briefly outline them and refer to more detailed sources of information if necessary. Please indicate also if the rules / guidelines are mandatory or optional.</help>
@@ -300,13 +300,13 @@
 			<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/additional_rdm_policy"/>
 		</conditions>
 	</question>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements/yesno">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements-yesno/yesno">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>yesno</key>
-		<path>training/rdm/other-requirements/yesno</path>
+		<path>training/rdm/other-requirements-yesno/yesno</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy/yesno"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm/other-requirements-yesno"/>
 		<is_collection>False</is_collection>
 		<order>0</order>
 		<help lang="en">Examples of discipline-specific requirements:
