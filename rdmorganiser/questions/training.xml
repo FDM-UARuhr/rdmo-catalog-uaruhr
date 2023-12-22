@@ -371,10 +371,10 @@ Además las pautas específicas de la disciplina sobre el manejo de los datos de
 		<title lang="fr">Classification du contenu</title>
 		<title lang="it">Classificazione del contenuto</title>
 	</section>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-dataset">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-dataset">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-dataset</key>
-		<path>training/content-classification/data-dataset</path>
+		<path>training/organization/data-dataset</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
 		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification"/>
@@ -424,13 +424,13 @@ Una raccolta di dati può ad esempio contenere più file di tipo differente (num
 		<verbose_name_plural lang="it">raccolte di dati</verbose_name_plural>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-dataset/description">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-dataset/description">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>description</key>
-		<path>training/content-classification/data-dataset/description</path>
+		<path>training/organization/data-dataset/description</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/description"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-dataset"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-dataset"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<help lang="en">Please briefly describe the data type and / or the method used to create or collect the data, for example:
@@ -492,10 +492,10 @@ Si prega di spiegare anche se la raccolta di dati è fissa e memorizzata in un c
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-reuse">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-reuse">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-reuse</key>
-		<path>training/content-classification/data-reuse</path>
+		<path>training/organization/data-reuse</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
 		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification"/>
@@ -523,13 +523,13 @@ Si prega di spiegare anche se la raccolta di dati è fissa e memorizzata in un c
 		<verbose_name_plural lang="it">raccolte di dati</verbose_name_plural>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-reuse/scenario">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-reuse/scenario">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>scenario</key>
-		<path>training/content-classification/data-reuse/scenario</path>
+		<path>training/organization/data-reuse/scenario</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/reuse_scenario"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-reuse"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-reuse"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<help lang="en">It is important to set the fundamental course as to whether or not the data will be permitted for reuse.
@@ -581,10 +581,10 @@ Escludendo questi casi, il potenziale per il riutilizzo va soppesato di fronte a
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-reproducibility">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-reproducibility">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-reproducibility</key>
-		<path>training/content-classification/data-reproducibility</path>
+		<path>training/organization/data-reproducibility</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
 		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification"/>
@@ -612,13 +612,13 @@ Escludendo questi casi, il potenziale per il riutilizzo va soppesato di fronte a
 		<verbose_name_plural lang="it">raccolte di dati</verbose_name_plural>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-reproducibility/reproducibility">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-reproducibility/reproducibility">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>reproducibility</key>
-		<path>training/content-classification/data-reproducibility/reproducibility</path>
+		<path>training/organization/data-reproducibility/reproducibility</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/reproducibility"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-reproducibility"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-reproducibility"/>
 		<is_collection>False</is_collection>
 		<order>2</order>
 		<help lang="en">Some data can, technically, be created anew at any time, as is the case with scientific experiments or digitised versions of analog objects (as long as the originals are still there and in good shape). However, this can consume a considerable amount of time and cost. With respect to long-term preservation, the effort of re-creation has to be weighed up against the effort of long-term preservation.
