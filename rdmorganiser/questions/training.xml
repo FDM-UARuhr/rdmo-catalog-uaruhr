@@ -197,44 +197,44 @@
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements-yesno">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>other-requirements-yesno</key>
-		<path>training/general/other-requirements-yesno</path>
+		<key>other-requirements</key>
+		<path>training/general/other-requirements</path>
 		<dc:comment/>
 		<attribute/>
 		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/general"/>
 		<is_collection>False</is_collection>
 		<order>50</order>
-		<title lang="en">Other requirements I</title>
+		<title lang="en">Other requirements</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<title lang="de">Weitere Anforderungen I</title>
+		<title lang="de">Weitere Anforderungen</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
-		<title lang="es">Otros requisitos I</title>
+		<title lang="es">Otros requisitos</title>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
 		<verbose_name_plural lang="es"/>
-		<title lang="fr">Autres exigences I</title>
+		<title lang="fr">Autres exigences</title>
 		<help lang="fr"/>
 		<verbose_name lang="fr"/>
 		<verbose_name_plural lang="fr"/>
-		<title lang="it">Ulteriori condizioni I</title>
+		<title lang="it">Ulteriori condizioni</title>
 		<help lang="it"/>
 		<verbose_name lang="it"/>
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements-yesno/abstract">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements/abstract">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>abstract</key>
-		<path>training/general/other-requirements-yesno/abstract</path>
+		<path>training/general/other-requirements/abstract</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy/conditions"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements-yesno"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
@@ -260,13 +260,13 @@
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements-yesno/requirements">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements/requirements">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>requirements</key>
-		<path>training/general/other-requirements-yesno/requirements</path>
+		<path>training/general/other-requirements/requirements</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy/requirements"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements-yesno"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<help lang="en">Please briefly outline them and refer to more detailed sources of information if necessary. Please indicate also if the rules / guidelines are mandatory or optional.</help>
@@ -300,13 +300,13 @@
 			<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/additional_rdm_policy"/>
 		</conditions>
 	</question>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements-yesno/yesno">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements/yesno">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>yesno</key>
-		<path>training/general/other-requirements-yesno/yesno</path>
+		<path>training/general/other-requirements/yesno</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy/yesno"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements-yesno"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/general/other-requirements"/>
 		<is_collection>False</is_collection>
 		<order>0</order>
 		<help lang="en">Examples of discipline-specific requirements:
@@ -371,10 +371,10 @@ Además las pautas específicas de la disciplina sobre el manejo de los datos de
 		<title lang="fr">Classification du contenu</title>
 		<title lang="it">Classificazione del contenuto</title>
 	</section>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-dataset">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-dataset">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-dataset</key>
-		<path>training/organization/data-dataset</path>
+		<path>training/content-classification/data-dataset</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
 		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification"/>
@@ -424,13 +424,13 @@ Una raccolta di dati può ad esempio contenere più file di tipo differente (num
 		<verbose_name_plural lang="it">raccolte di dati</verbose_name_plural>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-dataset/description">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-dataset/description">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>description</key>
-		<path>training/organization/data-dataset/description</path>
+		<path>training/content-classification/data-dataset/description</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/description"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-dataset"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-dataset"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<help lang="en">Please briefly describe the data type and / or the method used to create or collect the data, for example:
@@ -492,10 +492,10 @@ Si prega di spiegare anche se la raccolta di dati è fissa e memorizzata in un c
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-reuse">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-reuse">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-reuse</key>
-		<path>training/organization/data-reuse</path>
+		<path>training/content-classification/data-reuse</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
 		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification"/>
@@ -523,13 +523,13 @@ Si prega di spiegare anche se la raccolta di dati è fissa e memorizzata in un c
 		<verbose_name_plural lang="it">raccolte di dati</verbose_name_plural>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-reuse/scenario">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-reuse/scenario">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>scenario</key>
-		<path>training/organization/data-reuse/scenario</path>
+		<path>training/content-classification/data-reuse/scenario</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/reuse_scenario"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-reuse"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-reuse"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<help lang="en">It is important to set the fundamental course as to whether or not the data will be permitted for reuse.
@@ -581,10 +581,10 @@ Escludendo questi casi, il potenziale per il riutilizzo va soppesato di fronte a
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-reproducibility">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-reproducibility">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-reproducibility</key>
-		<path>training/organization/data-reproducibility</path>
+		<path>training/content-classification/data-reproducibility</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
 		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification"/>
@@ -612,13 +612,13 @@ Escludendo questi casi, il potenziale per il riutilizzo va soppesato di fronte a
 		<verbose_name_plural lang="it">raccolte di dati</verbose_name_plural>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-reproducibility/reproducibility">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-reproducibility/reproducibility">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>reproducibility</key>
-		<path>training/organization/data-reproducibility/reproducibility</path>
+		<path>training/content-classification/data-reproducibility/reproducibility</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/reproducibility"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-reproducibility"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-reproducibility"/>
 		<is_collection>False</is_collection>
 		<order>2</order>
 		<help lang="en">Some data can, technically, be created anew at any time, as is the case with scientific experiments or digitised versions of analog objects (as long as the originals are still there and in good shape). However, this can consume a considerable amount of time and cost. With respect to long-term preservation, the effort of re-creation has to be weighed up against the effort of long-term preservation.
@@ -826,10 +826,10 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<title lang="fr">Utilisation de données</title>
 		<title lang="it">Utilizzo dei dati</title>
 	</section>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-storage-and-security-data_security">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage/data-storage-and-security-data_security">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-storage-and-security-data_security</key>
-		<path>training/organization/data-storage-and-security-data_security</path>
+		<path>training/data-usage/data-storage-and-security-data_security</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
 		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage"/>
@@ -857,13 +857,13 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<verbose_name_plural lang="it">raccolte di dati</verbose_name_plural>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-storage-and-security-data_security/backups">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage/data-storage-and-security-data_security/backups">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>backups</key>
-		<path>training/organization/data-storage-and-security-data_security/backups</path>
+		<path>training/data-usage/data-storage-and-security-data_security/backups</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_security/backups"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-storage-and-security-data_security"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage/data-storage-and-security-data_security"/>
 		<is_collection>False</is_collection>
 		<order>2</order>
 		<help lang="en">This question refers to backups while the data are being worked with. Questions of long-term preservation will be adressed in the respective section.</help>
@@ -895,10 +895,10 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-sharing-and-re-use-publication">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage/data-sharing-and-re-use-publication">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-sharing-and-re-use-publication</key>
-		<path>training/organization/data-sharing-and-re-use-publication</path>
+		<path>training/data-usage/data-sharing-and-re-use-publication</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
 		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage"/>
@@ -926,13 +926,13 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<verbose_name_plural lang="it">raccolte di dati</verbose_name_plural>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-sharing-and-re-use-publication/yesno">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage/data-sharing-and-re-use-publication/yesno">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>yesno</key>
-		<path>training/organization/data-sharing-and-re-use-publication/yesno</path>
+		<path>training/data-usage/data-sharing-and-re-use-publication/yesno</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/yesno"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-sharing-and-re-use-publication"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage/data-sharing-and-re-use-publication"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<help lang="en"/>
@@ -1254,10 +1254,10 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-sharing-and-re-use-interoperability">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage/data-sharing-and-re-use-interoperability">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-sharing-and-re-use-interoperability</key>
-		<path>training/organization/data-sharing-and-re-use-interoperability</path>
+		<path>training/data-usage/data-sharing-and-re-use-interoperability</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
 		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage"/>
@@ -1285,13 +1285,13 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<verbose_name_plural lang="it">raccolte di dati</verbose_name_plural>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-sharing-and-re-use-interoperability/abstract">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage/data-sharing-and-re-use-interoperability/abstract">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>abstract</key>
-		<path>training/organization/data-sharing-and-re-use-interoperability/abstract</path>
+		<path>training/data-usage/data-sharing-and-re-use-interoperability/abstract</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/restriction"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-sharing-and-re-use-interoperability"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage/data-sharing-and-re-use-interoperability"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
