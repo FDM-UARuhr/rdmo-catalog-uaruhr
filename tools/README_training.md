@@ -6,7 +6,7 @@ The UA Ruhr-Training catalog has a special structure based on the [Moodle course
 ## Steps to reproduce
 1. Import automatically generated training.xml in RDMO.
 2. Create four new sections in the following order: RDM/FDM, Organization/Organisation, Documentation/Dokumentation, Archiving and Publishing/Archiv und Publikation
-3. Add questions to sections as shown in the table:
+3. Add questions to sections as shown in the table (eg. general/ will be replaced by rdm/, whereas content-classification/ will be replaced by organization/ only if it to be found on the Organization column below):
 
 | RDM                                                  | Organization                                                                       | Documentation                                      | Archiving and Publishing                                                      |
 |------------------------------------------------------|------------------------------------------------------------------------------------|----------------------------------------------------|-------------------------------------------------------------------------------|
