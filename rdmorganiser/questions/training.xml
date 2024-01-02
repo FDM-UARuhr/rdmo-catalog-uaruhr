@@ -371,13 +371,13 @@ Además las pautas específicas de la disciplina sobre el manejo de los datos de
 		<title lang="fr">Organisation</title>
 		<title lang="it">Organizzazione</title>
 	</section>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-dataset">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-dataset">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-dataset</key>
-		<path>training/content-classification/data-dataset</path>
+		<path>training/organization/data-dataset</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
-		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification"/>
+		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization"/>
 		<is_collection>True</is_collection>
 		<order>1</order>
 		<title lang="en">Datasets</title>
@@ -430,7 +430,7 @@ Una raccolta di dati può ad esempio contenere più file di tipo differente (num
 		<path>training/organization/data-dataset/description</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/description"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-dataset"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-dataset"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<help lang="en">Please briefly describe the data type and / or the method used to create or collect the data, for example:
@@ -492,13 +492,13 @@ Si prega di spiegare anche se la raccolta di dati è fissa e memorizzata in un c
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-reuse">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/documentation/data-reuse">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-reuse</key>
-		<path>training/content-classification/data-reuse</path>
+		<path>training/documentation/data-reuse</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
-		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification"/>
+		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization"/>
 		<is_collection>True</is_collection>
 		<order>3</order>
 		<title lang="en">Reuse</title>
@@ -529,7 +529,7 @@ Si prega di spiegare anche se la raccolta di dati è fissa e memorizzata in un c
 		<path>training/documentation/data-reuse/scenario</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/reuse_scenario"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-reuse"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/documentation/data-reuse"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<help lang="en">It is important to set the fundamental course as to whether or not the data will be permitted for reuse.
@@ -581,13 +581,13 @@ Escludendo questi casi, il potenziale per il riutilizzo va soppesato di fronte a
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-reproducibility">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-reproducibility">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-reproducibility</key>
-		<path>training/content-classification/data-reproducibility</path>
+		<path>training/organization/data-reproducibility</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
-		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification"/>
+		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization"/>
 		<is_collection>True</is_collection>
 		<order>4</order>
 		<title lang="en">Reproducibility</title>
@@ -618,7 +618,7 @@ Escludendo questi casi, il potenziale per il riutilizzo va soppesato di fronte a
 		<path>training/organization/data-reproducibility/reproducibility</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/reproducibility"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/content-classification/data-reproducibility"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-reproducibility"/>
 		<is_collection>False</is_collection>
 		<order>2</order>
 		<help lang="en">Some data can, technically, be created anew at any time, as is the case with scientific experiments or digitised versions of analog objects (as long as the originals are still there and in good shape). However, this can consume a considerable amount of time and cost. With respect to long-term preservation, the effort of re-creation has to be weighed up against the effort of long-term preservation.
@@ -662,26 +662,26 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		</optionsets>
 		<conditions/>
 	</question>
-	<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/technical-classification">
+	<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/documentation">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>technical-classification</key>
-		<path>training/technical-classification</path>
+		<key>documentation</key>
+		<path>training/documentation</path>
 		<dc:comment/>
 		<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/training"/>
 		<order>2</order>
-		<title lang="en">Technical classification</title>
-		<title lang="de">Technische Einordnung</title>
-		<title lang="es">Clasificación técnica</title>
-		<title lang="fr">Classification technique</title>
-		<title lang="it">Classificazione tecnica</title>
+		<title lang="en">Documentation</title>
+		<title lang="de">Dokumentation</title>
+		<title lang="es">Documentación</title>
+		<title lang="fr">Documentation</title>
+		<title lang="it">Documentazione</title>
 	</section>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/technical-classification/data-formats">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-formats">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-formats</key>
-		<path>training/technical-classification/data-formats</path>
+		<path>training/organization/data-formats</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
-		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/technical-classification"/>
+		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization"/>
 		<is_collection>True</is_collection>
 		<order>3</order>
 		<title lang="en">Formats</title>
@@ -712,7 +712,7 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<path>training/organization/data-formats/format</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/format"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/technical-classification/data-formats"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-formats"/>
 		<is_collection>False</is_collection>
 		<order>4</order>
 		<help lang="en">When choosing a data format, one should consider the consequences for collaborative use, long-term preservation as well as re-use. It is advisable to prefer formats that are standardised, open, non-proprietary and well-established in the respective scholarly community.</help>
@@ -744,13 +744,13 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/technical-classification/data-versioning">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-versioning">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-versioning</key>
-		<path>training/technical-classification/data-versioning</path>
+		<path>training/organization/data-versioning</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
-		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/technical-classification"/>
+		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization"/>
 		<is_collection>True</is_collection>
 		<order>5</order>
 		<title lang="en">Versioning</title>
@@ -781,7 +781,7 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<path>training/organization/data-versioning/strategy</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/versioning_strategy"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/technical-classification/data-versioning"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-versioning"/>
 		<is_collection>False</is_collection>
 		<order>2</order>
 		<help lang="en">Please briefly describe the project-internal regulations for the versioning of data sets. (e.g.: What kind of changes require a new version? How are changes documented? What are the naming rules for different versions?)</help>
@@ -813,26 +813,26 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<optionsets/>
 		<conditions/>
 	</question>
-	<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage">
+	<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>data-usage</key>
-		<path>training/data-usage</path>
+		<key>archiving-and-publishing</key>
+		<path>training/archiving-and-publishing</path>
 		<dc:comment/>
 		<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/training"/>
 		<order>3</order>
-		<title lang="en">Data usage</title>
-		<title lang="de">Datennutzung</title>
-		<title lang="es">Uso de datos</title>
-		<title lang="fr">Utilisation de données</title>
-		<title lang="it">Utilizzo dei dati</title>
+		<title lang="en">Archiving and Publishing</title>
+		<title lang="de">Archivierung und Veröffentlichung</title>
+		<title lang="es">Archivo y publicación</title>
+		<title lang="fr">Archivage et publication</title>
+		<title lang="it">Archiviazione e pubblicazione</title>
 	</section>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage/data-storage-and-security-data_security">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-storage-and-security-data_security">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-storage-and-security-data_security</key>
-		<path>training/data-usage/data-storage-and-security-data_security</path>
+		<path>training/organization/data-storage-and-security-data_security</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
-		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage"/>
+		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization"/>
 		<is_collection>True</is_collection>
 		<order>12</order>
 		<title lang="en">Data storage and security</title>
@@ -863,7 +863,7 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<path>training/organization/data-storage-and-security-data_security/backups</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_security/backups"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage/data-storage-and-security-data_security"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-storage-and-security-data_security"/>
 		<is_collection>False</is_collection>
 		<order>2</order>
 		<help lang="en">This question refers to backups while the data are being worked with. Questions of long-term preservation will be adressed in the respective section.</help>
@@ -895,13 +895,13 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage/data-sharing-and-re-use-publication">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing/data-sharing-and-re-use-publication">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-sharing-and-re-use-publication</key>
-		<path>training/data-usage/data-sharing-and-re-use-publication</path>
+		<path>training/archiving-and-publishing/data-sharing-and-re-use-publication</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
-		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage"/>
+		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing"/>
 		<is_collection>True</is_collection>
 		<order>52</order>
 		<title lang="en">Data sharing and re-use</title>
@@ -932,7 +932,7 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<path>training/archiving-and-publishing/data-sharing-and-re-use-publication/yesno</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/yesno"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage/data-sharing-and-re-use-publication"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing/data-sharing-and-re-use-publication"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<help lang="en"/>
@@ -966,26 +966,14 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		</optionsets>
 		<conditions/>
 	</question>
-	<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/metadata-and-referencing">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>metadata-and-referencing</key>
-		<path>training/metadata-and-referencing</path>
-		<dc:comment/>
-		<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/training"/>
-		<order>4</order>
-		<title lang="en">Metadata and referencing</title>
-		<title lang="de">Metadaten und Referenzierung</title>
-		<title lang="es">Metadatos y referencias</title>
-		<title lang="fr">Métadonnées et référencement</title>
-		<title lang="it">Metadati e riferimenti</title>
-	</section>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/metadata-and-referencing/metadata-dataset">
+
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/documentation/metadata-dataset">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>metadata-dataset</key>
-		<path>training/metadata-and-referencing/metadata-dataset</path>
+		<path>training/documentation/metadata-dataset</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
-		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/metadata-and-referencing"/>
+		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/documentation"/>
 		<is_collection>True</is_collection>
 		<order>10</order>
 		<title lang="en">Metadata</title>
@@ -1016,7 +1004,7 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<path>training/documentation/metadata-dataset/abstract</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/metadata/abstract"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/metadata-and-referencing/metadata-dataset"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/documentation/metadata-dataset"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
@@ -1048,7 +1036,7 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<path>training/documentation/metadata-dataset/scope</path>
 		<dc:comment>probably we should introduce a separate question for being findable and re-used</dc:comment>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/metadata/scope"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/metadata-and-referencing/metadata-dataset"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/documentation/metadata-dataset"/>
 		<is_collection>True</is_collection>
 		<order>0</order>
 		<help lang="en"/>
@@ -1082,13 +1070,13 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/metadata-and-referencing/structure-granularity-and-referencing-structure">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/structure-granularity-and-referencing-structure">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>structure-granularity-and-referencing-structure</key>
-		<path>training/metadata-and-referencing/structure-granularity-and-referencing-structure</path>
+		<path>training/organization/structure-granularity-and-referencing-structure</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
-		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/metadata-and-referencing"/>
+		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization"/>
 		<is_collection>True</is_collection>
 		<order>20</order>
 		<title lang="en">Structure, granularity, and referencing</title>
@@ -1119,7 +1107,7 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<path>training/organization/structure-granularity-and-referencing-structure/structure</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/structure"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/metadata-and-referencing/structure-granularity-and-referencing-structure"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/structure-granularity-and-referencing-structure"/>
 		<is_collection>False</is_collection>
 		<order>0</order>
 		<help lang="en"/>
@@ -1170,26 +1158,14 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<optionsets/>
 		<conditions/>
 	</question>
-	<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/storage-and-long-term-preservation">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>storage-and-long-term-preservation</key>
-		<path>training/storage-and-long-term-preservation</path>
-		<dc:comment/>
-		<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/training"/>
-		<order>10</order>
-		<title lang="en">Storage and long-term preservation</title>
-		<title lang="de">Speicherung und Langzeitarchivierung</title>
-		<title lang="es">Almacenamiento y preservación a largo plazo</title>
-		<title lang="fr">Stockage et conservation à long terme</title>
-		<title lang="it">Salvataggio e archiviazione a lungo termine</title>
-	</section>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/storage-and-long-term-preservation/long-term-preservation-datasets">
+
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing/long-term-preservation-datasets">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>long-term-preservation-datasets</key>
-		<path>training/storage-and-long-term-preservation/long-term-preservation-datasets</path>
+		<path>training/archiving-and-publishing/long-term-preservation-datasets</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
-		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/storage-and-long-term-preservation"/>
+		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing"/>
 		<is_collection>True</is_collection>
 		<order>11</order>
 		<title lang="en">Long-term preservation</title>
@@ -1220,7 +1196,7 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<path>training/archiving-and-publishing/long-term-preservation-datasets/repository</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/storage-and-long-term-preservation/long-term-preservation-datasets"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing/long-term-preservation-datasets"/>
 		<is_collection>True</is_collection>
 		<order>5</order>
 		<help lang="en"/>
@@ -1254,13 +1230,13 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage/data-sharing-and-re-use-interoperability">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing/data-sharing-and-re-use-interoperability">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-sharing-and-re-use-interoperability</key>
-		<path>training/data-usage/data-sharing-and-re-use-interoperability</path>
+		<path>training/archiving-and-publishing/data-sharing-and-re-use-interoperability</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
-		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage"/>
+		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing"/>
 		<is_collection>True</is_collection>
 		<order>51</order>
 		<title lang="en">Interoperability</title>
@@ -1291,7 +1267,7 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<path>training/archiving-and-publishing/data-sharing-and-re-use-interoperability/abstract</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/restriction"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/data-usage/data-sharing-and-re-use-interoperability"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing/data-sharing-and-re-use-interoperability"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
