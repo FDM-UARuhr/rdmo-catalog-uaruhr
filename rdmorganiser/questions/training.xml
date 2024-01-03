@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/"><catalog dc:uri="https://rdmorganiser.github.io/terms/questions/training">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/training">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>training</key>
 		<dc:comment/>
@@ -8,7 +9,8 @@
 		<title lang="de">UA Ruhr-Schulung</title>
 		<help lang="en">This catalog complements the Moodle course “Research Data Management” (&amp;lt;a href="https://moodle.ruhr-uni-bochum.de/m/course/view.php?id=19338&amp;section=0&amp;lang=en" target="_blank"&amp;gt;RUB Course&amp;lt;/a&amp;gt; / &amp;lt;a href="https://moodle.uni-due.de/course/view.php?id=20309" target="_blank"&amp;gt;UDE Course&amp;lt;/a&amp;gt; (PW: forschung)). It contains basic questions about organizing, documenting, archiving and publishing research data.</help>
 		<help lang="de">Dieser Katalog kann ergänzend zum Moodle-Kurs “Forschungsdaten managen” (&amp;lt;a href="https://moodle.ruhr-uni-bochum.de/m/course/view.php?id=19338" target="_blank"&amp;gt;RUB-Kurs&amp;lt;/a&amp;gt; / &amp;lt;a href="https://moodle.uni-due.de/course/view.php?id=20309" target="_blank"&amp;gt;UDE-Kurs&amp;lt;/a&amp;gt; (PW: forschung)) ausgefüllt werden. Er umfasst grundlegende Fragen zur Organisation, Dokumentation, Archivierung und Publikation von Forschungsdaten.</help>
-	</catalog><section dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm">
+	</catalog>
+	<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/rdm">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>rdm</key>
 		<path>training/rdm</path>
@@ -492,84 +494,64 @@ Si prega di spiegare anche se la raccolta di dati è fissa e memorizzata in un c
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/documentation/data-reuse">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-formats">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>data-reuse</key>
-		<path>training/documentation/data-reuse</path>
+		<key>data-formats</key>
+		<path>training/organization/data-formats</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
 		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization"/>
 		<is_collection>True</is_collection>
 		<order>3</order>
-		<title lang="en">Reuse</title>
+		<title lang="en">Formats</title>
 		<help lang="en"/>
 		<verbose_name lang="en">dataset</verbose_name>
 		<verbose_name_plural lang="en">datasets</verbose_name_plural>
-		<title lang="de">Nachnutzung</title>
+		<title lang="de">Formate</title>
 		<help lang="de"/>
 		<verbose_name lang="de">Datensatz</verbose_name>
 		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
-		<title lang="es">Reutilización</title>
+		<title lang="es">Formatos</title>
 		<help lang="es"/>
 		<verbose_name lang="es">colección de datos</verbose_name>
 		<verbose_name_plural lang="es">colecciones de datos</verbose_name_plural>
-		<title lang="fr">Réutilisation</title>
+		<title lang="fr">Formats</title>
 		<help lang="fr"/>
 		<verbose_name lang="fr">jeu de données</verbose_name>
 		<verbose_name_plural lang="fr">jeux de données</verbose_name_plural>
-		<title lang="it">Riutilizzo</title>
+		<title lang="it">Formati</title>
 		<help lang="it"/>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<verbose_name_plural lang="it">raccolte di dati</verbose_name_plural>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/documentation/data-reuse/scenario">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-formats/format">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>scenario</key>
-		<path>training/documentation/data-reuse/scenario</path>
+		<key>format</key>
+		<path>training/organization/data-formats/format</path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/reuse_scenario"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/documentation/data-reuse"/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/format"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-formats"/>
 		<is_collection>False</is_collection>
-		<order>1</order>
-		<help lang="en">It is important to set the fundamental course as to whether or not the data will be permitted for reuse.
-
-Of course, the potential for subsequent use can not be the sole decision criterion, but legal impediments, such as Privacy, copyright and business secrets must be taken into account.
-
-Otherwise, consider the re-use potential against the disadvantages, e.g. a decrease in the readiness to participate and the expected extra effort of a data publication.</help>
-		<text lang="en">Which individuals, groups or institutions could be interested in re-using this dataset? What are possible scenarios?</text>
+		<order>4</order>
+		<help lang="en">When choosing a data format, one should consider the consequences for collaborative use, long-term preservation as well as re-use. It is advisable to prefer formats that are standardised, open, non-proprietary and well-established in the respective scholarly community.</help>
+		<text lang="en">Which file formats are used?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Wichtig ist die grundsätzliche Weichenstellung, ob die Daten zur Nachnutzung zugelassen werden oder nicht.
-
-Selbstverständlich kann das Nachnutzungspotential dabei nicht alleiniges Entscheidungskriterium sein, sondern rechtliche Hinderungsgründe, wie z.B. Datenschutz, Urheberrecht und die Wahrung von Geschäftsgeheimnissen, müssen berücksichtigt werden.
-
-Wägen Sie ansonsten das Nachnutzungspotential gegen die Nachteile ab, beispielsweise gegen ein Absinken der Teilnahmebereitschaft und den zu erwartenden Mehraufwand einer Datenveröffentlichung.</help>
-		<text lang="de">Für welche Personen, Gruppen oder Institutionen könnte dieser Datensatz (für die Nachnutzung) von Interesse sein? Welche Konsequenzen hat das Nachnutzungspotential später für die Bereitstellung der Daten?</text>
+		<help lang="de">Bei der Wahl des Dateiformates sollten auch die Konsequenzen für die kollaborative Nutzung, die Langzeitarchivierung sowie die Nachnutzung beachtet werden. Es empfiehlt sich, möglichst standardisierte, nicht-proprietäre und allgemein bzw. in der spezifischen Community verbreitete Formate zu nutzen. Weitere Kriterien sowie detaillierte Erläuterungen sind z. B. im &lt;a href="https://www.forschungsdaten.org/images/b/b0/Leitfaden_Data-Management-WissGrid.pdf" target="_blank"&gt;WissGrid-Leitfaden, S. 22 f.&lt;/a&gt; zu finden.</help>
+		<text lang="de">In welchen Formaten liegen die Daten vor?</text>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
-		<help lang="es">Es importante establecer el rumbo fundamental en cuanto a si se permitirá o no la reutilización de los datos.
-
-Por supuesto, el potencial de uso posterior no puede ser el único criterio de decisión, pero se deben tener en cuenta los impedimentos legales, como la privacidad, los derechos de autor y los secretos comerciales.
-
-De lo contrario, considere el potencial de reutilización frente a las desventajas, p. una disminución en la disposición a participar y el esfuerzo adicional esperado de una publicación de datos.</help>
-		<text lang="es">¿Qué individuos, grupos o instituciones podrían estar interesados en reutilizar esta colección de datos? ¿Cuáles son los escenarios posibles?</text>
+		<help lang="es">Al elegir un formato de datos, se deben considerar las consecuencias para el uso colaborativo, la conservación a largo plazo y la reutilización. Es recomendable preferir formatos estandarizados, abiertos, no propietarios y bien establecidos en la comunidad académica respectiva.</help>
+		<text lang="es">¿Qué formatos de archivo se utilizan?</text>
 		<verbose_name lang="es"/>
 		<verbose_name_plural lang="es"/>
-		<help lang="fr">C'est important de prendre une décision raisonnée, si les données doivent être partagées pour la réutilisation ou non.
-
-Bien sûr le potentiel pour la réutilisation ne peut pas être le seul critère pour la décision, mais on doit tenir compte aussi de restrictions légales, comme la sauvegarde de la vie privée, de la propriété intellectuelle et des secrets industriels.
-
-Dans les autres cas, le potentiel pour la réutilisation doit être pesé contre les désavantage, par exemple une diminution dans la disponibilité à coopérer où l'effort additionel prévu dû à la publication des données.</help>
-		<text lang="fr">Quels individus, groupes ou institutions pourraient être intéressés à réutiliser ce jeu de données ? Quels sont les scénarios possibles ?</text>
+		<help lang="fr">Lors du choix d'un format de données, il convient de tenir compte des conséquences pour l'utilisation collaborative, la conservation à long terme ainsi que la réutilisation. Il est conseillé de préférer des formats standardisés, ouverts, non propriétaires et bien établis dans la communauté respective.</help>
+		<text lang="fr">Quels formats de fichiers sont utilisés ?</text>
 		<verbose_name lang="fr"/>
 		<verbose_name_plural lang="fr"/>
-		<help lang="it">È importante prendere una decisione ragionata, se i dati devono essere condivisi per il riutilizzo oppure no.
-
-Ovviamente, il potenziale per il riutilizzo non può essere l'unico criterio alla base della decisione, ma bisogna tenere conto anche di restrizioni legali, tra cui la privacy, la proprietà intellettuale e il segreto industriale.
-
-Escludendo questi casi, il potenziale per il riutilizzo va soppesato di fronte a possibili svantaggi, per esempio una diminuzione della disponibilità alla collaborazione e il prevedibile lavoro aggiuntivo dovuto al processo di pubblicazione.</help>
-		<text lang="it">Quali persone, categorie o istituzioni potrebbero essere interessate al riutilizzo di questa raccolta di dati? Quali sono gli scenari possibili?</text>
+		<help lang="it">Nella scelta di un formato di dati bisogna tenere conto delle consequenze per l'utilizzo condiviso, la conservazione a lungo termine e il riutilizzo. Si raccomanda di usare dove possibile dei formati standard, aperti e generici o per lo meno ben stabiliti nella comunità rispettiva.</help>
+		<text lang="it">Quali formati di file vengono utilizzati?</text>
 		<verbose_name lang="it"/>
 		<verbose_name_plural lang="it"/>
 		<widget_type>textarea</widget_type>
@@ -662,88 +644,8 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		</optionsets>
 		<conditions/>
 	</question>
-	<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/documentation">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>documentation</key>
-		<path>training/documentation</path>
-		<dc:comment/>
-		<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/training"/>
-		<order>2</order>
-		<title lang="en">Documentation</title>
-		<title lang="de">Dokumentation</title>
-		<title lang="es">Documentación</title>
-		<title lang="fr">Documentation</title>
-		<title lang="it">Documentazione</title>
-	</section>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-formats">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>data-formats</key>
-		<path>training/organization/data-formats</path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
-		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization"/>
-		<is_collection>True</is_collection>
-		<order>3</order>
-		<title lang="en">Formats</title>
-		<help lang="en"/>
-		<verbose_name lang="en">dataset</verbose_name>
-		<verbose_name_plural lang="en">datasets</verbose_name_plural>
-		<title lang="de">Formate</title>
-		<help lang="de"/>
-		<verbose_name lang="de">Datensatz</verbose_name>
-		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
-		<title lang="es">Formatos</title>
-		<help lang="es"/>
-		<verbose_name lang="es">colección de datos</verbose_name>
-		<verbose_name_plural lang="es">colecciones de datos</verbose_name_plural>
-		<title lang="fr">Formats</title>
-		<help lang="fr"/>
-		<verbose_name lang="fr">jeu de données</verbose_name>
-		<verbose_name_plural lang="fr">jeux de données</verbose_name_plural>
-		<title lang="it">Formati</title>
-		<help lang="it"/>
-		<verbose_name lang="it">raccolta di dati</verbose_name>
-		<verbose_name_plural lang="it">raccolte di dati</verbose_name_plural>
-		<conditions/>
-	</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-formats/format">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>format</key>
-		<path>training/organization/data-formats/format</path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/format"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-formats"/>
-		<is_collection>False</is_collection>
-		<order>4</order>
-		<help lang="en">When choosing a data format, one should consider the consequences for collaborative use, long-term preservation as well as re-use. It is advisable to prefer formats that are standardised, open, non-proprietary and well-established in the respective scholarly community.</help>
-		<text lang="en">Which file formats are used?</text>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de">Bei der Wahl des Dateiformates sollten auch die Konsequenzen für die kollaborative Nutzung, die Langzeitarchivierung sowie die Nachnutzung beachtet werden. Es empfiehlt sich, möglichst standardisierte, nicht-proprietäre und allgemein bzw. in der spezifischen Community verbreitete Formate zu nutzen. Weitere Kriterien sowie detaillierte Erläuterungen sind z. B. im &lt;a href="https://www.forschungsdaten.org/images/b/b0/Leitfaden_Data-Management-WissGrid.pdf" target="_blank"&gt;WissGrid-Leitfaden, S. 22 f.&lt;/a&gt; zu finden.</help>
-		<text lang="de">In welchen Formaten liegen die Daten vor?</text>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="es">Al elegir un formato de datos, se deben considerar las consecuencias para el uso colaborativo, la conservación a largo plazo y la reutilización. Es recomendable preferir formatos estandarizados, abiertos, no propietarios y bien establecidos en la comunidad académica respectiva.</help>
-		<text lang="es">¿Qué formatos de archivo se utilizan?</text>
-		<verbose_name lang="es"/>
-		<verbose_name_plural lang="es"/>
-		<help lang="fr">Lors du choix d'un format de données, il convient de tenir compte des conséquences pour l'utilisation collaborative, la conservation à long terme ainsi que la réutilisation. Il est conseillé de préférer des formats standardisés, ouverts, non propriétaires et bien établis dans la communauté respective.</help>
-		<text lang="fr">Quels formats de fichiers sont utilisés ?</text>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it">Nella scelta di un formato di dati bisogna tenere conto delle consequenze per l'utilizzo condiviso, la conservazione a lungo termine e il riutilizzo. Si raccomanda di usare dove possibile dei formati standard, aperti e generici o per lo meno ben stabiliti nella comunità rispettiva.</help>
-		<text lang="it">Quali formati di file vengono utilizzati?</text>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<widget_type>textarea</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<optionsets/>
-		<conditions/>
-	</question>
+
+
 	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-versioning">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-versioning</key>
@@ -813,19 +715,6 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<optionsets/>
 		<conditions/>
 	</question>
-	<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>archiving-and-publishing</key>
-		<path>training/archiving-and-publishing</path>
-		<dc:comment/>
-		<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/training"/>
-		<order>3</order>
-		<title lang="en">Archiving and Publishing</title>
-		<title lang="de">Archivierung und Veröffentlichung</title>
-		<title lang="es">Archivo y publicación</title>
-		<title lang="fr">Archivage et publication</title>
-		<title lang="it">Archiviazione e pubblicazione</title>
-	</section>
 	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/data-storage-and-security-data_security">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data-storage-and-security-data_security</key>
@@ -895,78 +784,197 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing/data-sharing-and-re-use-publication">
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/structure-granularity-and-referencing-structure">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>data-sharing-and-re-use-publication</key>
-		<path>training/archiving-and-publishing/data-sharing-and-re-use-publication</path>
+		<key>structure-granularity-and-referencing-structure</key>
+		<path>training/organization/structure-granularity-and-referencing-structure</path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
-		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing"/>
+		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization"/>
 		<is_collection>True</is_collection>
-		<order>52</order>
-		<title lang="en">Data sharing and re-use</title>
+		<order>20</order>
+		<title lang="en">Structure, granularity, and referencing</title>
 		<help lang="en"/>
 		<verbose_name lang="en">dataset</verbose_name>
 		<verbose_name_plural lang="en">datasets</verbose_name_plural>
-		<title lang="de">Weitergabe und Veröffentlichung</title>
+		<title lang="de">Objektstruktur, Granularität und Referenzierung</title>
 		<help lang="de"/>
 		<verbose_name lang="de">Datensatz</verbose_name>
 		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
-		<title lang="es">Intercambio y reutilización de datos</title>
+		<title lang="es">Estructura, granularidad y referencias</title>
 		<help lang="es"/>
 		<verbose_name lang="es">colección de datos</verbose_name>
 		<verbose_name_plural lang="es">colecciones de datos</verbose_name_plural>
-		<title lang="fr">Partage et réutilisation des données</title>
+		<title lang="fr">Structure, granularité et référencement</title>
 		<help lang="fr"/>
 		<verbose_name lang="fr">jeu de données</verbose_name>
 		<verbose_name_plural lang="fr">jeux de données</verbose_name_plural>
-		<title lang="it">Condivisione e riutilizzo dei dati</title>
+		<title lang="it">Struttura, granularità e referenziazione</title>
 		<help lang="it"/>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<verbose_name_plural lang="it">raccolte di dati</verbose_name_plural>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing/data-sharing-and-re-use-publication/yesno">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/structure-granularity-and-referencing-structure/structure">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>yesno</key>
-		<path>training/archiving-and-publishing/data-sharing-and-re-use-publication/yesno</path>
+		<key>structure</key>
+		<path>training/organization/structure-granularity-and-referencing-structure/structure</path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/yesno"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing/data-sharing-and-re-use-publication"/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/structure"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/structure-granularity-and-referencing-structure"/>
 		<is_collection>False</is_collection>
-		<order>1</order>
+		<order>0</order>
 		<help lang="en"/>
-		<text lang="en">Will this dataset be published or shared?</text>
+		<text lang="en">Please briefly explain the structure and relationship of their data to each other.
+* What is the structure of the data?
+* How are the individual components of the dataset related to each other?
+* How is the dataset related to other datasets used in the project?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Soll dieser Datensatz veröffentlicht oder geteilt werden?</text>
+		<text lang="de">Bitte erläutern Sie kurz die Struktur und den Zusammenhang ihrer Daten untereinander:
+
+* Wie sind die Daten strukturiert?
+* In welchem Verhältnis stehen die einzelnen Komponenten zueinander?
+* In welchem Verhältnis steht der Datensatz zu anderen im Projekt erhobenen oder genutzten Datensätzen?</text>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
 		<help lang="es"/>
-		<text lang="es">¿Se publicará o compartirá esta colección de datos?</text>
+		<text lang="es">Explique brevemente la estructura y la relación de sus datos entre sí.
+
+* ¿Cuál es la estructura de los datos?
+* ¿Cómo se relacionan entre sí los componentes individuales de la colección de datos?
+* ¿Cómo se relaciona la colección de datos con otras colecciones de datos utilizados en el proyecto?</text>
 		<verbose_name lang="es"/>
 		<verbose_name_plural lang="es"/>
 		<help lang="fr"/>
-		<text lang="fr">Ce jeu de données sera-t-il publié ou partagé ?</text>
+		<text lang="fr">Veuillez expliquer brièvement la structure et l'interrelation de vos données:
+
+* Quelle est la structure des données ?
+* Comment les composants individuels du jeu de données sont-ils liés les uns aux autres ?
+* Comment le jeu de données est-il lié aux autres jeux de données utilisés dans le projet ?</text>
 		<verbose_name lang="fr"/>
 		<verbose_name_plural lang="fr"/>
 		<help lang="it"/>
-		<text lang="it">Questa raccolta di dati verrà pubblicata o condivisa?</text>
+		<text lang="it">Si prega di spiegare brevemente la struttura e l'interrelazione dei vostri dati:
+
+* Come sono strutturati i dati?
+* In che modo sono collegati i componenti individuali gli uni agli altri?
+* Come sono collegati questi dati agli altri dati utilizzati nel progetto?</text>
 		<verbose_name lang="it"/>
 		<verbose_name_plural lang="it"/>
-		<widget_type>radio</widget_type>
-		<value_type>boolean</value_type>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
-		<optionsets>
-			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/dataset_sharing_options"/>
-		</optionsets>
+		<optionsets/>
 		<conditions/>
 	</question>
 
+	<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/documentation">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>documentation</key>
+		<path>training/documentation</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/training"/>
+		<order>2</order>
+		<title lang="en">Documentation</title>
+		<title lang="de">Dokumentation</title>
+		<title lang="es">Documentación</title>
+		<title lang="fr">Documentation</title>
+		<title lang="it">Documentazione</title>
+	</section>
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/documentation/data-reuse">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>data-reuse</key>
+		<path>training/documentation/data-reuse</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization"/>
+		<is_collection>True</is_collection>
+		<order>3</order>
+		<title lang="en">Reuse</title>
+		<help lang="en"/>
+		<verbose_name lang="en">dataset</verbose_name>
+		<verbose_name_plural lang="en">datasets</verbose_name_plural>
+		<title lang="de">Nachnutzung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<title lang="es">Reutilización</title>
+		<help lang="es"/>
+		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name_plural lang="es">colecciones de datos</verbose_name_plural>
+		<title lang="fr">Réutilisation</title>
+		<help lang="fr"/>
+		<verbose_name lang="fr">jeu de données</verbose_name>
+		<verbose_name_plural lang="fr">jeux de données</verbose_name_plural>
+		<title lang="it">Riutilizzo</title>
+		<help lang="it"/>
+		<verbose_name lang="it">raccolta di dati</verbose_name>
+		<verbose_name_plural lang="it">raccolte di dati</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/documentation/data-reuse/scenario">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>scenario</key>
+		<path>training/documentation/data-reuse/scenario</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/reuse_scenario"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/documentation/data-reuse"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">It is important to set the fundamental course as to whether or not the data will be permitted for reuse.
+
+Of course, the potential for subsequent use can not be the sole decision criterion, but legal impediments, such as Privacy, copyright and business secrets must be taken into account.
+
+Otherwise, consider the re-use potential against the disadvantages, e.g. a decrease in the readiness to participate and the expected extra effort of a data publication.</help>
+		<text lang="en">Which individuals, groups or institutions could be interested in re-using this dataset? What are possible scenarios?</text>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Wichtig ist die grundsätzliche Weichenstellung, ob die Daten zur Nachnutzung zugelassen werden oder nicht.
+
+Selbstverständlich kann das Nachnutzungspotential dabei nicht alleiniges Entscheidungskriterium sein, sondern rechtliche Hinderungsgründe, wie z.B. Datenschutz, Urheberrecht und die Wahrung von Geschäftsgeheimnissen, müssen berücksichtigt werden.
+
+Wägen Sie ansonsten das Nachnutzungspotential gegen die Nachteile ab, beispielsweise gegen ein Absinken der Teilnahmebereitschaft und den zu erwartenden Mehraufwand einer Datenveröffentlichung.</help>
+		<text lang="de">Für welche Personen, Gruppen oder Institutionen könnte dieser Datensatz (für die Nachnutzung) von Interesse sein? Welche Konsequenzen hat das Nachnutzungspotential später für die Bereitstellung der Daten?</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="es">Es importante establecer el rumbo fundamental en cuanto a si se permitirá o no la reutilización de los datos.
+
+Por supuesto, el potencial de uso posterior no puede ser el único criterio de decisión, pero se deben tener en cuenta los impedimentos legales, como la privacidad, los derechos de autor y los secretos comerciales.
+
+De lo contrario, considere el potencial de reutilización frente a las desventajas, p. una disminución en la disposición a participar y el esfuerzo adicional esperado de una publicación de datos.</help>
+		<text lang="es">¿Qué individuos, grupos o instituciones podrían estar interesados en reutilizar esta colección de datos? ¿Cuáles son los escenarios posibles?</text>
+		<verbose_name lang="es"/>
+		<verbose_name_plural lang="es"/>
+		<help lang="fr">C'est important de prendre une décision raisonnée, si les données doivent être partagées pour la réutilisation ou non.
+
+Bien sûr le potentiel pour la réutilisation ne peut pas être le seul critère pour la décision, mais on doit tenir compte aussi de restrictions légales, comme la sauvegarde de la vie privée, de la propriété intellectuelle et des secrets industriels.
+
+Dans les autres cas, le potentiel pour la réutilisation doit être pesé contre les désavantage, par exemple une diminution dans la disponibilité à coopérer où l'effort additionel prévu dû à la publication des données.</help>
+		<text lang="fr">Quels individus, groupes ou institutions pourraient être intéressés à réutiliser ce jeu de données ? Quels sont les scénarios possibles ?</text>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it">È importante prendere una decisione ragionata, se i dati devono essere condivisi per il riutilizzo oppure no.
+
+Ovviamente, il potenziale per il riutilizzo non può essere l'unico criterio alla base della decisione, ma bisogna tenere conto anche di restrizioni legali, tra cui la privacy, la proprietà intellettuale e il segreto industriale.
+
+Escludendo questi casi, il potenziale per il riutilizzo va soppesato di fronte a possibili svantaggi, per esempio una diminuzione della disponibilità alla collaborazione e il prevedibile lavoro aggiuntivo dovuto al processo di pubblicazione.</help>
+		<text lang="it">Quali persone, categorie o istituzioni potrebbero essere interessate al riutilizzo di questa raccolta di dati? Quali sono gli scenari possibili?</text>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
 	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/documentation/metadata-dataset">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>metadata-dataset</key>
@@ -1070,95 +1078,20 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/structure-granularity-and-referencing-structure">
+
+	<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>structure-granularity-and-referencing-structure</key>
-		<path>training/organization/structure-granularity-and-referencing-structure</path>
+		<key>archiving-and-publishing</key>
+		<path>training/archiving-and-publishing</path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
-		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization"/>
-		<is_collection>True</is_collection>
-		<order>20</order>
-		<title lang="en">Structure, granularity, and referencing</title>
-		<help lang="en"/>
-		<verbose_name lang="en">dataset</verbose_name>
-		<verbose_name_plural lang="en">datasets</verbose_name_plural>
-		<title lang="de">Objektstruktur, Granularität und Referenzierung</title>
-		<help lang="de"/>
-		<verbose_name lang="de">Datensatz</verbose_name>
-		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
-		<title lang="es">Estructura, granularidad y referencias</title>
-		<help lang="es"/>
-		<verbose_name lang="es">colección de datos</verbose_name>
-		<verbose_name_plural lang="es">colecciones de datos</verbose_name_plural>
-		<title lang="fr">Structure, granularité et référencement</title>
-		<help lang="fr"/>
-		<verbose_name lang="fr">jeu de données</verbose_name>
-		<verbose_name_plural lang="fr">jeux de données</verbose_name_plural>
-		<title lang="it">Struttura, granularità e referenziazione</title>
-		<help lang="it"/>
-		<verbose_name lang="it">raccolta di dati</verbose_name>
-		<verbose_name_plural lang="it">raccolte di dati</verbose_name_plural>
-		<conditions/>
-	</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/structure-granularity-and-referencing-structure/structure">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>structure</key>
-		<path>training/organization/structure-granularity-and-referencing-structure/structure</path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/structure"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/organization/structure-granularity-and-referencing-structure"/>
-		<is_collection>False</is_collection>
-		<order>0</order>
-		<help lang="en"/>
-		<text lang="en">Please briefly explain the structure and relationship of their data to each other.
-* What is the structure of the data?
-* How are the individual components of the dataset related to each other?
-* How is the dataset related to other datasets used in the project?</text>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Bitte erläutern Sie kurz die Struktur und den Zusammenhang ihrer Daten untereinander:
-
-* Wie sind die Daten strukturiert?
-* In welchem Verhältnis stehen die einzelnen Komponenten zueinander?
-* In welchem Verhältnis steht der Datensatz zu anderen im Projekt erhobenen oder genutzten Datensätzen?</text>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="es"/>
-		<text lang="es">Explique brevemente la estructura y la relación de sus datos entre sí.
-
-* ¿Cuál es la estructura de los datos?
-* ¿Cómo se relacionan entre sí los componentes individuales de la colección de datos?
-* ¿Cómo se relaciona la colección de datos con otras colecciones de datos utilizados en el proyecto?</text>
-		<verbose_name lang="es"/>
-		<verbose_name_plural lang="es"/>
-		<help lang="fr"/>
-		<text lang="fr">Veuillez expliquer brièvement la structure et l'interrelation de vos données:
-
-* Quelle est la structure des données ?
-* Comment les composants individuels du jeu de données sont-ils liés les uns aux autres ?
-* Comment le jeu de données est-il lié aux autres jeux de données utilisés dans le projet ?</text>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it">Si prega di spiegare brevemente la struttura e l'interrelazione dei vostri dati:
-
-* Come sono strutturati i dati?
-* In che modo sono collegati i componenti individuali gli uni agli altri?
-* Come sono collegati questi dati agli altri dati utilizzati nel progetto?</text>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<widget_type>textarea</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<optionsets/>
-		<conditions/>
-	</question>
-
+		<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/training"/>
+		<order>3</order>
+		<title lang="en">Archiving and Publishing</title>
+		<title lang="de">Archivierung und Veröffentlichung</title>
+		<title lang="es">Archivo y publicación</title>
+		<title lang="fr">Archivage et publication</title>
+		<title lang="it">Archiviazione e pubblicazione</title>
+	</section>
 	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing/long-term-preservation-datasets">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>long-term-preservation-datasets</key>
@@ -1291,6 +1224,77 @@ Altri tipi di dati sono di per sé unici e non possono essere rigenerati. Questo
 		<unit/>
 		<width/>
 		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing/data-sharing-and-re-use-publication">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>data-sharing-and-re-use-publication</key>
+		<path>training/archiving-and-publishing/data-sharing-and-re-use-publication</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing"/>
+		<is_collection>True</is_collection>
+		<order>52</order>
+		<title lang="en">Data sharing and re-use</title>
+		<help lang="en"/>
+		<verbose_name lang="en">dataset</verbose_name>
+		<verbose_name_plural lang="en">datasets</verbose_name_plural>
+		<title lang="de">Weitergabe und Veröffentlichung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<title lang="es">Intercambio y reutilización de datos</title>
+		<help lang="es"/>
+		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name_plural lang="es">colecciones de datos</verbose_name_plural>
+		<title lang="fr">Partage et réutilisation des données</title>
+		<help lang="fr"/>
+		<verbose_name lang="fr">jeu de données</verbose_name>
+		<verbose_name_plural lang="fr">jeux de données</verbose_name_plural>
+		<title lang="it">Condivisione e riutilizzo dei dati</title>
+		<help lang="it"/>
+		<verbose_name lang="it">raccolta di dati</verbose_name>
+		<verbose_name_plural lang="it">raccolte di dati</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing/data-sharing-and-re-use-publication/yesno">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>yesno</key>
+		<path>training/archiving-and-publishing/data-sharing-and-re-use-publication/yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/yesno"/>
+		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/training/archiving-and-publishing/data-sharing-and-re-use-publication"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Will this dataset be published or shared?</text>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Soll dieser Datensatz veröffentlicht oder geteilt werden?</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="es"/>
+		<text lang="es">¿Se publicará o compartirá esta colección de datos?</text>
+		<verbose_name lang="es"/>
+		<verbose_name_plural lang="es"/>
+		<help lang="fr"/>
+		<text lang="fr">Ce jeu de données sera-t-il publié ou partagé ?</text>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it">Questa raccolta di dati verrà pubblicata o condivisa?</text>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>radio</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/dataset_sharing_options"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	</rdmo>
