@@ -5,8 +5,8 @@ catalogs:
   title_en: UA Ruhr
   title_de: UA Ruhr
 - key: consultation
-  help_text_en: Do you need advice on creating a data management plan or on your RDM in general? Fill out this catalog and contact *your local RDM-Team* (&lt;a href="https://www.ruhr-uni-bochum.de/researchdata/de/contact.html" target="_blank"&gt;RUB&lt;/a&gt; / &lt;a href="https://forschungsfoerderung.tu-dortmund.de/forschungsdatenmanagement/beratungsangebot/" target="_blank"&gt;TUDO&lt;/a&gt; / &lt;a href="https://www.uni-due.de/rds/kontakt_formular.php" target="_blank"&gt;UDE&lt;/a&gt;).
-  help_text_de: Sie benötigen eine Beratung zur Erstellung eines Datenmanagenentplans oder allgemein zu Ihrem FDM? Füllen Sie diesen Katalog aus, und kontaktieren Sie *ihr lokales FDM-Team* (&lt;a href="https://www.ruhr-uni-bochum.de/researchdata/de/contact.html" target="_blank"&gt;RUB&lt;/a&gt; / &lt;a href="https://forschungsfoerderung.tu-dortmund.de/forschungsdatenmanagement/beratungsangebot/" target="_blank"&gt;TUDO&lt;/a&gt; / &lt;a href="https://www.uni-due.de/rds/kontakt_formular.php" target="_blank"&gt;UDE&lt;/a&gt;).
+  help_text_en: Do you need advice on creating a data management plan or on your RDM in general? Fill out this catalog and contact *your local RDM-Team* (<a href="https://www.ruhr-uni-bochum.de/researchdata/de/contact.html" target="_blank">RUB</a> / <a href="https://forschungsfoerderung.tu-dortmund.de/forschungsdatenmanagement/beratungsangebot/" target="_blank">TUDO</a> / <a href="https://www.uni-due.de/rds/kontakt_formular.php" target="_blank">UDE</a>).
+  help_text_de: Sie benötigen eine Beratung zur Erstellung eines Datenmanagenentplans oder allgemein zu Ihrem FDM? Füllen Sie diesen Katalog aus, und kontaktieren Sie *ihr lokales FDM-Team* (<a href="https://www.ruhr-uni-bochum.de/researchdata/de/contact.html" target="_blank">RUB</a> / <a href="https://forschungsfoerderung.tu-dortmund.de/forschungsdatenmanagement/beratungsangebot/" target="_blank">TUDO</a> / <a href="https://www.uni-due.de/rds/kontakt_formular.php" target="_blank">UDE</a>).
   title_en: UA Ruhr-Consultation
   title_de: UA Ruhr-Beratung
 - key: proposal
@@ -20,8 +20,8 @@ catalogs:
   title_en: UA Ruhr-Archive
   title_de: UA Ruhr-Archivierung
 - key: training
-  help_text_en: 'This catalog complements the Moodle course “Research Data Management” (&lt;a href="https://moodle.ruhr-uni-bochum.de/m/course/view.php?id=19338&section=0&lang=en" target="_blank"&gt;RUB Course&lt;/a&gt; / &lt;a href="https://moodle.uni-due.de/course/view.php?id=20309" target="_blank"&gt;UDE Course&lt;/a&gt; (PW: forschung)). It contains basic questions about organizing, documenting, archiving and publishing research data.'
-  help_text_de: 'Dieser Katalog kann ergänzend zum Moodle-Kurs “Forschungsdaten managen” (&lt;a href="https://moodle.ruhr-uni-bochum.de/m/course/view.php?id=19338" target="_blank"&gt;RUB-Kurs&lt;/a&gt; / &lt;a href="https://moodle.uni-due.de/course/view.php?id=20309" target="_blank"&gt;UDE-Kurs&lt;/a&gt; (PW: forschung)) ausgefüllt werden. Er umfasst grundlegende Fragen zur Organisation, Dokumentation, Archivierung und Publikation von Forschungsdaten.'
+  help_text_en: 'This catalog complements the Moodle course “Research Data Management” (<a href="https://moodle.ruhr-uni-bochum.de/m/course/view.php?id=19338&section=0&lang=en" target="_blank">RUB Course</a> / <a href="https://moodle.uni-due.de/course/view.php?id=20309" target="_blank">UDE Course</a> (PW: forschung)). It contains basic questions about organizing, documenting, archiving and publishing research data.'
+  help_text_de: 'Dieser Katalog kann ergänzend zum Moodle-Kurs “Forschungsdaten managen” (<a href="https://moodle.ruhr-uni-bochum.de/m/course/view.php?id=19338" target="_blank">RUB-Kurs</a> / <a href="https://moodle.uni-due.de/course/view.php?id=20309" target="_blank">UDE-Kurs</a> (PW: forschung)) ausgefüllt werden. Er umfasst grundlegende Fragen zur Organisation, Dokumentation, Archivierung und Publikation von Forschungsdaten.'
   title_en: UA Ruhr-Training
   title_de: UA Ruhr-Schulung
 ua_ruhr/general/topic-research_question/title:
@@ -108,19 +108,19 @@ ua_ruhr/general/funding-funder/funder_policy:
   proposal: true
   archive: false
   training: false
-ua_ruhr/general/other-requirements-yesno/abstract:
+ua_ruhr/general/other-requirements/abstract:
   ua_ruhr: true
   consultation: true
   proposal: false
   archive: false
   training: true
-ua_ruhr/general/other-requirements-yesno/yesno:
+ua_ruhr/general/other-requirements/yesno:
   ua_ruhr: true
   consultation: false
   proposal: true
   archive: false
   training: true
-ua_ruhr/general/other-requirements-requirements/requirements:
+ua_ruhr/general/other-requirements/requirements:
   ua_ruhr: true
   consultation: false
   proposal: true
