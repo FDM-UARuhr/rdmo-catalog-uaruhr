@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is NOT FOR IMPORT into RDMO -->
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr/legal-and-ethics/sensitive-data-personal_data_yesno/yesno">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>yesno</key>
-		<path>ua_ruhr/legal-and-ethics/sensitive-data-personal_data_yesno/yesno</path>
+		<uri_path>ua_ruhr/legal-and-ethics/sensitive-data-personal_data_yesno/yesno</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data_yesno/yesno"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr/legal-and-ethics/sensitive-data-personal_data_yesno"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<help lang="en">If yes: Please also check whether you have completed the sections "Data usage" and "Data storage and security" with the appropriate measures to protect the data in accordance with the applicable data protection laws. European Data Protection Law may apply.</help>
@@ -39,13 +40,12 @@
 		<optionsets/>
 		<conditions/>
 	</question>
-		<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr/legal-and-ethics/sensitive-data-personal_data/bdsg_3_9">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr/legal-and-ethics/sensitive-data-personal_data/bdsg_3_9">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>bdsg_3_9</key>
-		<path>ua_ruhr/legal-and-ethics/sensitive-data-personal_data/bdsg_3_9</path>
+		<uri_path>ua_ruhr/legal-and-ethics/sensitive-data-personal_data/bdsg_3_9</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data/bdsg_3_9"/>
-		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr/legal-and-ethics/sensitive-data-personal_data"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<help lang="en">These kinds of data are considered particularly sensitive and require even more extensive safeguards.
@@ -132,3 +132,4 @@ Si vous répondez à cette question par "Oui", veuillez contacter le délégué 
 		</optionsets>
 		<conditions/>
 	</question>
+</rdmo>
