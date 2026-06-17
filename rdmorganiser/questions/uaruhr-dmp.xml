@@ -262,9 +262,9 @@
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/general/project-schedule-schedule/project_start" order="0"/>
-			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/general/project-schedule-schedule/project_end" order="2"/>
-			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/general/project-schedule-schedule/project_duration" order="3"/>
-			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/general/topic-research_question/date_differences" order="4"/>
+			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/general/project-schedule-schedule/project_end" order="1"/>
+			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/general/project-schedule-schedule/project_duration" order="2"/>
+			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/general/topic-research_question/date_differences" order="3"/>
 		</questions>
 		<conditions/>
 	</page>
@@ -790,7 +790,7 @@ Other discipline-specific recommendations and guidelines for handling research d
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/general/other-requirements/yesno" order="0"/>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/general/other-requirements/requirements" order="1"/>
-			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/general/other-requirements/abstract" order="2">
+			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/general/other-requirements/abstract" order="2"/>
 		</questions>
 		<conditions/>
 	</page>
@@ -3106,7 +3106,7 @@ Al igual que con los formatos, la recomendación es: cuanto más estandarizados,
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/data-usage/data-sharing-and-re-use-interoperability/interoperability" order="1"/>
-			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/data-usage/data-sharing-and-re-use-interoperability/abstract" order="2">
+			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/data-usage/data-sharing-and-re-use-interoperability/abstract" order="2"/>
 		</questions>
 		<conditions/>
 	</page>
@@ -4129,7 +4129,7 @@ Al igual que con los formatos, la recomendación es: cuanto más estandarizados,
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/metadata-and-referencing/metadata-dataset/scope" order="0"/>
-			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/metadata-and-referencing/metadata-dataset/abstract" order="1">
+			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/metadata-and-referencing/metadata-dataset/abstract" order="1"/>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/metadata-and-referencing/metadata-dataset/standards" order="2"/>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/metadata-and-referencing/metadata-dataset/mappings" order="3"/>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/metadata-and-referencing/metadata-dataset/creation_automatic" order="4"/>
