@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-06-17T09:17:49.817413+02:00" version="1.0.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-06-17T09:17:49.817413+02:00" version="2.0.0">
 	<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>ua_ruhr_dmp</uri_path>
