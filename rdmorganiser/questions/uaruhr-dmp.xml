@@ -6,8 +6,9 @@
 		<dc:comment/>
 		<order>0</order>
 		<title lang="en">Data Management Plan</title>
-		<help lang="en"/>
+		<help lang="en">This catalog covers all relevant aspects of research data management including some domain-specific questions and is therefore rather extensive. Use this catalog if you want to organize the data management of a collaborative project or facility.</help>
 		<title lang="de">Datenmanagementplan</title>
+		<help lang="de">Dieser Katalog behandelt umfassend die verschiedenen Aspekte des Forschungsdatenmanagements, deckt Anforderungen verschiedener Disziplinen ab, und ist daher recht umfangreich. Nutzen Sie diesen Katalog, wenn Sie die Datenhaltung im Team oder Verbund organisieren möchten.</help>
 		<help lang="de"/>
 		<title lang="fr">Plan de gestion des données</title>
 		<help lang="fr"/>
