@@ -15,35 +15,32 @@ local changes that need to be merged are stored in xml files under `rdmorganiser
 If there was any content that needed to be overwritten (currently there is no such case), this content would be stored in a file like `changed_questions.xml`. In this file, the full xml element, i.e. `<question> ... </question>`, which contains a change, would be stored.
   
 ## Merging domains
-* merge content `<rdmo> ... </rdmo>` xml elements of `rdmorganiser/_changes/new_attributes.xml` into `rdmorganiser/domain/rdmo.xml` and commit the latter. 
+* add new attributes: merge content `<rdmo> ... </rdmo>` xml elements of `rdmorganiser/_changes/new_attributes.xml` into `rdmorganiser/domain/rdmo.xml` (at the end) and commit the latter. 
  
-## Merging questions 
+## Merging questions
 
-* take all  content of `<rdmo> ... </rdmo>` except `<catalog> ... </catalog>`  of
-    * 1. `rdmorganiser/_changes/new_questions.xml` and 
-    * 2. `rdmorganiser/questions/rdmo.xml`
-    * 3. store these xml elements in `tools/all_questions.xml` after `<catalog> ... </catalog>` section and remove the old content except `<catalog> ... </catalog>`
-    * 4. replace all occurrences of `rdmo/` with `ua_ruhr/` and `/rdmo"` with `/ua_ruhr"`
-    * 5. replace `rdmo` with `ua_ruhr` in the opening and closing root xml node.
-    * 6. replace `RDMO` with `UA Ruhr` in the `title` nodes of the `catalog` node
-    * 7. replace `rdmo` with `ua-ruhr` in the content of the `key` node in the `catalog` node
+* try to merge/diff `questions-rdmo.xml` with `uaruhr-dmp.xml`
+* Important changes, which need to be checked: 
+    * new questions from `rdmorganiser/_changes/new_questions.xml` 
+    * 3 questions have UARUHR specific informations:  
+        * `rdmo/legal-and-ethics/sensitive-data-personal_data_yesno/yesno`
+		    * `rdmo/legal-and-ethics/sensitive-data-personal_data/bdsg_3_9`
+		    * `rdmo/legal-and-ethics/sensitive-data-personal_data/extent`
+* If this merge is not possible, the following workflow is the way to re-build the uaruhr-dmp catalog:
+    * 1. take all content from upstream `rdmorganiser/questions/questions-rdmo.xml`
+    * 2. add new questions of `rdmorganiser/_changes/new_questions.xml` at the end
+        * Important: the new questions need to be linked in the pages (due to the resturcturing in 2025/2026). There is no `key` anymore and `path` is renamed to `uri_path`. `questionset` is removed from the questions and this mechanism is replaced by the linking on the pages
+    * 3. Currently, 3 questions have UARUHR specific informations (data protection officers): copy the content from `uaruhr-dmp.xml` for these 3 questions: 
+      * `rdmo/legal-and-ethics/sensitive-data-personal_data_yesno/yesno`
+		  * `rdmo/legal-and-ethics/sensitive-data-personal_data/bdsg_3_9`
+		  * `rdmo/legal-and-ethics/sensitive-data-personal_data/extent`
+    * 3. replace all occurrences of `/rdmo/` with `/ua_ruhr_dmp/` and `rdmo/` with `ua_ruhr_dmp/` (not `rdmoorganiser`)
+    * 4. replace `rdmo` with `ua_ruhr_dmp` in the opening and closing root xml node.
+    * 5. replace `RDMO` with `Datenmanagementplan` and `data management plan` in the `title` nodes of the `catalog` node
 
-## Management of UR Ruhr specific catalog generation
+# Outdated informations 
 
-Add new upstream questions to the file `cat_member.yaml`.
-Each question receives an entry mapping catalog names to a boolean value, which denotes if that question is part of the specified catalog.
-For new questions from upstream, at least the UA Ruhr catalog should be set to true.
-Example:
-
-```yaml
-ua_ruhr/storage-and-long-term-preservation/long-term-preservation-costs/cover_how:
-  ua_ruhr: true
-  consultation: false
-  proposal: true
-  archive: false
-  training: false
-```
-In this example, the decision was made to add the question to the ua_ruhr and the proposal catlogs.
+All informations below refer to pre-2026. The UARUHR-specific catalogs (consultation, training, archive, proposal are deprecated). 
 
 ## Create updated UA Ruhr catalogs
 See [the quick guide](#quick-guide) below.
