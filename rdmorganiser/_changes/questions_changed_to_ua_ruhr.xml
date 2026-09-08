@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is NOT FOR IMPORT into RDMO -->
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr/legal-and-ethics/sensitive-data-personal_data_yesno/yesno">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>ua_ruhr/legal-and-ethics/sensitive-data-personal_data_yesno/yesno</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data_yesno/yesno"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">If yes: Please also check whether you have completed the sections "Data usage" and "Data storage and security" with the appropriate measures to protect the data in accordance with the applicable data protection laws. European Data Protection Law may apply.</help>
+		<text lang="en">Does this dataset contain personal data?</text>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Wenn ja: Bitte prüfen Sie auch, ob Sie die Abschnitte "Datennutzung" und "Datenspeicherung und -sicherheit" mit den entsprechenden Maßnahmen zum Schutz der Daten gemäß den geltenden Datenschutzgesetzen ausgefüllt haben. Der Umgang und die Verarbeitung personenbezogener Daten ist gesetzlich geregelt. Die EU-weit einheitliche Anwendung erfolgt nach der &lt;a href="https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679" target="_blank"&gt;EU-Datenschutz-Grundverordnung (DSGVO)&lt;/a&gt;. Sie gestattet Regelungsspielräume auf nationaler Ebene. In Deutschland regelt dies das &lt;a href="http://www.gesetze-im-internet.de/bdsg_2018/" target="_blank"&gt;Bundesdatenschutzgesetz (BDSG)&lt;/a&gt;. Für Hochschulen gelten zum großen Teil die individuellen Datenschutzgesetze der Länder, z. B. das &lt;a href="https://recht.nrw.de/lmi/owa/br_text_anzeigen?v_id=3520071121100436275" target="_blank"&gt;Datenschutzgesetz Nordrhein-Westfalen (DSG NRW)&lt;/a&gt;. Die europäische DSGVO definiert personenbezogene Daten als alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen (Art. 4 DSGVO, Abs. 1). &lt;b&gt;Identifiziert &lt;/b&gt;ist eine Person, wenn eindeutig erkennbar ist, zu welcher Person die Daten gehören. &lt;b&gt;Identifizierbar&lt;/b&gt; wird eine Person, wenn sie mittels Zusatzinformationen identifiziert werden kann. Mehr Informationen zum Thema finden Sie auf den Webseiten der Datenschutzbeauftragten der UA Ruhr.
+		* &lt;a href="https://dsb.ruhr-uni-bochum.de/" target="_blank"&gt;Ruhr-Universität Bochum&lt;/a&gt;
+		* &lt;a href="https://www.uni-due.de/verwaltung/organisation/just_datenschutz.php" target="_blank"&gt;Universität von Duisburg-Essen&lt;/a&gt;
+		* &lt;a href="https://www.tu-dortmund.de/universitaet/organisation/beauftragte-vertrauenspersonen/#accordion-2213-764" target="_blank"&gt;Technische Universität Dortmund&lt;/a&gt;</help>
+		<text lang="de">Enthält dieser Datensatz personenbezogene Daten?</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="es">En caso afirmativo: compruebe también si ha completado las secciones "Uso de datos" y "Almacenamiento y seguridad de datos" con las medidas adecuadas para proteger los datos de acuerdo con las leyes de protección de datos aplicables. Es posible que se aplique la Ley Europea de Protección de Datos.</help>
+		<text lang="es">¿Esta colección de datos contiene datos personales?</text>
+		<verbose_name lang="es"/>
+		<verbose_name_plural lang="es"/>
+		<help lang="fr">Dans le cas affirmatif: Prière de verifier si vous avez rempli les sections sur « Utilisation de données » et « Stockage et sécurité des données » avec des mesures conformes aux regulations en vigueur sur la protection des données. La loi européenne sur la protection des données (RGPD) peut s'appliquer.</help>
+		<text lang="fr">Ce jeu de données contient-il des données personnelles ?</text>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it">In caso affermativo, si prega di controllare se avete compilato le sezioni su "Utilizzo dei dati" e "Stoccaggio e sicurezza dei dati" indicando le rispettive misure in conformità alle normative vigenti sulla protezione dei dati. La legge europea sulla protezione dei dati (RGPD) può essere rilevante.</help>
+		<text lang="it">Questa raccolta di dati contiene dati personali?</text>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr/legal-and-ethics/sensitive-data-personal_data/bdsg_3_9">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>bdsg_3_9</key>
+		<uri_path>ua_ruhr/legal-and-ethics/sensitive-data-personal_data/bdsg_3_9</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data/bdsg_3_9"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">These kinds of data are considered particularly sensitive and require even more extensive safeguards.
+
+If you answer this question with "Yes", please get in touch with the data protection officer of your institution to check which additional protection measures are necessary.</help>
+		<text lang="en">Does the dataset contain information on racial and ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, health or sex life?</text>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Hierunter fallen laut DSGVO personenbezogene "Daten, aus denen die rassische und ethnische Herkunft, politische Meinungen, religiöse oder weltanschauliche Überzeugungen oder die Gewerkschaftszugehörigkeit hervorgehen, sowie die Verarbeitung von genetischen Daten, biometrischen Daten zur eindeutigen Identifizierung einer natürlichen Person, Gesundheitsdaten oder Daten zum Sexualleben oder der sexuellen Orientierung einer natürlichen Person" &lt;a href="https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679" target="_blank"&gt;(Art. 9 DSGVO, Abs. 1)&lt;/a&gt;. Solche Daten gelten als besonders sensibel und erfordern noch strengere Schutzmaßnahmen, als bei personenbezogenen Daten generell bereits erforderlich sind.
+
+		Wenn Sie diese Frage mit "Ja" beantworten, informieren Sie sich bei der/dem Datenschutzbeauftragten Ihrer Institution, welche zusätzlichen Schutzmaßnahmen notwendig sind.
+		* &lt;a href="https://dsb.ruhr-uni-bochum.de/" target="_blank"&gt;Ruhr-Universität Bochum&lt;/a&gt;
+		* &lt;a href="https://www.uni-due.de/verwaltung/organisation/just_datenschutz.php" target="_blank"&gt;Universität Duisburg-Essen&lt;/a&gt;
+		* &lt;a href="https://www.tu-dortmund.de/universitaet/organisation/beauftragte-vertrauenspersonen/#accordion-2213-764" target="_blank"&gt;Technische Unversität Dortmund&lt;/a&gt;</help>
+		<text lang="de">Enthält der Datensatz personenbezogene Daten besonderer Kategorien?</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="es">Este tipo de datos se consideran particularmente sensibles y requieren medidas de protección suplementarias.
+
+Si responde "Sí" a esta pregunta, póngase en contacto con el responsable de protección de datos de su institución para comprobar qué medidas de protección adicionales son necesarias.</help>
+		<text lang="es">¿La colección de datos contiene información sobre identidad racial o étnica, sobre opiniones políticas, sobre creencias religiosas o filosóficas, sobre afiliaciones sindicales, sobre salud o preferencias sexuales?</text>
+		<verbose_name lang="es"/>
+		<verbose_name_plural lang="es"/>
+		<help lang="fr">Ces types de données sont considérés comme particulièrement sensibles et nécessitent des garanties encore plus étendues.
+
+Si vous répondez à cette question par "Oui", veuillez contacter le délégué à la protection des données de votre institution pour vérifier quelles mesures de protection supplémentaires sont nécessaires.</help>
+		<text lang="fr">Le jeu de données contient-il des informations sur l'origine raciale et ethnique, les opinions politiques, les croyances religieuses ou philosophiques, l'appartenance à un syndicat, la santé ou la vie sexuelle ?</text>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it">Questi tipi di dati vengono considerati come particolarmente sensibili e necessitano delle misure di salvaguardia ancora più estese. Se la risposta a questa domanda è affermativa, si prega di contrattare il/la responsabile per la protezione dei dati nella vostra istituzione per verificare quali misure aggiuntive di protezione sono necessarie.</help>
+		<text lang="it">La raccolta di dati contiene informazioni sull'identità razziale o etnica, sulle opnioni politiche, sulle convinzioni religiose o filosofiche, sull'appartenenza a un sindacato, sulla salute o sulle preferenze sessuali?</text>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr_dmp/legal-and-ethics/sensitive-data-personal_data/extent">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>ua_ruhr_dmp/legal-and-ethics/sensitive-data-personal_data/extent</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data/consent/extent"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">In principle, personal data may only be collected, processed, stored and published if the data subject has given their 'informed consent'. Only in very few exceptional cases is consent not required. If necessary, please contact your institution's data protection officer to find out about the conditions required for consent.</help>
+		<text lang="en">To what extent is &quot;informed consent&quot; obtained from the persons concerned?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Grundsätzlich gilt, dass eine Erhebung, Verarbeitung, Archivierung und Veröffentlichung personenbezogener Daten nur zulässig ist, wenn eine entsprechende "informierte Einwilligung" der Betroffenen vorliegt. Nur in ganz wenigen Ausnahmefällen wird diese nicht benötigt. Bitte informieren Sie sich ggf. bei der/dem Datenschutzbeauftragten Ihrer Institution über die notwendigen Bedingungen für die Einwilligung.
+		* &lt;a href="https://dsb.ruhr-uni-bochum.de/" target="_blank"&gt;Ruhr-Universität Bochum&lt;/a&gt;
+		* &lt;a href="https://www.uni-due.de/verwaltung/organisation/just_datenschutz.php" target="_blank"&gt;Universität von Duisburg-Essen&lt;/a&gt;
+		* &lt;a href="https://www.tu-dortmund.de/universitaet/organisation/beauftragte-vertrauenspersonen/#accordion-2213-764" target="_blank"&gt;Technische Unversität Dortmund&lt;/a&gt;</help>
+		<text lang="de">In welchem Umfang wird die &quot;informierte Einwilligung&quot; der Betroffenen eingeholt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<help lang="fr">Fondamentalement, la collecte, le traitement, l'archivage et la publication de données personnelles ne sont admissibles que lorsque le « consentement éclairé » de la personne en question a été obtenu.</help>
+		<text lang="fr">Dans quelle mesure le « consentement éclairé » des personnes concernées est-il obtenu ?</text>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<help lang="it">In linea di principio, la collezione, il trattamento, l'archiviazione e la pubblicazione di dati personali non sono consentiti, a meno che non sia stato ottenuto il &quot;consenso informato&quot; delle persone coinvolte.</help>
+		<text lang="it">In che misura viene richiesto un &quot;consenso informato&quot; delle persone coinvolte?</text>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<help lang="es">Básicamente, la recopilación, procesamiento, archivado y publicación de datos personales solamente es admisible cuando se ha obtenido el &quot;consentimiento informado&quot; de la persona en cuestión.</help>
+		<text lang="es">¿En qué medida se obtiene el &quot;consentimiento informado&quot; de las personas interesadas?</text>
+		<default_text lang="es"/>
+		<verbose_name lang="es"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/informed_consent_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+</rdmo>
