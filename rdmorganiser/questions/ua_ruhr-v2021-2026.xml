@@ -4,10 +4,16 @@
 		<key>ua_ruhr_v2021-2026</key>
 		<dc:comment/>
 		<order>0</order>
-		<title lang="en">UA Ruhr</title>
-		<title lang="de">UA Ruhr</title>
+		<title lang="en">UA Ruhr (version 2021-2026) CAUTION: If you change the catalog, you cannot go back to this (old) catalog.</title>
+		<title lang="de">UA Ruhr (Version 2021-2026) ACHTUNG: Wenn Sie den Katalog abwählen, können Sie nicht zur alten Version des Katalogs zurückwechseln.</title>
 		<help lang="en">This catalog contains all questions and covers all relevant aspects of research data management including some domain-specific questions and is therefore rather extensive. Use this catalog if you want to organize the data management of a collaborative project or facility.</help>
+
+		This is an older version of the UA Ruhr catalog. However, you do not need to change your catalog, as the answers in the questionnaire are based on this catalog version.
+If you intend to continue the current data management plan project with a newer or different version, please notice that the UA Ruhr catalog is now contained in the catalog "Data Management Plan".
 		<help lang="de">In diesem Katalog sind alle Fragen enthalten. Er behandelt umfassend die verschiedenen Aspekte des Forschungsdatenmanagements, deckt Anforderungen verschiedener Disziplinen ab, und ist daher recht umfangreich. Nutzen Sie diesen Katalog, wenn Sie die Datenhaltung im Team oder Verbund organisieren möchten.</help>
+
+		Hinweis: Dies ist eine ältere Version des Katalogs der UA Ruhr. Sie brauchen Ihren Katalog jedoch nicht zu ändern, da die Antworten im Fragebogen auf dieser Katalogversion beruhen.
+Wenn Sie beabsichtigen, das aktuelle Datenmanagementplan-Projekt mit einer neueren oder anderen Version fortzusetzen, beachten sie bitte, dass die UA Ruhr-Kataloge nun in dem "Datenmanagementplan"-Katalog zusammengefasst wurden.
 	</catalog><section dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr/general">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>general</key>

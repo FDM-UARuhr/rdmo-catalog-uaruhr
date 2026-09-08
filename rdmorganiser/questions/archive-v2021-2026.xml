@@ -4,10 +4,26 @@
 		<key>archive</key>
 		<dc:comment/>
 		<order>0</order>
-		<title lang="en">UA Ruhr-Archive</title>
-		<title lang="de">UA Ruhr-Archivierung</title>
-		<help lang="en">Use this catalog if you plan to store the data in a central repository or archive. In addition to questions about data storage the catalog also contains some general project questions which are relevant, for example, to common meta data standards.</help>
-		<help lang="de">Nutzen Sie diesen Katalog, wenn Sie planen die Daten in einem zentralen Speicher, Archiv oder Repositorium abzulegen. Neben Fragen zur Datenspeicherung werden auch einige allgemeine Projektinformationen abgefragt, die zum Beispiel für gängige Metadatenstandards relevant sind.</help>
+		<title lang="en">UA Ruhr-Archive (version 2021-2026) CAUTION: If you change the catalog, you cannot go back to this (old) catalog.</title>
+		<title lang="de">UA Ruhr-Archivierung (Version 2021-2026) ACHTUNG: Wenn Sie den Katalog abwählen, können Sie nicht zur alten Version des Katalogs zurückwechseln.</title>
+    <help lang="en">Use this catalog if you plan to store the data in a central repository or archive. In addition to questions about data storage the catalog also contains some general project questions which are relevant, for example, to common meta data standards.
+
+    Note, this is an older version of the UA Ruhr catalog. However, you do not need to change your catalog, as the answers in the questionnaire are based on this catalog version. 
+
+If you intend to continue the current data management plan project with a newer or different version, we can suggest the following procedure: You can
+
+1. export the current project and import it again. This will keep the old project with its catalog. You can choose a new catalog for the newly imported project.
+2. create a new project with a new catalog and select the current project as the parent project. This way you can import your answers from the parent project. 
+3. (Not recommended) Change the catalog of your project, i.e. use a different catalog. With this catalog you may need to update some of your project's answers. CAUTION: If you change the catalog, you cannot go back to the old version of the catalog.  </help>
+		<help lang="de">Nutzen Sie diesen Katalog, wenn Sie planen die Daten in einem zentralen Speicher, Archiv oder Repositorium abzulegen. Neben Fragen zur Datenspeicherung werden auch einige allgemeine Projektinformationen abgefragt, die zum Beispiel für gängige Metadatenstandards relevant sind.
+
+    Hinweis: Dies ist eine ältere Version des Katalogs der UA Ruhr. Sie brauchen Ihren Katalog jedoch nicht zu ändern, da die Antworten im Fragebogen auf dieser Katalogversion beruhen. 
+
+Wenn Sie beabsichtigen, das aktuelle Datenmanagementplan-Projekt mit einer neueren oder anderen Version fortzusetzen, können wir Ihnen das folgende Verfahren vorschlagen: Sie können
+
+1. das aktuelle Projekt exportieren und wieder importieren. Dadurch wird das alte Projekt mit seinem Katalog beibehalten. Für das neu importierte Projekt können Sie einen neuen Katalog wählen.
+2. ein neues Projekt mit einem neuen Katalog erstellen und das aktuelle Projekt als übergeordnetes Projekt auswählen. Auf diese Weise können Sie Ihre Antworten aus dem übergeordneten Projekt importieren. 
+3. (Nicht empfohlen) Ändern Sie den Katalog Ihres Projekts, d.h. verwenden Sie einen anderen Katalog. Mit diesem Katalog müssen Sie möglicherweise einige der Antworten Ihres Projekts aktualisieren. ACHTUNG: Wenn Sie den Katalog ändern, können Sie nicht zur alten Version des Katalogs zurückwechseln.</help>
 	</catalog><section dc:uri="https://rdmorganiser.github.io/terms/questions/archive/general">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>general</key>
