@@ -4,7 +4,7 @@ name: Run tests
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
 
 jobs:
@@ -19,6 +19,9 @@ jobs:
           python-version: '3.11'
           cache: pip
           cache-dependency-path: .github/workflows/requirements.txt
+
+      - name: Apt update
+        run: sudo apt update -y
 
       - name: Install xmllint
         run: |
