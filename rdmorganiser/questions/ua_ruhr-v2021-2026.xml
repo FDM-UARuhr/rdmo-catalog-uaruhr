@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdmo xmlns:dc="http://purl.org/dc/elements/1.1/"><catalog dc:uri="https://rdmorganiser.github.io/terms/questions/ua_ruhr">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>ua_ruhr_v2021-2026</key>
+		<key>ua_ruhr</key>
 		<dc:comment/>
 		<order>0</order>
 		<title lang="en">UA Ruhr (version 2021-2026) CAUTION: If you change the catalog, you cannot go back to this (old) catalog.</title>
